@@ -69,10 +69,19 @@ a:hover { color: var(--bronze-dark); }
   text-decoration: none;
   border: 1.5px solid transparent;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  letter-spacing: 0.01em;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease,
+    transform 0.15s ease, box-shadow 0.15s ease;
 }
-.btn--primary { background: var(--bronze); color: var(--white); }
-.btn--primary:hover { background: var(--bronze-dark); color: var(--white); }
+.btn--primary {
+  background: var(--bronze); color: var(--white);
+  box-shadow: 0 2px 10px rgba(38, 33, 25, 0.22);
+}
+.btn--primary:hover {
+  background: var(--bronze-dark); color: var(--white);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(38, 33, 25, 0.28);
+}
 .btn--outline { border-color: var(--bronze); color: var(--bronze); background: transparent; }
 .btn--outline:hover { background: var(--bronze); color: var(--white); }
 .btn--light { background: var(--white); color: var(--ink); }
@@ -148,14 +157,57 @@ a:hover { color: var(--bronze-dark); }
 /* ---------- Heroes ---------- */
 /* hero-wall.jpg (landscape, 1920x1080) and hero-wall-mobile.jpg (portrait,
    1080x1440): swap these files to change every hero background on the site —
-   no CSS edits needed. The left-weighted scrim keeps headline text readable
-   over a bright photo. */
+   no CSS edits needed. The layered scrim (left for the headline, bottom for
+   depth) keeps text readable over a bright photo. */
 .hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: clamp(30rem, 76vh, 46rem);
   background:
-    linear-gradient(100deg, rgba(28, 24, 17, 0.78) 25%, rgba(28, 24, 17, 0.3) 80%),
+    linear-gradient(rgba(24, 20, 13, 0) 55%, rgba(24, 20, 13, 0.6) 100%),
+    linear-gradient(102deg, rgba(24, 20, 13, 0.8) 18%, rgba(24, 20, 13, 0.42) 58%, rgba(24, 20, 13, 0.12) 92%),
     url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
   color: var(--white);
-  padding: clamp(4rem, 10vw, 7.5rem) 0;
+  padding: clamp(4.5rem, 10vw, 7rem) 0;
+}
+.hero__content { width: 100%; }
+.hero h1 { font-size: clamp(2.3rem, 5vw, 4rem); }
+.hero-em {
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  color: #e6d7ae;
+}
+.hero-credit {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 250, 238, 0.85);
+  text-decoration: none;
+  background: rgba(24, 20, 13, 0.45);
+  border: 1px solid rgba(255, 250, 238, 0.25);
+  border-radius: 999px;
+  padding: 0.4rem 0.95rem;
+  backdrop-filter: blur(3px);
+}
+.hero-credit:hover { color: var(--white); border-color: rgba(255, 250, 238, 0.55); background: rgba(24, 20, 13, 0.6); }
+@media (max-width: 44rem) { .hero-credit { display: none; } }
+
+/* Hero entrance — a quiet, staggered rise */
+@media (prefers-reduced-motion: no-preference) {
+  .hero .eyebrow, .hero h1, .hero .lede, .hero .hero-actions {
+    animation: hero-rise 0.7s cubic-bezier(0.22, 0.7, 0.3, 1) both;
+  }
+  .hero h1 { animation-delay: 0.08s; }
+  .hero .lede { animation-delay: 0.16s; }
+  .hero .hero-actions { animation-delay: 0.24s; }
+  @keyframes hero-rise {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: none; }
+  }
 }
 .hero h1 { color: var(--white); max-width: 21ch; }
 .hero .lede { color: rgba(255,255,255,0.88); }
@@ -168,8 +220,9 @@ a:hover { color: var(--bronze-dark); }
 }
 .page-hero--img {
   background:
-    linear-gradient(100deg, rgba(28, 24, 17, 0.82) 25%, rgba(28, 24, 17, 0.42) 85%),
+    linear-gradient(102deg, rgba(24, 20, 13, 0.85) 22%, rgba(24, 20, 13, 0.48) 65%, rgba(24, 20, 13, 0.28) 95%),
     url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
+  padding: clamp(3rem, 7vw, 5rem) 0;
   color: var(--white);
   border-bottom: 0;
 }
@@ -213,7 +266,15 @@ a:hover { color: var(--bronze-dark); }
   transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
 .card:hover { box-shadow: var(--shadow); transform: translateY(-2px); color: var(--ink); }
-.card__img img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.card__img { overflow: hidden; display: block; }
+.card__img img {
+  width: 100%; aspect-ratio: 3 / 2; object-fit: cover;
+  transition: transform 0.45s cubic-bezier(0.22, 0.7, 0.3, 1);
+}
+.card:hover .card__img img { transform: scale(1.05); }
+@media (prefers-reduced-motion: reduce) {
+  .card:hover .card__img img { transform: none; }
+}
 .card__body { padding: 1.1rem 1.2rem 1.3rem; display: flex; flex-direction: column; gap: 0.4rem; }
 .card__tag { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--bronze); }
 .card__title { font-family: var(--serif); font-size: 1.2rem; font-weight: 600; line-height: 1.25; }
@@ -337,7 +398,13 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
 @media (max-width: 40rem) { .field-row { grid-template-columns: 1fr; } }
 
 /* ---------- CTA band + footer ---------- */
-.cta-band { background: var(--moss); color: var(--white); padding: clamp(2.5rem, 6vw, 4rem) 0; }
+.cta-band {
+  background:
+    linear-gradient(rgba(43, 51, 36, 0.92), rgba(31, 37, 26, 0.94)),
+    url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--moss);
+  color: var(--white);
+  padding: clamp(3rem, 7vw, 5rem) 0;
+}
 .cta-band h2 { color: var(--white); margin-top: 0; }
 .cta-band p { color: rgba(255,255,255,0.85); max-width: 55ch; margin-bottom: 0; }
 .cta-band__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.75rem; }
@@ -379,4 +446,12 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
   background: var(--paper-warm); border-left: 3px solid var(--bronze);
   padding: 0.9rem 1.2rem; border-radius: 0 var(--radius) var(--radius) 0;
   font-size: 0.95rem; color: var(--ink-soft);
+}
+
+/* Scroll reveal — classes are added by JS only, so content is never hidden
+   without it; prefers-reduced-motion is respected in main.js. */
+.will-reveal { opacity: 0; transform: translateY(16px); }
+.will-reveal.in-view {
+  opacity: 1; transform: none;
+  transition: opacity 0.55s ease, transform 0.55s cubic-bezier(0.22, 0.7, 0.3, 1);
 }
