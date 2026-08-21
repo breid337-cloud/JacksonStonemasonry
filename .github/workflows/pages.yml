@@ -26,20 +26,11 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      # GitHub Pages serves this repo under /JacksonStonemasonry/, so point
-      # canonical URLs / sitemap / structured data at the Pages origin and
-      # prefix all root-relative links. Once the site moves to its real
-      # domain (e.g. Netlify), this workflow can be deleted — the committed
-      # site.json url and an empty PATH_PREFIX are already correct for that.
-      - name: Point site.json at the Pages URL
-        run: |
-          node -e "
-            const fs = require('fs');
-            const p = 'src/_data/site.json';
-            const j = JSON.parse(fs.readFileSync(p, 'utf8'));
-            j.url = 'https://breid337-cloud.github.io/JacksonStonemasonry';
-            fs.writeFileSync(p, JSON.stringify(j, null, 2));
-          "
+      # GitHub Pages serves this repo under /JacksonStonemasonry/, so all
+      # root-relative links are prefixed at build time. Canonical URLs are
+      # deliberately NOT rewritten: they keep pointing at the live Netlify
+      # site (src/_data/site.json), so search engines treat this copy as a
+      # duplicate of that original instead of competing with it.
       - run: npx eleventy
         env:
           PATH_PREFIX: /JacksonStonemasonry/

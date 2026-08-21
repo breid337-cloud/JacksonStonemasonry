@@ -1,8 +1,8 @@
 {
   "name": "Jackson's Stonemasonry Ltd",
   "shortName": "Jackson's Stonemasonry",
-  "url": "https://www.jacksonsstonemasonry.co.uk",
-  "_url_note": "PLACEHOLDER DOMAIN — set this to the real production domain before launch. Canonical URLs, the sitemap and structured data are all generated from it.",
+  "url": "https://jacksonsstonemasonry.netlify.app",
+  "_url_note": "Live site URL. Canonical URLs, the sitemap and structured data are generated from this. When the business buys a real domain (e.g. jacksonsstonemasonry.co.uk), attach it in Netlify and change this value to it.",
   "tagline": "Traditional Stonemasonry & Dry Stone Walling in the Cotswolds",
   "description": "Traditional stonemasons in Winchcombe, near Cheltenham. Dry stone walling, stone restoration, stone cleaning, stone carving and stone wall repair across Gloucestershire and the Cotswolds.",
   "phone": "07741 900066",
