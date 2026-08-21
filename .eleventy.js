@@ -1,4 +1,8 @@
 module.exports = function (eleventyConfig) {
+  // Print LAN URLs on `npm run serve` so the site can be opened from a phone
+  // on the same wifi network.
+  eleventyConfig.setServerOptions({ showAllHosts: true });
+
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
   // Collections, sorted by the `order` front-matter key (then title)
