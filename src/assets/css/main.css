@@ -146,11 +146,13 @@ a:hover { color: var(--bronze-dark); }
 }
 
 /* ---------- Heroes ---------- */
-/* hero-wall.jpg: swap this file for a real project photo (1920x1080) to change
-   every hero background on the site — no CSS edits needed. */
+/* hero-wall.jpg (landscape, 1920x1080) and hero-wall-mobile.jpg (portrait,
+   1080x1440): swap these files to change every hero background on the site —
+   no CSS edits needed. The left-weighted scrim keeps headline text readable
+   over a bright photo. */
 .hero {
   background:
-    linear-gradient(rgba(28, 24, 17, 0.68), rgba(28, 24, 17, 0.44)),
+    linear-gradient(100deg, rgba(28, 24, 17, 0.78) 25%, rgba(28, 24, 17, 0.3) 80%),
     url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
   color: var(--white);
   padding: clamp(4rem, 10vw, 7.5rem) 0;
@@ -166,10 +168,17 @@ a:hover { color: var(--bronze-dark); }
 }
 .page-hero--img {
   background:
-    linear-gradient(rgba(28, 24, 17, 0.72), rgba(28, 24, 17, 0.52)),
+    linear-gradient(100deg, rgba(28, 24, 17, 0.82) 25%, rgba(28, 24, 17, 0.42) 85%),
     url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
   color: var(--white);
   border-bottom: 0;
+}
+@media (max-width: 44rem) {
+  .hero, .page-hero--img {
+    background:
+      linear-gradient(rgba(28, 24, 17, 0.7), rgba(28, 24, 17, 0.52)),
+      url("/assets/img/hero-wall-mobile.jpg") center / cover no-repeat, var(--ink);
+  }
 }
 .page-hero--img h1 { color: var(--white); }
 .page-hero--img .lede { color: rgba(255,255,255,0.88); }
