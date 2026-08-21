@@ -22,6 +22,11 @@ Old stone buildings fail slowly, and they usually fail for avoidable reasons: ha
 
 Our approach is conservative in the best sense: keep as much original stonework as possible, repair rather than replace where the stone is sound, and use materials that work with the building rather than against it. On a Cotswold stone property that almost always means lime — lime mortars for repointing and bedding, which stay breathable and flexible, rather than modern cement, which does not.
 
+<figure>
+  <img src="/assets/img/restoration-pointing.jpg" alt="Cotswold stone house frontage with pointing by Jackson's Stonemasonry, climbing roses and a lavender-lined path" loading="lazy" width="1500" height="1000">
+  <figcaption>Pointing by Jackson&rsquo;s Stonemasonry on a Cotswold stone frontage — joints finished to suit the stone, not fighting it.</figcaption>
+</figure>
+
 ## Restoration services
 
 - **Repointing in lime mortar** — raking out failed or cement pointing by hand and repointing in a lime mortar matched to the original in colour, texture and joint profile.
