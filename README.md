@@ -12,7 +12,56 @@ npm run serve    # local dev server at http://localhost:8080
 npm run build    # static site output to _site/
 ```
 
-Deploy the `_site/` folder to any static host (Netlify, Cloudflare Pages, GitHub Pages, Vercel…).
+The site is hosted on **Netlify** at <https://jacksonstonemasonry.netlify.app>, built from the
+`main` branch. **Every push to `main` deploys automatically** — there is no manual publish step.
+
+## Working on the site from your own machine
+
+### Option A — GitHub Desktop (no command line)
+
+Best if you mainly want to add photos and let someone else handle the code.
+
+1. Install **GitHub Desktop** from <https://desktop.github.com>, sign in with your GitHub account.
+2. **File → Clone repository →** pick `breid337-cloud/JacksonStonemasonry` → Clone.
+   You now have a normal folder on your computer containing the whole site.
+3. To add photos: drop the image files into `src/assets/img/` in that folder.
+4. In GitHub Desktop: type a short summary (e.g. "Add fireplace photos"), click
+   **Commit to main**, then **Push origin**.
+5. Netlify rebuilds within about a minute.
+
+To get other people's changes first, click **Fetch origin** then **Pull** before you start.
+
+### Option B — command line
+
+```bash
+git clone https://github.com/breid337-cloud/JacksonStonemasonry.git
+cd JacksonStonemasonry
+npm install
+npm run serve       # preview at http://localhost:8080, live-reloads as you edit
+```
+
+Then the usual loop:
+
+```bash
+git pull origin main          # get the latest first
+# ...make changes...
+git add -A
+git commit -m "What changed"
+git push origin main          # deploys automatically
+```
+
+### Previewing on a phone
+
+With `npm run serve` running, the terminal prints a second address like
+`http://192.168.1.23:8080/`. Open that on a phone connected to the same wi-fi.
+
+### Adding photos — what helps
+
+- **Originals beat re-saved copies.** Photos straight off a phone are far sharper than
+  the same image saved from Facebook, which re-compresses heavily.
+- Landscape shots work best for service cards and page figures; portrait for mobile heroes.
+- Filenames don't matter — they get renamed sensibly when wired into a page.
+- Before/after pairs are the most valuable thing you can add.
 
 ## Site structure
 
