@@ -454,6 +454,7 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
   background: var(--paper-warm); border-left: 3px solid var(--bronze);
   padding: 0.9rem 1.2rem; border-radius: 0 var(--radius) var(--radius) 0;
   font-size: 0.95rem; color: var(--ink-soft);
+  margin: 1.5rem 0;
 }
 
 /* Scroll reveal — classes are added by JS only, so content is never hidden
@@ -508,4 +509,42 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
   .cov-label { font-size: 23px; }
   .cov-ring-label, .cov-base { font-size: 16px; }
   .cov-region { font-size: 38px; }
+}
+
+/* ---------- Next steps list (thank-you page) ---------- */
+.next-steps {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+.next-steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 3.25rem;
+  margin-bottom: 1.35rem;
+}
+.next-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: -0.15rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--paper-warm);
+  border: 1px solid var(--stone-line);
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--bronze);
+}
+.next-steps strong { display: block; }
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
 }

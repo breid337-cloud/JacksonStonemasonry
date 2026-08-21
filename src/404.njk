@@ -3,17 +3,27 @@ layout: layouts/page.njk
 title: "Page Not Found"
 h1: "That page has gone the way of an unhearted wall"
 eyebrow: "404"
+lede: "The page you were after isn’t here — it may have moved when the site was rebuilt."
 metaTitle: "Page Not Found"
 metaDescription: "The page you were looking for could not be found."
 permalink: "/404.html"
 excludeFromSitemap: true
 ---
-The page you're looking for doesn't exist — it may have been moved when the site was rebuilt.
+<p>Try one of these instead:</p>
 
-Try one of these instead:
+<ul class="service-linklist">
+  <li><a href="/services/"><strong>Our services</strong> — dry stone walling, restoration, repointing, cleaning, carving, fireplaces and wall repair</a></li>
+  <li><a href="/projects/"><strong>Projects</strong> — before-and-after case studies of recent work</a></li>
+  <li><a href="/areas/"><strong>Areas we cover</strong> — Winchcombe, Cheltenham and across the Cotswolds</a></li>
+  <li><a href="/faqs/"><strong>FAQs</strong> — costs, repairs, lime mortar and listed buildings</a></li>
+</ul>
 
-- [Home](/)
-- [Our services](/services/) — dry stone walling, restoration, cleaning, carving and repairs
-- [Projects](/projects/)
-- [Areas we cover](/areas/)
-- [Get a free quote](/quote/)
+<div class="note-box">
+  Looking for something specific? Call <a href="tel:{{ site.phoneInternational }}">{{ site.phone }}</a>
+  or <a href="/quote/">send us a message</a> — we&rsquo;ll point you the right way.
+</div>
+
+<p class="button-row">
+  <a class="btn btn--primary" href="/">Back to the homepage</a>
+  <a class="btn btn--outline" href="/quote/">Get a free quote</a>
+</p>
