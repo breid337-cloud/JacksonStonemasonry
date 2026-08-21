@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {%- for crumb in breadcrumbs %}
+    {
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "name": "{{ crumb.name }}",
+      "item": "{{ crumb.url | absoluteUrl(site.url) }}"
+    }{% if not loop.last %},{% endif %}
+    {%- endfor %},
+    {
+      "@type": "ListItem",
+      "position": {{ breadcrumbs | length + 1 }},
+      "name": "{{ title }}",
+      "item": "{{ page.url | absoluteUrl(site.url) }}"
+    }
+  ]
+}
+</script>

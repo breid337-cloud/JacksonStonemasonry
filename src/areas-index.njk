@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+title: "Areas We Cover"
+metaTitle: "Areas We Cover | Stonemasons in Gloucestershire & the Cotswolds"
+metaDescription: "Jackson's Stonemasonry works across Gloucestershire and the Cotswolds — Winchcombe, Cheltenham, Gloucester, Tewkesbury, Broadway, Stow-on-the-Wold and Cirencester."
+permalink: "/areas/"
+breadcrumbs:
+  - { name: "Home", url: "/" }
+---
+<header class="page-hero page-hero--img">
+  <div class="wrap">
+    <p class="eyebrow">Where We Work</p>
+    <h1>Areas We Cover</h1>
+    <p class="lede">We're based in Winchcombe, Gloucestershire, and work across Cheltenham, the Cotswolds and the surrounding towns and villages. Each area page below explains what we do locally.</p>
+    <div class="hero-actions">
+      <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
+      <a class="btn btn--ghost" href="tel:{{ site.phoneInternational }}">Call {{ site.phone }}</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="card-grid">
+      {%- for l in collections.locations %}
+      <a class="card" href="{{ l.url }}">
+        <span class="card__body">
+          <span class="card__title">{{ l.data.title }}</span>
+          <span class="card__blurb">{{ l.data.lede }}</span>
+          <span class="card__more">Read more &rarr;</span>
+        </span>
+      </a>
+      {%- endfor %}
+    </div>
+    <p style="margin-top:2.5rem" class="section-intro">Not on the list? These are the areas we work in most, not a boundary — if you're anywhere in or around Gloucestershire and the Cotswolds, <a href="/quote/">get in touch</a> and we'll tell you straight away whether we can help.</p>
+  </div>
+</section>

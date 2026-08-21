@@ -1,0 +1,25 @@
+{
+  "name": "jacksonstonemasonry",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breid337-cloud/JacksonStonemasonry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breid337-cloud/JacksonStonemasonry/issues"
+  },
+  "homepage": "https://github.com/breid337-cloud/JacksonStonemasonry#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "private": true
+}

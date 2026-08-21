@@ -1,0 +1,87 @@
+---
+layout: layouts/base.njk
+title: "Get a Quote"
+metaTitle: "Get a Free Quote | Stonemasons in Winchcombe & Cheltenham"
+metaDescription: "Request a free, no-obligation quotation from Jackson's Stonemasonry — dry stone walling, restoration, cleaning, carving and wall repair across Gloucestershire and the Cotswolds."
+permalink: "/quote/"
+breadcrumbs:
+  - { name: "Home", url: "/" }
+---
+<header class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Free &middot; Written &middot; No Obligation</p>
+    <h1>Request a Free Quotation</h1>
+    <p class="lede">Tell us about the job and attach a few photos — for most work that's enough for a useful first answer. We'll come back to you promptly with honest advice and a written quote. Prefer to talk? Call <a href="tel:{{ site.phoneInternational }}">{{ site.phone }}</a>.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <!--
+      This form needs a form-handling backend before it works.
+      Options (see README.md):
+        - Netlify Forms: the data-netlify attribute below activates it automatically when hosted on Netlify.
+        - Formspree / Basin / similar: set the action to your endpoint, e.g. action="https://formspree.io/f/XXXX".
+    -->
+    <form class="quote-form" name="quote" method="POST" action="/thank-you/" data-netlify="true" enctype="multipart/form-data">
+      <input type="hidden" name="form-name" value="quote">
+
+      <fieldset>
+        <legend>What do you need help with?</legend>
+        <div class="choice-grid">
+          <label class="choice"><input type="radio" name="service" value="Dry stone walling" required> Dry stone walling</label>
+          <label class="choice"><input type="radio" name="service" value="Stone restoration"> Stone restoration</label>
+          <label class="choice"><input type="radio" name="service" value="Stone cleaning"> Stone cleaning</label>
+          <label class="choice"><input type="radio" name="service" value="Stone wall repair"> Stone wall repair</label>
+          <label class="choice"><input type="radio" name="service" value="New stonework"> New stonework</label>
+          <label class="choice"><input type="radio" name="service" value="Stone carving"> Stone carving</label>
+          <label class="choice"><input type="radio" name="service" value="Not sure"> Not sure — advise me</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Where is the project?</legend>
+        <div class="field">
+          <label for="postcode">Postcode or town</label>
+          <p class="hint">A postcode helps us judge travel and, for walls, the local stone.</p>
+          <input type="text" id="postcode" name="postcode" autocomplete="postal-code" required>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tell us about the project</legend>
+        <div class="field">
+          <label for="details">What needs doing?</label>
+          <p class="hint">Rough size (e.g. "about 5 metres of wall has collapsed"), what happened, and any timescales.</p>
+          <textarea id="details" name="details" rows="6" required></textarea>
+        </div>
+        <div class="field">
+          <label for="photos">Upload photographs</label>
+          <p class="hint">Photos are the single most useful thing you can send — a wide shot and a close-up is ideal.</p>
+          <input type="file" id="photos" name="photos" accept="image/*" multiple>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your contact details</legend>
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+      </fieldset>
+
+      <button class="btn btn--primary" type="submit">Request my free quotation</button>
+      <p class="hint" style="margin-top:0.9rem">We'll only use your details to respond to this enquiry — no mailing lists, no passing anything on.</p>
+    </form>
+  </div>
+</section>

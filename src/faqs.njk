@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+title: "Frequently Asked Questions"
+metaTitle: "Stonemasonry FAQs | Costs, Repairs & Cotswold Stone"
+metaDescription: "Answers to the questions we're asked most — dry stone walling costs in Gloucestershire, repairing Cotswold stone walls, cleaning old stone safely, listed buildings and more."
+permalink: "/faqs/"
+schemaFaq: true
+breadcrumbs:
+  - { name: "Home", url: "/" }
+---
+<header class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Good Questions</p>
+    <h1>Frequently Asked Questions</h1>
+    <p class="lede">The questions we're asked most about stonemasonry, dry stone walling, restoration and costs across Gloucestershire and the Cotswolds — answered straight.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="faq-list">
+      {%- for faq in faqs %}
+      <details{% if loop.first %} open{% endif %}>
+        <summary>{{ faq.q }}</summary>
+        <p>{{ faq.a }}</p>
+      </details>
+      {%- endfor %}
+    </div>
+    <p class="section-intro" style="margin-top:2rem">Question not answered here? <a href="/quote/">Ask us through the quote form</a> or call <a href="tel:{{ site.phoneInternational }}">{{ site.phone }}</a> — we're happy to give advice even if it ends with "you don't need us for that".</p>
+  </div>
+</section>

@@ -1,0 +1,61 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <header class="page-hero page-hero--img">
+    <div class="wrap">
+      <p class="eyebrow">{{ eyebrow or "Our Services" }}</p>
+      <h1>{{ h1 or title }}</h1>
+      <p class="lede">{{ lede }}</p>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
+        <a class="btn btn--outline" href="tel:{{ site.phoneInternational }}">Call {{ site.phone }}</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap article-grid">
+    <div class="article-body">
+      {{ content | safe }}
+    </div>
+
+    <aside class="article-aside">
+      <div class="aside-card">
+        <h2 class="aside-card__title">All Services</h2>
+        <ul class="aside-links">
+          {%- for s in collections.services %}
+          <li><a href="{{ s.url }}"{% if s.url == page.url %} aria-current="page"{% endif %}>{{ s.data.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="aside-card">
+        <h2 class="aside-card__title">Areas We Cover</h2>
+        <ul class="aside-links aside-links--inline">
+          {%- for l in collections.locations %}
+          <li><a href="{{ l.url }}">{{ l.data.shortTitle or l.data.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="aside-card aside-card--cta">
+        <h2 class="aside-card__title">Free Quotation</h2>
+        <p>Tell us about your project and attach a few photos — we&rsquo;ll get back to you promptly.</p>
+        <a class="btn btn--primary btn--block" href="/quote/">Get a Quote</a>
+      </div>
+    </aside>
+  </div>
+
+  {%- set relatedProjects = [] %}
+  {%- for p in collections.projects %}{% if p.data.serviceKey == serviceKey %}{% set relatedProjects = (relatedProjects.push(p), relatedProjects) %}{% endif %}{% endfor %}
+  {%- if relatedProjects.length %}
+  <section class="section section--alt">
+    <div class="wrap">
+      <h2>Recent {{ title }} Projects</h2>
+      <div class="card-grid">
+        {%- for p in relatedProjects %}
+        {% include "partials/project-card.njk" %}
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+</article>

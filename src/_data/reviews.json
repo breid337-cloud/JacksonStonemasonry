@@ -1,0 +1,24 @@
+{
+  "_IMPORTANT": "EVERY REVIEW BELOW IS A PLACEHOLDER, not a real customer quote. Before launch, replace them with genuine reviews (with the customer's permission) — ideally copied from the Google Business Profile so the website and Google agree. Do NOT publish these placeholders: fabricated reviews are illegal under consumer protection law and will destroy trust if discovered. Structured-data Review/AggregateRating markup is deliberately NOT emitted for the same reason — only add it once these are verified real reviews.",
+  "placeholder": true,
+  "items": [
+    {
+      "quote": "[PLACEHOLDER — replace with a real customer review] Rebuilt the collapsed section of our Cotswold stone garden wall and you genuinely cannot see where the old work ends and the new begins.",
+      "name": "A. Customer",
+      "location": "Winchcombe",
+      "service": "Stone Wall Repair"
+    },
+    {
+      "quote": "[PLACEHOLDER — replace with a real customer review] Careful, tidy and clearly knows the trade inside out. The restored window surrounds look like they have always been there.",
+      "name": "A. Customer",
+      "location": "Cheltenham",
+      "service": "Stone Restoration"
+    },
+    {
+      "quote": "[PLACEHOLDER — replace with a real customer review] A beautiful new dry stone wall, built properly and finished on time. Would not hesitate to recommend.",
+      "name": "A. Customer",
+      "location": "Broadway",
+      "service": "Dry Stone Walling"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+---
+layout: layouts/base.njk
+title: "Stonemasons in Cheltenham, Winchcombe & the Cotswolds"
+metaTitle: "Stonemasons in Cheltenham & the Cotswolds"
+metaDescription: "Traditional stonemasons based in Winchcombe near Cheltenham. Dry stone walling, stone restoration, stone cleaning, stone carving and Cotswold stone wall repair across Gloucestershire. Free quotations."
+permalink: "/"
+---
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Winchcombe &middot; Cheltenham &middot; Gloucestershire</p>
+    <h1>Traditional Stonemasonry &amp; Dry Stone Walling in the Cotswolds</h1>
+    <p class="lede">Bespoke stonework, restoration and dry stone walling across Winchcombe, Cheltenham and Gloucestershire — built by hand, in the local stone, to last for generations.</p>
+    <div class="hero-actions">
+      <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
+      <a class="btn btn--ghost" href="tel:{{ site.phoneInternational }}">Call {{ site.phone }}</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">What We Do</h2>
+    <p class="section-intro">From rebuilding a collapsed Cotswold stone field wall to restoring carved detail on a listed building, every job gets the same traditional craftsmanship and honest advice.</p>
+    <div class="card-grid">
+      {%- for s in collections.services %}
+      <a class="card" href="{{ s.url }}">
+        <span class="card__img" aria-hidden="true"><img src="{{ s.data.thumb or '/assets/img/placeholder-wall.svg' }}" alt="" loading="lazy" width="640" height="420"></span>
+        <span class="card__body">
+          <span class="card__title">{{ s.data.title }}</span>
+          <span class="card__blurb">{{ s.data.cardBlurb }}</span>
+          <span class="card__more">Learn more &rarr;</span>
+        </span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <h2 class="section-title">Why Jackson&rsquo;s?</h2>
+    <ul class="tick-grid">
+      <li><strong>Traditional craftsmanship</strong> Time-served techniques — coursed walling, hand-dressed stone, lime mortars.</li>
+      <li><strong>Local Cotswolds experience</strong> Based in Winchcombe, working with Cotswold stone every day.</li>
+      <li><strong>Bespoke work</strong> Every wall, repair and carving is matched to your property, not built from a pattern book.</li>
+      <li><strong>Quality materials</strong> Locally sourced stone, matched for colour, bedding and texture.</li>
+      <li><strong>Fully insured</strong> Full public liability insurance on every job.</li>
+      <li><strong>Free quotations</strong> Clear, written, itemised quotes — with no obligation.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Recent Projects</h2>
+    <p class="section-intro">Before-and-after case studies of walls we&rsquo;ve rebuilt, stonework we&rsquo;ve restored and new stone features across Gloucestershire and the Cotswolds.</p>
+    <div class="card-grid">
+      {%- for p in collections.projects | reverse %}{% if loop.index <= 3 %}
+      {% include "partials/project-card.njk" %}
+      {%- endif %}{% endfor %}
+    </div>
+    <p style="margin-top:1.75rem"><a class="btn btn--outline" href="/projects/">View All Projects</a></p>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <div class="review-grid">
+      {%- for r in reviews.items %}
+      <figure class="review">
+        <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote class="review__quote">{{ r.quote }}</blockquote>
+        <figcaption class="review__by">{{ r.name }}, {{ r.location }}</figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+    <p style="margin-top:1.75rem"><a class="btn btn--outline" href="/reviews/">Read More Reviews</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Areas We Cover</h2>
+    <p class="section-intro">We&rsquo;re based in Winchcombe, Gloucestershire, and work across Cheltenham, the North Cotswolds and the surrounding towns and villages.</p>
+    <ul class="area-cloud">
+      {%- for l in collections.locations %}
+      <li><a href="{{ l.url }}">{{ l.data.shortTitle or l.data.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+title: "Stonemasonry Services"
+metaTitle: "Stonemasonry Services in Gloucestershire & the Cotswolds"
+metaDescription: "Our stonemasonry services across Gloucestershire and the Cotswolds: dry stone walling, stone restoration, stone cleaning, stone carving, stonemasonry and stone wall repair."
+permalink: "/services/"
+breadcrumbs:
+  - { name: "Home", url: "/" }
+---
+<header class="page-hero page-hero--img">
+  <div class="wrap">
+    <p class="eyebrow">What We Do</p>
+    <h1>Stonemasonry Services in Gloucestershire &amp; the Cotswolds</h1>
+    <p class="lede">Six trades, one standard: traditional techniques, local Cotswold stone, and work that's built to outlast us. Every service below has its own page explaining what we do, how we do it, and what drives the cost.</p>
+    <div class="hero-actions">
+      <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
+      <a class="btn btn--ghost" href="tel:{{ site.phoneInternational }}">Call {{ site.phone }}</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="card-grid">
+      {%- for s in collections.services %}
+      <a class="card" href="{{ s.url }}">
+        <span class="card__img" aria-hidden="true"><img src="{{ s.data.thumb or '/assets/img/placeholder-wall.svg' }}" alt="" loading="lazy" width="640" height="420"></span>
+        <span class="card__body">
+          <span class="card__title">{{ s.data.title }}</span>
+          <span class="card__blurb">{{ s.data.cardBlurb }}</span>
+          <span class="card__more">Learn more &rarr;</span>
+        </span>
+      </a>
+      {%- endfor %}
+    </div>
+    <p style="margin-top:2.5rem" class="section-intro">Not sure which service you need? That's normal — most jobs touch more than one. Send us photos through the <a href="/quote/">quote form</a> and we'll tell you what the work actually involves.</p>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+title: "Reviews"
+metaTitle: "Customer Reviews | Jackson's Stonemasonry"
+metaDescription: "What customers across Winchcombe, Cheltenham and the Cotswolds say about Jackson's Stonemasonry — dry stone walling, restoration and stone wall repair reviews."
+permalink: "/reviews/"
+breadcrumbs:
+  - { name: "Home", url: "/" }
+---
+<header class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Don&rsquo;t just take our word for it</p>
+    <h1>Customer Reviews</h1>
+    <p class="lede">Most of our work comes from recommendation — a wall a neighbour had rebuilt, a frontage someone walked past. Here's what customers say about working with us.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    {% if reviews.placeholder %}
+    <div class="note-box" style="margin-bottom:2rem"><strong>Note for the site owner:</strong> the reviews below are placeholders demonstrating the layout. Replace them with genuine customer reviews (with permission) before launch — ideally copied from your Google Business Profile so the website and Google match. Never publish invented reviews.</div>
+    {% endif %}
+    <div class="review-grid">
+      {%- for r in reviews.items %}
+      <figure class="review">
+        <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote class="review__quote">{{ r.quote }}</blockquote>
+        <figcaption class="review__by">{{ r.name }}, {{ r.location }}<br><span style="font-weight:400;color:var(--ink-soft)">{{ r.service }}</span></figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+
+    {% if site.googleBusinessProfileUrl %}
+    <p style="margin-top:2rem"><a class="btn btn--outline" href="{{ site.googleBusinessProfileUrl }}" rel="noopener">Read our reviews on Google</a></p>
+    {% endif %}
+
+    <h2>Had work done by us?</h2>
+    <p class="section-intro">A short Google review makes a real difference to a small local business — if we've done work for you, we'd be very grateful. And if anything wasn't right, tell us first: <a href="tel:{{ site.phoneInternational }}">{{ site.phone }}</a>. We'd rather fix it than read about it.</p>
+  </div>
+</section>

@@ -1,0 +1,10 @@
+<a class="card card--project" href="{{ p.url }}">
+  <span class="card__img" aria-hidden="true">
+    <img src="{{ p.data.thumb or '/assets/img/placeholder-wall.svg' }}" alt="" loading="lazy" width="640" height="420">
+  </span>
+  <span class="card__body">
+    <span class="card__tag">{{ p.data.serviceName }} &middot; {{ p.data.projectLocation }}</span>
+    <span class="card__title">{{ p.data.title }}</span>
+    <span class="card__blurb">{{ p.data.lede }}</span>
+  </span>
+</a>

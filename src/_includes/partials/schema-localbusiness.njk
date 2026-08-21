@@ -1,0 +1,32 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "{{ site.url }}/#business",
+  "name": "{{ site.name }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}/",
+  "telephone": "{{ site.phoneInternational }}",
+  "email": "{{ site.email }}",
+  "image": "{{ '/assets/img/og-default.svg' | absoluteUrl(site.url) }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ site.address.locality }}",
+    "addressRegion": "{{ site.address.region }}",
+    "addressCountry": "{{ site.address.country }}"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ site.geo.latitude }},
+    "longitude": {{ site.geo.longitude }}
+  },
+  "openingHours": "{{ site.openingHours }}",
+  "priceRange": "££",
+  "areaServed": [
+    {%- for area in site.areaServed %}
+    { "@type": "Place", "name": "{{ area }}" }{% if not loop.last %},{% endif %}
+    {%- endfor %}
+  ],
+  "knowsAbout": ["Stonemasonry", "Dry stone walling", "Stone restoration", "Stone cleaning", "Stone carving", "Cotswold stone", "Lime mortar"]
+}
+</script>

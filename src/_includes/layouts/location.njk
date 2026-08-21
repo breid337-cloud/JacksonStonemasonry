@@ -1,0 +1,45 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <header class="page-hero page-hero--img">
+    <div class="wrap">
+      <p class="eyebrow">Areas We Cover</p>
+      <h1>{{ h1 or title }}</h1>
+      <p class="lede">{{ lede }}</p>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
+        <a class="btn btn--outline" href="tel:{{ site.phoneInternational }}">Call {{ site.phone }}</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap article-grid">
+    <div class="article-body">
+      {{ content | safe }}
+
+      <h2>Stonemasonry services in {{ placeName }}</h2>
+      <ul class="service-linklist">
+        {%- for s in collections.services %}
+        <li><a href="{{ s.url }}"><strong>{{ s.data.title }}</strong> — {{ s.data.cardBlurb }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <aside class="article-aside">
+      <div class="aside-card">
+        <h2 class="aside-card__title">Other Areas</h2>
+        <ul class="aside-links">
+          {%- for l in collections.locations %}
+          <li><a href="{{ l.url }}"{% if l.url == page.url %} aria-current="page"{% endif %}>{{ l.data.shortTitle or l.data.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="aside-card aside-card--cta">
+        <h2 class="aside-card__title">Working in {{ placeName }}?</h2>
+        <p>We&rsquo;re based in Winchcombe and quote free of charge across the area.</p>
+        <a class="btn btn--primary btn--block" href="/quote/">Get a Quote</a>
+      </div>
+    </aside>
+  </div>
+</article>

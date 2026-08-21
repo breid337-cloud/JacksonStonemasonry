@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: "Projects"
+metaTitle: "Stonemasonry Projects in Gloucestershire & the Cotswolds"
+metaDescription: "Before-and-after case studies from Jackson's Stonemasonry — dry stone walls rebuilt, Cotswold stone restored and bespoke carving across Gloucestershire and the Cotswolds."
+permalink: "/projects/"
+breadcrumbs:
+  - { name: "Home", url: "/" }
+---
+<header class="page-hero page-hero--img">
+  <div class="wrap">
+    <p class="eyebrow">Our Work</p>
+    <h1>Projects</h1>
+    <p class="lede">The best way to judge a stonemason is by the work. Each case study below shows the problem we found, what we did about it, and how it turned out — before, during and after.</p>
+    <div class="hero-actions">
+      <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="card-grid">
+      {%- for p in collections.projects %}
+      {% include "partials/project-card.njk" %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>

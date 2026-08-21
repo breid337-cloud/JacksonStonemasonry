@@ -1,0 +1,35 @@
+{
+  "name": "Jackson's Stonemasonry Ltd",
+  "shortName": "Jackson's Stonemasonry",
+  "url": "https://www.jacksonsstonemasonry.co.uk",
+  "_url_note": "PLACEHOLDER DOMAIN — set this to the real production domain before launch. Canonical URLs, the sitemap and structured data are all generated from it.",
+  "tagline": "Traditional Stonemasonry & Dry Stone Walling in the Cotswolds",
+  "description": "Traditional stonemasons in Winchcombe, near Cheltenham. Dry stone walling, stone restoration, stone cleaning, stone carving and stone wall repair across Gloucestershire and the Cotswolds.",
+  "phone": "07741 900066",
+  "phoneInternational": "+447741900066",
+  "email": "info@jacksonsstonemasonry.co.uk",
+  "_email_note": "PLACEHOLDER EMAIL — replace with the business's real email address before launch.",
+  "address": {
+    "locality": "Winchcombe",
+    "nearTown": "Cheltenham",
+    "region": "Gloucestershire",
+    "country": "GB"
+  },
+  "geo": {
+    "latitude": 51.9525,
+    "longitude": -1.9662
+  },
+  "openingHours": "Mo-Fr 08:00-17:30",
+  "areaServed": [
+    "Winchcombe",
+    "Cheltenham",
+    "Gloucester",
+    "Tewkesbury",
+    "Broadway",
+    "Stow-on-the-Wold",
+    "Cirencester",
+    "the Cotswolds"
+  ],
+  "googleBusinessProfileUrl": "",
+  "_gbp_note": "Add the Google Business Profile / Google Maps short link here once claimed — it is used for 'Read our Google reviews' links."
+}

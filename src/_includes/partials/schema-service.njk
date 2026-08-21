@@ -1,0 +1,16 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ schemaService.name }}",
+  "serviceType": "{{ schemaService.serviceType }}",
+  "description": "{{ metaDescription }}",
+  "url": "{{ page.url | absoluteUrl(site.url) }}",
+  "provider": { "@id": "{{ site.url }}/#business" },
+  "areaServed": [
+    {%- for area in site.areaServed %}
+    { "@type": "Place", "name": "{{ area }}" }{% if not loop.last %},{% endif %}
+    {%- endfor %}
+  ]
+}
+</script>

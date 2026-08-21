@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <!-- Placeholder hero: abstract Cotswold dry stone wall courses. Replace with real project photography before launch. -->
+  <rect width="1600" height="900" fill="#8f7d5e"/>
+  <g stroke="#6e5f45" stroke-width="7">
+    <g fill="#a3906e">
+      <rect x="-20" y="0" width="300" height="130"/><rect x="290" y="0" width="240" height="130"/><rect x="540" y="0" width="330" height="130"/><rect x="880" y="0" width="260" height="130"/><rect x="1150" y="0" width="310" height="130"/><rect x="1470" y="0" width="200" height="130"/>
+    </g>
+    <g fill="#96835f">
+      <rect x="-60" y="140" width="250" height="140"/><rect x="200" y="140" width="320" height="140"/><rect x="530" y="140" width="250" height="140"/><rect x="790" y="140" width="340" height="140"/><rect x="1140" y="140" width="240" height="140"/><rect x="1390" y="140" width="280" height="140"/>
+    </g>
+    <g fill="#aa9776">
+      <rect x="-30" y="290" width="330" height="125"/><rect x="310" y="290" width="230" height="125"/><rect x="550" y="290" width="310" height="125"/><rect x="870" y="290" width="280" height="125"/><rect x="1160" y="290" width="330" height="125"/><rect x="1500" y="290" width="180" height="125"/>
+    </g>
+    <g fill="#8d7a58">
+      <rect x="-70" y="425" width="280" height="140"/><rect x="220" y="425" width="300" height="140"/><rect x="530" y="425" width="260" height="140"/><rect x="800" y="425" width="320" height="140"/><rect x="1130" y="425" width="250" height="140"/><rect x="1390" y="425" width="290" height="140"/>
+    </g>
+    <g fill="#9f8c69">
+      <rect x="-20" y="575" width="310" height="130"/><rect x="300" y="575" width="260" height="130"/><rect x="570" y="575" width="330" height="130"/><rect x="910" y="575" width="240" height="130"/><rect x="1160" y="575" width="300" height="130"/><rect x="1470" y="575" width="210" height="130"/>
+    </g>
+    <g fill="#93805d">
+      <rect x="-50" y="715" width="260" height="200"/><rect x="220" y="715" width="330" height="200"/><rect x="560" y="715" width="250" height="200"/><rect x="820" y="715" width="310" height="200"/><rect x="1140" y="715" width="270" height="200"/><rect x="1420" y="715" width="260" height="200"/>
+    </g>
+  </g>
+</svg>

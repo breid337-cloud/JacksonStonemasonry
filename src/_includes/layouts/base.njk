@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ metaTitle or title }} | {{ site.shortName }}</title>
+  <meta name="description" content="{{ metaDescription or site.description }}">
+  <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ metaTitle or title }} | {{ site.shortName }}">
+  <meta property="og:description" content="{{ metaDescription or site.description }}">
+  <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}">
+  <meta property="og:image" content="{{ '/assets/img/og-default.svg' | absoluteUrl(site.url) }}">
+  <meta property="og:locale" content="en_GB">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  {% include "partials/schema-localbusiness.njk" %}
+  {% if breadcrumbs %}{% include "partials/schema-breadcrumbs.njk" %}{% endif %}
+  {% if schemaService %}{% include "partials/schema-service.njk" %}{% endif %}
+  {% if schemaFaq %}{% include "partials/schema-faq.njk" %}{% endif %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="/" aria-label="{{ site.name }} — home">
+        <span class="brand__mark" aria-hidden="true">J</span>
+        <span class="brand__text">
+          <span class="brand__name">Jackson&rsquo;s Stonemasonry</span>
+          <span class="brand__strap">Winchcombe &middot; Cheltenham &middot; the Cotswolds</span>
+        </span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="/services/"{% if '/services' in page.url or page.url in ['/dry-stone-walling/','/stone-restoration/','/stone-cleaning/','/stone-carving/','/stonemasonry/','/stone-wall-repair/'] %} aria-current="page"{% endif %}>Services</a></li>
+          <li><a href="/projects/"{% if '/projects' in page.url %} aria-current="page"{% endif %}>Projects</a></li>
+          <li><a href="/areas/"{% if '/areas' in page.url %} aria-current="page"{% endif %}>Areas We Cover</a></li>
+          <li><a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a></li>
+          <li><a href="/reviews/"{% if page.url == '/reviews/' %} aria-current="page"{% endif %}>Reviews</a></li>
+          <li><a href="/faqs/"{% if page.url == '/faqs/' %} aria-current="page"{% endif %}>FAQs</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <a class="header-phone" href="tel:{{ site.phoneInternational }}">{{ site.phone }}</a>
+        <a class="btn btn--primary" href="/quote/">Get a Quote</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  <section class="cta-band">
+    <div class="wrap cta-band__inner">
+      <div>
+        <h2>Have a wall or stonework that needs looking at?</h2>
+        <p>Send us a few photos and a rough idea of the job — we&rsquo;ll come back to you with honest advice and a free, no-obligation quotation.</p>
+      </div>
+      <div class="cta-band__actions">
+        <a class="btn btn--light" href="/quote/">Request a Free Quote</a>
+        <a class="btn btn--ghost" href="tel:{{ site.phoneInternational }}">Call {{ site.phone }}</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__grid">
+      <div>
+        <p class="footer-brand">{{ site.name }}</p>
+        <p>{{ site.address.locality }}, {{ site.address.nearTown }},<br>{{ site.address.region }}, UK</p>
+        <p><a href="tel:{{ site.phoneInternational }}">{{ site.phone }}</a><br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+      <nav aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          {%- for s in collections.services %}
+          <li><a href="{{ s.url }}">{{ s.data.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      <nav aria-label="Areas we cover">
+        <h3>Areas We Cover</h3>
+        <ul>
+          {%- for l in collections.locations %}
+          <li><a href="{{ l.url }}">{{ l.data.shortTitle or l.data.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      <nav aria-label="Company">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/reviews/">Reviews</a></li>
+          <li><a href="/faqs/">FAQs</a></li>
+          <li><a href="/quote/">Get a Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrap site-footer__legal">
+      <p>&copy; <span id="year">2026</span> {{ site.name }}. Traditional stonemasons based in Winchcombe, Gloucestershire, serving Cheltenham and the Cotswolds.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
