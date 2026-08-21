@@ -30,7 +30,7 @@ Our approach is conservative in the best sense: keep as much original stonework 
 
 ## Restoration services
 
-- **Repointing in lime mortar** — raking out failed or cement pointing by hand and repointing in a lime mortar matched to the original in colour, texture and joint profile.
+- **[Repointing in lime mortar](/repointing/)** — raking out failed or cement pointing by hand and repointing in a lime mortar matched to the original in colour, texture and joint profile.
 - **Stone replacement** — cutting out individual stones that have decayed beyond repair and piecing in new stone, dressed by hand to match the existing work.
 - **Stone repairs** — pinning, stitching and mortar repairs where stones are cracked or spalling but worth saving.
 - **Rebuilding failed sections** — taking down and rebuilding bulged, leaning or structurally failed areas of stonework, reusing the original stone.

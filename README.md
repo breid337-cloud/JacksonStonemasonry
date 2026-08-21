@@ -21,10 +21,12 @@ Deploy the `_site/` folder to any static host (Netlify, Cloudflare Pages, GitHub
 /services/             Services hub
 /dry-stone-walling/    ┐
 /stone-restoration/    │
-/stone-cleaning/       │ One SEO-targeted page per service (700–1200 words each)
+/stone-cleaning/       │ One SEO-targeted page per service (700–1400 words each)
 /stone-carving/        │
 /stonemasonry/         │
-/stone-wall-repair/    ┘
+/stone-wall-repair/    │
+/repointing/           │
+/stone-fireplaces/     ┘
 /projects/             Case-study index + one page per project (before/during/after format)
 /areas/                Areas hub + one genuinely-local page per area:
                        Winchcombe, Cheltenham, Gloucester, Tewkesbury, Broadway,
@@ -51,7 +53,7 @@ Technical SEO baked in: unique title + meta description per page, canonical URLs
 1. **Set the real domain** in `src/_data/site.json` (`url`). It currently points at the live Netlify address; when the business buys a domain (e.g. `jacksonsstonemasonry.co.uk`), attach it in Netlify and change this value — it drives canonicals, the sitemap and structured data.
 2. **Replace the placeholder reviews** in `src/_data/reviews.json` — *awaiting real reviews from Jackson's*. Use genuine customer reviews (with permission — ideally copied from Google). The placeholders are clearly marked and must not go live: publishing invented reviews is unlawful. Review/AggregateRating schema is deliberately not emitted until reviews are real.
 3. **Replace the sample projects** in `src/projects/` with real Jackson's jobs — *awaiting job details from Jackson's* (location, what was wrong, what was done). Three strong before/after photo pairs are already in `src/assets/img/` ready to use: `work-window-restoration.jpg`, `work-doorway-masonry.jpg`, `work-stream-cleaning.jpg`. Each sample project page currently carries a visible "Sample case study" banner — remove that `note-box` div once the page describes a real job. Real before/after case studies are the single highest-value content on the site.
-4. **Remaining placeholder images.** Service cards, in-page photos, the header logo, the favicon and the Open Graph share image are all real now. The only synthetic imagery left is the project-page thumbnails (`placeholder-wall.svg`), which real project photos will replace. The logo (`logo.png`) was extracted from a low-resolution advert card — if Jackson's can supply the original artwork (ideally SVG or a large transparent PNG), overwrite `logo.png` and regenerate `favicon.png` from it for a sharper mark.
+4. **Remaining placeholder images.** Service cards, in-page photos, the header logo, the favicon and the Open Graph share image are all real now. The only synthetic imagery left is the project-page thumbnails (`placeholder-wall.svg`) and the stone-fireplaces card (`service-stone-fireplaces.jpg`, an illustration — swap in a photo of a real fireplace when one is available). The logo (`logo.png`) was extracted from a low-resolution advert card — if Jackson's can supply the original artwork (ideally SVG or a large transparent PNG), overwrite `logo.png` and regenerate `favicon.png` from it for a sharper mark.
 5. **Wire up the quote form** (`src/quote.njk`): on Netlify it works as-is (`data-netlify="true"`); otherwise point `action` at a Formspree/Basin-style endpoint.
 6. **Flesh out the About page** — it has a marked note asking for the real story, accreditations and a photo.
 7. **Verify factual claims** — insurance, opening hours (`site.json`), guarantees — with the business owner. The copy asserts full public liability insurance and free quotations, as the current site does.

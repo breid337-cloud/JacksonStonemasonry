@@ -9,7 +9,7 @@ lede: "Collapsed, bulging or crumbling stone wall? We repair and rebuild Cotswol
 cardBlurb: "Collapsed sections rebuilt, bulges corrected, copings refixed."
 permalink: "/stone-wall-repair/"
 serviceKey: "stone-wall-repair"
-order: 6
+order: 4
 schemaService:
   name: "Stone Wall Repair"
   serviceType: "Stone wall repair"
@@ -37,7 +37,7 @@ We repair both types of wall found across Gloucestershire:
 - **Bulging and leaning walls** — the failed area taken down past the distortion and rebuilt plumb and properly hearted, addressing whatever caused it: soil pressure, tree roots, water, or a poorly built core.
 - **Vehicle strike damage** — a depressingly regular job on roadside walls; we rebuild the damaged length and can liaise with insurers, providing the itemised quotation and photographs a claim needs.
 - **Loose or missing copings** — cope stones refixed or replaced; an open wall top lets water straight into the core, so this small repair prevents big ones.
-- **Failed pointing** — open and eroded joints raked out and repointed in lime mortar; cement pointing removed where it is doing damage (see [stone restoration](/stone-restoration/)).
+- **Failed pointing** — open and eroded joints raked out and repointed in lime mortar; cement pointing removed where it is doing damage (see [repointing](/repointing/)).
 - **Retaining wall failures** — assessment and rebuilding of stone retaining walls, with drainage dealt with properly this time.
 - **Frost and weather damage** — spalled and shattered stone cut out and matched replacements pieced in.
 

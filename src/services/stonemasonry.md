@@ -9,7 +9,7 @@ lede: "General and banker masonry in Cotswold stone — new-build stonework, ext
 cardBlurb: "New stonework, extensions, fireplaces and dressed stone features."
 permalink: "/stonemasonry/"
 serviceKey: "stonemasonry"
-order: 5
+order: 6
 schemaService:
   name: "Stonemasonry"
   serviceType: "Stonemasonry"
@@ -27,7 +27,7 @@ Around Winchcombe, Cheltenham and the north Cotswolds that almost always means C
 
 - **Extensions and new-build stonework** — facing and solid stonework for extensions, garden rooms, garages and new houses, matched to the existing property or the local vernacular.
 - **Porches, plinths and bays** — stone porches, plinth courses, bay surrounds and entrance detail.
-- **Fireplaces and chimneys** — stone fireplace surrounds and hearths, and chimney stonework rebuilt or built new.
+- **[Fireplaces and chimneys](/stone-fireplaces/)** — stone fireplace surrounds and hearths, and chimney stonework rebuilt or built new.
 - **Gate piers and entrances** — stone piers, caps and copings for driveways and garden entrances.
 - **Garden structures** — steps, seats, plinths, outdoor kitchens and bespoke landscape stonework in mortared stone. (For mortar-free walls, see [dry stone walling](/dry-stone-walling/).)
 - **Dressed stone features** — cills, heads, mullions, quoins, string courses and copings, worked to profile by hand on the banker.
