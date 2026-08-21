@@ -1,0 +1,8 @@
+# Netlify build configuration — the import flow reads this automatically,
+# so no settings need to be entered in the Netlify UI.
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "20"
