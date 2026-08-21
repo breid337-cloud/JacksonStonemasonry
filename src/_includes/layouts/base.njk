@@ -11,9 +11,13 @@
   <meta property="og:title" content="{{ metaTitle or title }} | {{ site.shortName }}">
   <meta property="og:description" content="{{ metaDescription or site.description }}">
   <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}">
-  <meta property="og:image" content="{{ '/assets/img/og-default.svg' | absoluteUrl(site.url) }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image" content="{{ '/assets/img/og-default.jpg' | absoluteUrl(site.url) }}">
   <meta property="og:locale" content="en_GB">
-  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="/assets/img/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
@@ -29,7 +33,7 @@
   <header class="site-header">
     <div class="wrap site-header__inner">
       <a class="brand" href="/" aria-label="{{ site.name }} — home">
-        <span class="brand__mark" aria-hidden="true">J</span>
+        <img class="brand__mark" src="/assets/img/logo.png" alt="" width="256" height="256">
         <span class="brand__text">
           <span class="brand__name">Jackson&rsquo;s Stonemasonry</span>
           <span class="brand__strap">Winchcombe &middot; Cheltenham &middot; the Cotswolds</span>

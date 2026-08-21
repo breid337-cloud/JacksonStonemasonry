@@ -8,7 +8,7 @@
   "url": "{{ site.url }}/",
   "telephone": "{{ site.phoneInternational }}",
   "email": "{{ site.email }}",
-  "image": "{{ '/assets/img/og-default.svg' | absoluteUrl(site.url) }}",
+  "image": "{{ '/assets/img/og-default.jpg' | absoluteUrl(site.url) }}",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "{{ site.address.locality }}",
@@ -27,6 +27,7 @@
     { "@type": "Place", "name": "{{ area }}" }{% if not loop.last %},{% endif %}
     {%- endfor %}
   ],
+  "logo": "{{ '/assets/img/logo.png' | absoluteUrl(site.url) }}",
   "knowsAbout": ["Stonemasonry", "Dry stone walling", "Stone restoration", "Stone cleaning", "Stone carving", "Cotswold stone", "Lime mortar"]
 }
 </script>

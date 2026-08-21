@@ -102,11 +102,13 @@ a:hover { color: var(--bronze-dark); }
 }
 .brand { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: var(--ink); }
 .brand__mark {
-  display: grid; place-items: center;
-  width: 2.6rem; height: 2.6rem;
-  background: var(--ink); color: var(--paper);
-  font-family: var(--serif); font-size: 1.5rem; font-weight: 600;
-  border-radius: 3px;
+  display: block;
+  width: 3rem; height: 3rem;
+  background: var(--ink);
+  border-radius: 4px;
+  padding: 4px;
+  object-fit: contain;
+  flex: none;
 }
 .brand__name { display: block; font-family: var(--serif); font-size: 1.15rem; font-weight: 600; line-height: 1.1; }
 .brand__strap { display: block; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }

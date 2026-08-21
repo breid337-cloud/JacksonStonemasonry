@@ -61,6 +61,11 @@ Much of the housing stock around Winchcombe, Cheltenham and the north Cotswolds 
 
 If you're unsure whether your project needs consent, we can advise on what the conservation officer is likely to expect before anything is committed.
 
+<figure>
+  <img src="/assets/img/work-window-surround.jpg" alt="Before and after: a window opening with its stone cill and surround rebuilt in matched dressed stone, with a new timber window" loading="lazy" width="960" height="640">
+  <figcaption>Before and after on a window opening — the cill and surround rebuilt in matched dressed stone, ready for a new timber window.</figcaption>
+</figure>
+
 ## What restoration costs
 
 No two restoration jobs are alike, so we don't price from a rate card. What we do promise is a clear process: we inspect the stonework, diagnose what is actually causing the decay, and give you a written, itemised quotation that separates the essential structural work from the cosmetic — so you can prioritise if you need to. Quotations are free and carry no obligation.
