@@ -146,15 +146,18 @@ a:hover { color: var(--bronze-dark); }
 }
 
 /* ---------- Heroes ---------- */
+/* hero-wall.jpg: swap this file for a real project photo (1920x1080) to change
+   every hero background on the site — no CSS edits needed. */
 .hero {
   background:
-    linear-gradient(rgba(28, 24, 17, 0.62), rgba(28, 24, 17, 0.62)),
-    url("/assets/img/hero-wall.svg") center / cover no-repeat, var(--ink);
+    linear-gradient(rgba(28, 24, 17, 0.68), rgba(28, 24, 17, 0.44)),
+    url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
   color: var(--white);
   padding: clamp(4rem, 10vw, 7.5rem) 0;
 }
 .hero h1 { color: var(--white); max-width: 21ch; }
 .hero .lede { color: rgba(255,255,255,0.88); }
+.hero .eyebrow { color: var(--stone-line); }
 
 .page-hero {
   background: var(--paper-warm);
@@ -163,14 +166,14 @@ a:hover { color: var(--bronze-dark); }
 }
 .page-hero--img {
   background:
-    linear-gradient(rgba(28, 24, 17, 0.66), rgba(28, 24, 17, 0.66)),
-    url("/assets/img/hero-wall.svg") center / cover no-repeat, var(--ink);
+    linear-gradient(rgba(28, 24, 17, 0.72), rgba(28, 24, 17, 0.52)),
+    url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
   color: var(--white);
   border-bottom: 0;
 }
 .page-hero--img h1 { color: var(--white); }
 .page-hero--img .lede { color: rgba(255,255,255,0.88); }
-.page-hero--img .eyebrow { color: var(--stone-mid); }
+.page-hero--img .eyebrow { color: var(--stone-line); }
 
 .eyebrow {
   text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8rem; font-weight: 700;
