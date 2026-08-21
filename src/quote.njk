@@ -17,12 +17,15 @@ breadcrumbs:
 
 <section class="section">
   <div class="wrap">
-    <!--
-      This form needs a form-handling backend before it works.
-      Options (see README.md):
-        - Netlify Forms: the data-netlify attribute below activates it automatically when hosted on Netlify.
-        - Formspree / Basin / similar: set the action to your endpoint, e.g. action="https://formspree.io/f/XXXX".
-    -->
+    {#-
+      Handled by Netlify Forms: data-netlify="true" registers the form when
+      Netlify scans the deployed HTML. Detection runs AT DEPLOY TIME, so after
+      enabling form detection the site must be redeployed before submissions
+      work — until then the POST to /thank-you/ returns 404.
+      Alert recipients are configured in the Netlify UI (Forms > Form
+      notifications), not here. To move off Netlify, point action= at a
+      Formspree/Basin endpoint instead.
+    -#}
     <form class="quote-form" name="quote" method="POST" action="/thank-you/" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data">
       <input type="hidden" name="form-name" value="quote">
       {#- Honeypot: hidden from people, filled in by bots, so Netlify can bin those. -#}
