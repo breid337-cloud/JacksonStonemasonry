@@ -23,8 +23,12 @@ breadcrumbs:
         - Netlify Forms: the data-netlify attribute below activates it automatically when hosted on Netlify.
         - Formspree / Basin / similar: set the action to your endpoint, e.g. action="https://formspree.io/f/XXXX".
     -->
-    <form class="quote-form" name="quote" method="POST" action="/thank-you/" data-netlify="true" enctype="multipart/form-data">
+    <form class="quote-form" name="quote" method="POST" action="/thank-you/" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data">
       <input type="hidden" name="form-name" value="quote">
+      {#- Honeypot: hidden from people, filled in by bots, so Netlify can bin those. -#}
+      <p class="visually-hidden" aria-hidden="true">
+        <label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+      </p>
 
       <fieldset>
         <legend>What do you need help with?</legend>
