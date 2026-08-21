@@ -7,6 +7,10 @@ h1: "Stonemasons in Cirencester"
 metaTitle: "Stonemasons in Cirencester | Restoration & Walling"
 metaDescription: "Stonemasons serving Cirencester and the south Cotswolds — Cotswold stone restoration, dry stone walling, garden wall repair and stone cleaning. Free quotations."
 lede: "The capital of the Cotswolds has been building in limestone since Roman times. We restore, repair and build stonework across Cirencester and the villages around it."
+lat: 51.7192
+lon: -1.9686
+mapAnchor: "middle"
+mapDy: 26
 permalink: "/areas/cirencester/"
 order: 7
 breadcrumbs:

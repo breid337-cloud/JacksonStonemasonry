@@ -7,6 +7,10 @@ h1: "Stonemasons in Winchcombe"
 metaTitle: "Stonemasons in Winchcombe | Dry Stone Walling & Restoration"
 metaDescription: "Jackson's Stonemasonry is based in Winchcombe, Gloucestershire. Dry stone walling, stone restoration, stone cleaning and wall repair in and around Winchcombe. Free quotations."
 lede: "Winchcombe is our home town. We build, repair and restore Cotswold stonework throughout the town and the surrounding villages — often within minutes of the workshop."
+lat: 51.9525
+lon: -1.9662
+mapAnchor: "end"
+mapDy: 0
 permalink: "/areas/winchcombe/"
 order: 1
 breadcrumbs:

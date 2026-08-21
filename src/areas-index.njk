@@ -21,6 +21,8 @@ breadcrumbs:
 
 <section class="section">
   <div class="wrap">
+    {% include "partials/coverage-map.njk" %}
+
     <div class="card-grid">
       {%- for l in collections.locations %}
       <a class="card" href="{{ l.url }}">

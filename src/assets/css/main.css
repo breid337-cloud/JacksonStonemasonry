@@ -455,3 +455,49 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
   opacity: 1; transform: none;
   transition: opacity 0.55s ease, transform 0.55s cubic-bezier(0.22, 0.7, 0.3, 1);
 }
+
+/* ---------- Coverage map (Areas We Cover) ---------- */
+.coverage-map {
+  margin: 0 0 2.5rem;
+  background: var(--paper-warm);
+  border: 1px solid var(--stone-line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.coverage-map svg { width: 100%; height: auto; display: block; }
+.coverage-map figcaption {
+  padding: 0.9rem 1.25rem 1.1rem;
+  border-top: 1px solid var(--stone-line);
+  background: var(--white);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.cov-ring { fill: none; stroke: var(--stone-mid); stroke-width: 1.2; stroke-dasharray: 5 7; opacity: 0.75; }
+.cov-ring-label {
+  fill: var(--ink-soft); font-family: var(--sans); font-size: 13px;
+  letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.75;
+}
+.cov-spoke { stroke: var(--stone-mid); stroke-width: 1; opacity: 0.5; }
+.cov-region {
+  fill: var(--stone-mid); font-family: var(--serif); font-size: 30px;
+  letter-spacing: 0.34em; opacity: 0.45;
+}
+.cov-dot { fill: var(--bronze); stroke: var(--paper-warm); stroke-width: 2.5; transition: r 0.15s ease; }
+.cov-home { fill: var(--moss); stroke: var(--paper-warm); stroke-width: 2.5; }
+.cov-home-halo { fill: var(--moss); opacity: 0.18; }
+.cov-label { fill: var(--ink); font-family: var(--serif); font-size: 19px; font-weight: 600; }
+.cov-label--home { fill: var(--moss); }
+.cov-base {
+  fill: var(--ink-soft); font-family: var(--sans); font-size: 13px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.cov-pin { cursor: pointer; }
+.cov-pin:hover .cov-dot { r: 9; }
+.cov-pin:hover .cov-label { fill: var(--bronze); text-decoration: underline; }
+.cov-pin:focus-visible { outline: 2px solid var(--bronze); outline-offset: 2px; }
+@media (max-width: 40rem) {
+  .cov-label { font-size: 23px; }
+  .cov-ring-label, .cov-base { font-size: 16px; }
+  .cov-region { font-size: 38px; }
+}

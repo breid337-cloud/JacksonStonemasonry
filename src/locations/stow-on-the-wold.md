@@ -7,6 +7,10 @@ h1: "Stonemasons in Stow-on-the-Wold"
 metaTitle: "Stonemasons in Stow-on-the-Wold | Walling & Restoration"
 metaDescription: "Stonemasons serving Stow-on-the-Wold and the north Cotswold villages — dry stone walling, Cotswold stone restoration, wall repair and stone cleaning. Free quotations."
 lede: "Stow and the villages around it are dry stone wall country. We build, rebuild and restore Cotswold stonework across the north Cotswolds from our base in Winchcombe."
+lat: 51.9298
+lon: -1.7226
+mapAnchor: "start"
+mapDy: 0
 permalink: "/areas/stow-on-the-wold/"
 order: 6
 breadcrumbs:

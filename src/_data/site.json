@@ -31,5 +31,15 @@
     "the Cotswolds"
   ],
   "googleBusinessProfileUrl": "",
-  "_gbp_note": "Add the Google Business Profile / Google Maps short link here once claimed — it is used for 'Read our Google reviews' links."
+  "_gbp_note": "Add the Google Business Profile / Google Maps short link here once claimed — it is used for 'Read our Google reviews' links.",
+  "map": {
+    "originLat": 51.9525,
+    "originLon": -1.9662,
+    "kmPerDegLat": 111.32,
+    "kmPerDegLon": 68.6,
+    "pxPerKm": 9,
+    "cx": 400,
+    "cy": 250,
+    "_note": "Coverage-map projection. Add lat/lon to a location file and it appears on the map automatically."
+  }
 }

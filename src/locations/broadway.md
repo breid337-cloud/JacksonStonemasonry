@@ -7,6 +7,10 @@ h1: "Stonemasons in Broadway"
 metaTitle: "Stonemasons in Broadway | Cotswold Stone Specialists"
 metaDescription: "Stonemasons serving Broadway, Worcestershire from nearby Winchcombe — Cotswold stone restoration, dry stone walling, wall repair and stone cleaning. Free quotations."
 lede: "Broadway's honey-coloured stone is the Cotswolds at its best — and it deserves work to match. We're 15 minutes away in Winchcombe, restoring and building in the local stone."
+lat: 52.0378
+lon: -1.86
+mapAnchor: "start"
+mapDy: 0
 permalink: "/areas/broadway/"
 order: 5
 breadcrumbs:

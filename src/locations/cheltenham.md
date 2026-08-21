@@ -7,6 +7,10 @@ h1: "Stonemasons in Cheltenham"
 metaTitle: "Stonemasons in Cheltenham | Stone Restoration & Walling"
 metaDescription: "Stonemasons serving Cheltenham from nearby Winchcombe. Stone restoration, garden wall repair, stone cleaning and dry stone walling across Cheltenham. Free quotations."
 lede: "Fifteen minutes from our Winchcombe base, Cheltenham is where we work most weeks — restoring stonework, rebuilding garden walls and cleaning stone across the town."
+lat: 51.8994
+lon: -2.0783
+mapAnchor: "end"
+mapDy: 0
 permalink: "/areas/cheltenham/"
 order: 2
 breadcrumbs:

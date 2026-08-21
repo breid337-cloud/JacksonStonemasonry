@@ -7,6 +7,10 @@ h1: "Stonemasons in Gloucester"
 metaTitle: "Stonemasons in Gloucester | Restoration & Wall Repair"
 metaDescription: "Stonemasons serving Gloucester from Winchcombe — stone restoration, repointing in lime, garden wall repair and stone cleaning across Gloucester and its villages. Free quotations."
 lede: "Stone restoration, wall repair and cleaning across Gloucester and its surrounding villages — traditional work in lime, from a team based half an hour away in Winchcombe."
+lat: 51.8642
+lon: -2.238
+mapAnchor: "end"
+mapDy: 0
 permalink: "/areas/gloucester/"
 order: 3
 breadcrumbs:

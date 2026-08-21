@@ -1,0 +1,51 @@
+{#- Coverage map: towns plotted at their true bearing and distance from
+    Winchcombe, with mile rings. Positions come from lat/lon in each
+    location's front matter, so adding a location adds a pin. -#}
+{%- set m = site.map %}
+<figure class="coverage-map">
+  <svg viewBox="55 10 715 600" role="img" aria-labelledby="cov-t cov-d">
+    <title id="cov-t">Where Jackson&rsquo;s Stonemasonry works</title>
+    <desc id="cov-d">Map centred on Winchcombe, Gloucestershire, showing the towns we cover with rings at 5, 10 and 15 miles. The same places are listed as links below.</desc>
+
+    <rect x="55" y="10" width="715" height="600" fill="var(--paper-warm)"/>
+    <text x="400" y="592" text-anchor="middle" class="cov-region">THE COTSWOLDS</text>
+
+    {%- for mi in [5, 10, 15] %}
+    {%- set r = mi * 1.60934 * m.pxPerKm %}
+    <circle cx="{{ m.cx }}" cy="{{ m.cy }}" r="{{ r | round(1) }}" class="cov-ring"/>
+    <text x="{{ m.cx }}" y="{{ (m.cy - r + 15) | round(1) }}" text-anchor="middle" class="cov-ring-label">{{ mi }} miles</text>
+    {%- endfor %}
+
+    {#- spokes from base to each town -#}
+    {%- for l in collections.locations %}{% if l.data.lat %}
+    {%- set px = m.cx + (l.data.lon - m.originLon) * m.kmPerDegLon * m.pxPerKm %}
+    {%- set py = m.cy - (l.data.lat - m.originLat) * m.kmPerDegLat * m.pxPerKm %}
+    {%- if l.data.lat != m.originLat %}
+    <line x1="{{ m.cx }}" y1="{{ m.cy }}" x2="{{ px | round(1) }}" y2="{{ py | round(1) }}" class="cov-spoke"/>
+    {%- endif %}
+    {%- endif %}{% endfor %}
+
+    {%- for l in collections.locations %}{% if l.data.lat %}
+    {%- set px = m.cx + (l.data.lon - m.originLon) * m.kmPerDegLon * m.pxPerKm %}
+    {%- set py = m.cy - (l.data.lat - m.originLat) * m.kmPerDegLat * m.pxPerKm %}
+    {%- set home = l.data.lat == m.originLat %}
+    {%- set anchor = l.data.mapAnchor or "start" %}
+    {%- set dx = 13 if anchor == "start" else (-13 if anchor == "end" else 0) %}
+    <a href="{{ l.url }}" class="cov-pin">
+      <title>{{ l.data.title }}</title>
+      {%- if home %}
+      <circle cx="{{ px }}" cy="{{ py }}" r="13" class="cov-home-halo"/>
+      <circle cx="{{ px }}" cy="{{ py }}" r="7" class="cov-home"/>
+      {%- else %}
+      <circle cx="{{ px | round(1) }}" cy="{{ py | round(1) }}" r="6" class="cov-dot"/>
+      {%- endif %}
+      <text x="{{ (px + dx) | round(1) }}" y="{{ (py + 5 + (l.data.mapDy or 0)) | round(1) }}"
+            text-anchor="{{ anchor }}" class="cov-label{% if home %} cov-label--home{% endif %}">{{ l.data.shortTitle or l.data.title }}</text>
+      {%- if home %}
+      <text x="{{ px + dx }}" y="{{ py + 23 }}" text-anchor="{{ anchor }}" class="cov-base">our workshop</text>
+      {%- endif %}
+    </a>
+    {%- endif %}{% endfor %}
+  </svg>
+  <figcaption>We&rsquo;re based in Winchcombe and work throughout the towns and villages around it — most of our jobs are within half an hour&rsquo;s drive. Tap any town for what we do there.</figcaption>
+</figure>

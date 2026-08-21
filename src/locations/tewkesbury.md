@@ -7,6 +7,10 @@ h1: "Stonemasons in Tewkesbury"
 metaTitle: "Stonemasons in Tewkesbury | Restoration & Wall Repair"
 metaDescription: "Stonemasons serving Tewkesbury from nearby Winchcombe — stone restoration, lime repointing, garden wall repair and stone cleaning in Tewkesbury and surrounding villages."
 lede: "Twenty minutes from our Winchcombe workshop, we restore and repair stonework across Tewkesbury and its villages — from garden walls to period building repairs in lime."
+lat: 51.9925
+lon: -2.1578
+mapAnchor: "end"
+mapDy: 0
 permalink: "/areas/tewkesbury/"
 order: 4
 breadcrumbs:
