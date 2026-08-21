@@ -4,7 +4,7 @@ title: "Stone Cleaning"
 h1: "Stone Cleaning in Cheltenham & Gloucestershire"
 metaTitle: "Stone Cleaning in Cheltenham & Gloucestershire"
 metaDescription: "Careful, non-damaging stone cleaning in Cheltenham, Gloucestershire and the Cotswolds — removing dirt, algae and paint from Cotswold stone without harming the surface. Free quotations."
-thumb: "/assets/img/service-stone-cleaning.jpg"
+thumb: "/assets/img/work-stream-cleaning.jpg"
 lede: "Gentle, appropriate cleaning of Cotswold stone and other masonry — lifting decades of dirt, algae and staining without damaging the stone underneath."
 cardBlurb: "Sympathetic cleaning of dirty, stained or algae-covered stonework."
 permalink: "/stone-cleaning/"
@@ -31,6 +31,11 @@ So our starting point is always the gentlest method that will do the job, and a 
 - **Staining** — rust runs, copper staining, and staining from fixings and rainwater goods, treated with poultices and appropriate chemical cleaners.
 - **Paint and coating removal** — carefully removing old masonry paint and failed sealers from stone, where the stone beneath is sound enough to take it.
 - **Post-repair cleaning** — blending cleaned and repaired areas so an elevation reads as one surface again.
+
+<figure>
+  <img src="/assets/img/work-stream-cleaning.jpg" alt="Before and after: a Cotswold watercourse and its stone banking, cleared of algae and silt" loading="lazy" width="767" height="511">
+  <figcaption>Before and after on a Cotswold watercourse — algae and silt lifted from the stone banking without damaging the weathered faces.</figcaption>
+</figure>
 
 ## How we choose the method
 

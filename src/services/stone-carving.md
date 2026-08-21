@@ -4,7 +4,7 @@ title: "Stone Carving"
 h1: "Stone Carving in Gloucestershire & the Cotswolds"
 metaTitle: "Stone Carving in Gloucestershire & the Cotswolds"
 metaDescription: "Hand stone carving and lettering in Gloucestershire — house name plaques, date stones, replacement carved details and bespoke commissions in Cotswold stone. Free quotations."
-thumb: "/assets/img/service-stone-carving.jpg"
+thumb: "/assets/img/work-carved-mouldings.jpg"
 lede: "Hand-carved stonework in Cotswold stone and other British limestones — house signs, date stones, replacement architectural detail and bespoke commissions."
 cardBlurb: "House signs, date stones, lettering and bespoke carved commissions."
 permalink: "/stone-carving/"
@@ -31,6 +31,11 @@ We take on both new commissions and restoration carving: replacing eroded detail
 - **Replacement architectural detail** — re-carving eroded finials, kneelers, label stops, corbels, mouldings and other dressed detail on period buildings, copied from the surviving work.
 - **Garden and landscape features** — carved copings, ball finials, pier caps, sundial plinths, troughs and bespoke garden pieces.
 - **Bespoke commissions** — if you can sketch it, we can talk about carving it.
+
+<figure>
+  <img src="/assets/img/work-carved-mouldings.jpg" alt="Five hand-worked stone mouldings on a pallet, freshly cut to profile" loading="lazy" width="767" height="511">
+  <figcaption>Mouldings worked to profile by hand in the workshop, ready to fix.</figcaption>
+</figure>
 
 ## How a commission works
 

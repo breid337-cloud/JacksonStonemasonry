@@ -4,7 +4,7 @@ title: "Stone Wall Repair"
 h1: "Cotswold Stone Wall Repair in Gloucestershire"
 metaTitle: "Stone Wall Repair in Gloucestershire & the Cotswolds"
 metaDescription: "Cotswold stone wall repair across Gloucestershire — collapsed sections rebuilt, bulges and leans corrected, copings refixed, in dry stone or lime mortar. Free quotations."
-thumb: "/assets/img/service-stone-wall-repair.jpg"
+thumb: "/assets/img/work-garden-wall.jpg"
 lede: "Collapsed, bulging or crumbling stone wall? We repair and rebuild Cotswold stone walls — dry stone and mortared — reusing your original stone wherever possible."
 cardBlurb: "Collapsed sections rebuilt, bulges corrected, copings refixed."
 permalink: "/stone-wall-repair/"
@@ -25,6 +25,11 @@ We repair both types of wall found across Gloucestershire:
 
 - **Dry stone walls** — rebuilt without mortar using traditional walling technique (see our [dry stone walling](/dry-stone-walling/) page for how these walls go together);
 - **Mortared stone walls** — garden and boundary walls laid in mortar, repaired and repointed in lime so they can breathe and move as intended.
+
+<figure>
+  <img src="/assets/img/work-garden-wall.jpg" alt="A rebuilt dry stone garden retaining wall running the width of a Cotswold garden" loading="lazy" width="767" height="511">
+  <figcaption>A garden retaining wall rebuilt in dry stone, tied into the older walling alongside it.</figcaption>
+</figure>
 
 ## Common problems we fix
 

@@ -4,7 +4,7 @@ title: "Stonemasonry"
 h1: "Traditional Stonemasonry in Winchcombe, Cheltenham & the Cotswolds"
 metaTitle: "Traditional Stonemasons in Winchcombe & Cheltenham"
 metaDescription: "Traditional stonemasonry in Winchcombe, Cheltenham and the Cotswolds — new stonework, extensions, fireplaces, porches and dressed stone features in Cotswold stone. Free quotations."
-thumb: "/assets/img/service-stonemasonry.jpg"
+thumb: "/assets/img/work-doorway-masonry.jpg"
 lede: "General and banker masonry in Cotswold stone — new-build stonework, extensions, fireplaces, porches, piers and dressed stone features, worked and laid the traditional way."
 cardBlurb: "New stonework, extensions, fireplaces and dressed stone features."
 permalink: "/stonemasonry/"
@@ -32,6 +32,11 @@ Around Winchcombe, Cheltenham and the north Cotswolds that almost always means C
 - **Garden structures** — steps, seats, plinths, outdoor kitchens and bespoke landscape stonework in mortared stone. (For mortar-free walls, see [dry stone walling](/dry-stone-walling/).)
 - **Dressed stone features** — cills, heads, mullions, quoins, string courses and copings, worked to profile by hand on the banker.
 - **Stone slate and coping work** — wall heads, verges and copings detailed to shed water and last.
+
+<figure>
+  <img src="/assets/img/work-doorway-masonry.jpg" alt="Before and after: a stone doorway with its moulded hood and jambs rebuilt in matched dressed stone" loading="lazy" width="767" height="511">
+  <figcaption>Before and after on a stone doorway — the moulded hood restored and new dressed stone pieced into the jambs. The fresh stone will mellow to match within a few seasons.</figcaption>
+</figure>
 
 ## Working with your architect or builder
 

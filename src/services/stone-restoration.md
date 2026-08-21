@@ -4,7 +4,7 @@ title: "Stone Restoration"
 h1: "Stone Restoration in Cheltenham, Gloucestershire & the Cotswolds"
 metaTitle: "Stone Restoration in Cheltenham & the Cotswolds"
 metaDescription: "Sympathetic stone restoration across Cheltenham, Gloucestershire and the Cotswolds — repointing in lime, stone replacement and repairs to period and listed buildings. Free quotations."
-thumb: "/assets/img/service-stone-restoration.jpg"
+thumb: "/assets/img/work-window-restoration.jpg"
 lede: "Sympathetic restoration of period stonework — repointing in lime mortar, matched stone replacement and careful repair of Cotswold stone houses, barns and boundary walls."
 cardBlurb: "Repointing, stone replacement and repair of period stonework."
 permalink: "/stone-restoration/"
@@ -36,6 +36,11 @@ Our approach is conservative in the best sense: keep as much original stonework 
 - **Rebuilding failed sections** — taking down and rebuilding bulged, leaning or structurally failed areas of stonework, reusing the original stone.
 - **Window surrounds, quoins, copings and detail** — restoring dressed-stone features: mullions, cills, heads, string courses, kneelers and chimney stonework.
 - **Boundary and garden walls** — restoration of mortared stone walls, gate piers and steps. For mortar-free walls see [dry stone walling](/dry-stone-walling/).
+
+<figure>
+  <img src="/assets/img/work-window-restoration.jpg" alt="Before and after: a Cotswold stone window surround cleaned and repointed, with damaged dressed stone replaced" loading="lazy" width="767" height="511">
+  <figcaption>Before and after on a window surround — soiling lifted, joints repointed and decayed dressed stone cut out and replaced.</figcaption>
+</figure>
 
 ## Cement pointing: the most common problem we see
 

@@ -4,7 +4,7 @@ title: "Dry Stone Walling"
 h1: "Dry Stone Walling in Gloucestershire & the Cotswolds"
 metaTitle: "Dry Stone Walling in Gloucestershire & the Cotswolds"
 metaDescription: "Traditional dry stone walling in Gloucestershire and the Cotswolds — new walls, rebuilds and repairs in Cotswold stone. Based in Winchcombe, near Cheltenham. Free quotations."
-thumb: "/assets/img/service-dry-stone-walling.jpg"
+thumb: "/assets/img/work-dry-stone-wall.jpg"
 lede: "New dry stone walls, rebuilds and repairs in Cotswold stone — boundary walls, garden walls and field walls, built by hand using traditional techniques."
 cardBlurb: "New walls, rebuilds and repairs in traditional Cotswold dry stone."
 permalink: "/dry-stone-walling/"
@@ -22,6 +22,11 @@ breadcrumbs:
 Dry stone walls are the signature of the Cotswold landscape. Built without mortar, they rely entirely on the skill of the waller — the careful selection and placement of each stone so that the wall locks together under its own weight. Done well, a dry stone wall will outlast almost any other garden structure: it drains freely, flexes with the ground, shrugs off frost, and can stand for well over a century.
 
 Done badly, it slumps within a few years. The difference is in the detail: proper foundations, two well-battered faces, a packed hearting core, through stones tying the faces together, and a solid course of cope stones on top. That is how we build every wall — the way Cotswold walls have been built for hundreds of years.
+
+<figure>
+  <img src="/assets/img/work-dry-stone-wall.jpg" alt="A newly built Cotswold dry stone wall with a continuous course of cope stones on top" loading="lazy" width="767" height="511">
+  <figcaption>A newly built dry stone wall, finished with a continuous course of cope stones — the detail that locks the wall together and keeps water out of its core.</figcaption>
+</figure>
 
 ## What we build
 
