@@ -1,4 +1,9 @@
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
 module.exports = function (eleventyConfig) {
+  // When PATH_PREFIX is set (e.g. "/JacksonStonemasonry/" for GitHub Pages),
+  // root-relative URLs in the HTML output are rewritten to include it.
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   // Print LAN URLs on `npm run serve` so the site can be opened from a phone
   // on the same wifi network.
   eleventyConfig.setServerOptions({ showAllHosts: true });
@@ -28,8 +33,11 @@ module.exports = function (eleventyConfig) {
       .filter((p) => !p.data.excludeFromSitemap)
   );
 
+  // Join against the full base URL including any path (new URL('/x', base)
+  // would drop a '/subpath' from the base, which breaks GitHub Pages).
   eleventyConfig.addFilter("absoluteUrl", (path, base) => {
-    return new URL(path, base).href;
+    const b = base.endsWith("/") ? base : base + "/";
+    return new URL(String(path).replace(/^\//, ""), b).href;
   });
 
   eleventyConfig.addFilter("isoDate", (d) => {
@@ -37,6 +45,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: process.env.PATH_PREFIX || "/",
     dir: {
       input: "src",
       includes: "_includes",

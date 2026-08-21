@@ -167,7 +167,7 @@ a:hover { color: var(--bronze-dark); }
   background:
     linear-gradient(rgba(24, 20, 13, 0) 55%, rgba(24, 20, 13, 0.6) 100%),
     linear-gradient(102deg, rgba(24, 20, 13, 0.8) 18%, rgba(24, 20, 13, 0.42) 58%, rgba(24, 20, 13, 0.12) 92%),
-    url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
+    url("../img/hero-wall.jpg") center / cover no-repeat, var(--ink);
   color: var(--white);
   padding: clamp(4.5rem, 10vw, 7rem) 0;
 }
@@ -221,7 +221,7 @@ a:hover { color: var(--bronze-dark); }
 .page-hero--img {
   background:
     linear-gradient(102deg, rgba(24, 20, 13, 0.85) 22%, rgba(24, 20, 13, 0.48) 65%, rgba(24, 20, 13, 0.28) 95%),
-    url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--ink);
+    url("../img/hero-wall.jpg") center / cover no-repeat, var(--ink);
   padding: clamp(3rem, 7vw, 5rem) 0;
   color: var(--white);
   border-bottom: 0;
@@ -230,7 +230,7 @@ a:hover { color: var(--bronze-dark); }
   .hero, .page-hero--img {
     background:
       linear-gradient(rgba(28, 24, 17, 0.7), rgba(28, 24, 17, 0.52)),
-      url("/assets/img/hero-wall-mobile.jpg") center / cover no-repeat, var(--ink);
+      url("../img/hero-wall-mobile.jpg") center / cover no-repeat, var(--ink);
   }
 }
 .page-hero--img h1 { color: var(--white); }
@@ -401,7 +401,7 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
 .cta-band {
   background:
     linear-gradient(rgba(43, 51, 36, 0.92), rgba(31, 37, 26, 0.94)),
-    url("/assets/img/hero-wall.jpg") center / cover no-repeat, var(--moss);
+    url("../img/hero-wall.jpg") center / cover no-repeat, var(--moss);
   color: var(--white);
   padding: clamp(3rem, 7vw, 5rem) 0;
 }

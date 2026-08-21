@@ -1,0 +1,60 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - claude/jacksons-stonemasonry-seo-6ddgt6
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      # GitHub Pages serves this repo under /JacksonStonemasonry/, so point
+      # canonical URLs / sitemap / structured data at the Pages origin and
+      # prefix all root-relative links. Once the site moves to its real
+      # domain (e.g. Netlify), this workflow can be deleted — the committed
+      # site.json url and an empty PATH_PREFIX are already correct for that.
+      - name: Point site.json at the Pages URL
+        run: |
+          node -e "
+            const fs = require('fs');
+            const p = 'src/_data/site.json';
+            const j = JSON.parse(fs.readFileSync(p, 'utf8'));
+            j.url = 'https://breid337-cloud.github.io/JacksonStonemasonry';
+            fs.writeFileSync(p, JSON.stringify(j, null, 2));
+          "
+      - run: npx eleventy
+        env:
+          PATH_PREFIX: /JacksonStonemasonry/
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
