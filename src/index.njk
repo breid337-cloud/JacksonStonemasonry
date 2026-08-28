@@ -53,6 +53,10 @@ permalink: "/"
   </div>
 </section>
 
+{# No published case studies yet, so this section stays out of the site
+   rather than showing an empty grid. It returns as soon as a project in
+   src/projects/ loses its `sample: true` flag. #}
+{% if collections.projects.length %}
 <section class="section">
   <div class="wrap">
     <p class="eyebrow">Our Work</p>
@@ -66,7 +70,12 @@ permalink: "/"
     <p style="margin-top:1.75rem"><a class="btn btn--outline" href="/projects/">View All Projects</a></p>
   </div>
 </section>
+{% endif %}
 
+{# The reviews are still placeholders, so this section stays out of the
+   published site entirely. It returns on its own the moment reviews.json has
+   real quotes and its "placeholder" flag is set to false. #}
+{% if not reviews.placeholder %}
 <section class="section section--alt">
   <div class="wrap">
     <p class="eyebrow">Reviews</p>
@@ -83,6 +92,7 @@ permalink: "/"
     <p style="margin-top:1.75rem"><a class="btn btn--outline" href="/reviews/">Read More Reviews</a></p>
   </div>
 </section>
+{% endif %}
 
 <section class="section">
   <div class="wrap">

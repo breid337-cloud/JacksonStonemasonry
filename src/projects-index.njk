@@ -11,7 +11,11 @@ breadcrumbs:
   <div class="wrap">
     <p class="eyebrow">Our Work</p>
     <h1>Projects</h1>
+    {% if collections.projects.length %}
     <p class="lede">The best way to judge a stonemason is by the work. Each case study below shows the problem we found, what we did about it, and how it turned out — before, during and after.</p>
+    {% else %}
+    <p class="lede">The best way to judge a stonemason is by the work. Case studies of recent jobs will appear here.</p>
+    {% endif %}
     <div class="hero-actions">
       <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
     </div>
@@ -20,10 +24,12 @@ breadcrumbs:
 
 <section class="section">
   <div class="wrap">
+    {% if collections.projects.length %}
     <div class="card-grid">
       {%- for p in collections.projects %}
       {% include "partials/project-card.njk" %}
       {%- endfor %}
     </div>
+    {% endif %}
   </div>
 </section>

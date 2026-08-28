@@ -10,8 +10,6 @@ permalink: "/about/"
 breadcrumbs:
   - { name: "Home", url: "/" }
 ---
-<div class="note-box"><strong>Note for the site owner:</strong> this page is drafted from the information on the current website. Add the real story — how long you've been trading, training and background, accreditations (e.g. DSWA certification if held), team, and a photo of you at work. A genuine about page with a face on it converts better than any amount of copy.</div>
-
 Jackson's Stonemasonry Ltd is a stonemasonry business based in **Winchcombe, Gloucestershire**, working across Cheltenham, the Cotswolds and the surrounding towns and villages.
 
 We work in the traditional trades of the area: [dry stone walling](/dry-stone-walling/), [stone restoration](/stone-restoration/), [stonemasonry](/stonemasonry/), [stone cleaning](/stone-cleaning/), [stone carving](/stone-carving/) and [stone wall repair](/stone-wall-repair/). Most of our work is in Cotswold limestone — the stone this landscape is built from — using the materials and techniques it was built with: hand-worked stone, lime mortars, and walling methods that predate the cement bag by centuries.

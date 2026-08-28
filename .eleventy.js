@@ -10,6 +10,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
+  // Sample case studies are illustrative only — not real Jackson's jobs — so
+  // they are kept in src/projects/samples/ and never built. The projects
+  // collection globs src/projects/*.md, which does not reach into that folder,
+  // so they also cannot appear as cards anywhere. To publish one, rewrite it
+  // around a real job and move it up into src/projects/.
+  eleventyConfig.ignores.add("src/projects/samples/**");
+
   // Collections, sorted by the `order` front-matter key (then title)
   const byOrder = (a, b) =>
     (a.data.order ?? 99) - (b.data.order ?? 99) ||
@@ -22,7 +29,7 @@ module.exports = function (eleventyConfig) {
     api.getFilteredByGlob("src/locations/*.md").sort(byOrder)
   );
   eleventyConfig.addCollection("projects", (api) =>
-    api.getFilteredByGlob("src/projects/*.md").sort(byOrder)
+    api.getFilteredByGlob("src/projects/*.md").filter((p) => !p.data.sample).sort(byOrder)
   );
 
   // All indexable pages, for the XML sitemap

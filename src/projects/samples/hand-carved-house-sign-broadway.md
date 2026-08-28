@@ -1,4 +1,7 @@
 ---
+# Illustrative only — not a real Jackson's job, so it is not published.
+# Delete this line once this page describes real work and it goes live again.
+sample: true
 layout: layouts/project.njk
 title: "Hand-Carved House Sign"
 h1: "Hand-Carved Cotswold Stone House Sign, Broadway"

@@ -11,15 +11,22 @@ breadcrumbs:
   <div class="wrap">
     <p class="eyebrow">Don&rsquo;t just take our word for it</p>
     <h1>Customer Reviews</h1>
+    {% if reviews.placeholder %}
+    <p class="lede">Most of our work comes from recommendation — a wall a neighbour had rebuilt, a frontage someone walked past.</p>
+    {% else %}
     <p class="lede">Most of our work comes from recommendation — a wall a neighbour had rebuilt, a frontage someone walked past. Here's what customers say about working with us.</p>
+    {% endif %}
   </div>
 </header>
 
 <section class="section">
   <div class="wrap">
-    {% if reviews.placeholder %}
-    <div class="note-box" style="margin-bottom:2rem"><strong>Note for the site owner:</strong> the reviews below are placeholders demonstrating the layout. Replace them with genuine customer reviews (with permission) before launch — ideally copied from your Google Business Profile so the website and Google match. Never publish invented reviews.</div>
-    {% endif %}
+    {# Note for whoever edits this file: reviews.json is still placeholders, so
+       nothing is rendered here. Replace them with genuine customer reviews
+       (with permission — ideally copied from the Google Business Profile so the
+       site and Google agree), set "placeholder" to false, and the grid below
+       comes back on its own. Never publish invented reviews. #}
+    {% if not reviews.placeholder %}
     <div class="review-grid">
       {%- for r in reviews.items %}
       <figure class="review">
@@ -29,6 +36,7 @@ breadcrumbs:
       </figure>
       {%- endfor %}
     </div>
+    {% endif %}
 
     {% if site.googleBusinessProfileUrl %}
     <p style="margin-top:2rem"><a class="btn btn--outline" href="{{ site.googleBusinessProfileUrl }}" rel="noopener">Read our reviews on Google</a></p>
