@@ -85,7 +85,7 @@ permalink: "/"
       <figure class="review">
         <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
         <blockquote class="review__quote">{{ r.quote }}</blockquote>
-        <figcaption class="review__by">{{ r.name }}, {{ r.location }}</figcaption>
+        <figcaption class="review__by">{{ r.name }}{% if r.location %}, {{ r.location }}{% endif %}</figcaption>
       </figure>
       {%- endfor %}
     </div>

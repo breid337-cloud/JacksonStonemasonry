@@ -32,7 +32,7 @@ breadcrumbs:
       <figure class="review">
         <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
         <blockquote class="review__quote">{{ r.quote }}</blockquote>
-        <figcaption class="review__by">{{ r.name }}, {{ r.location }}<br><span style="font-weight:400;color:var(--ink-soft)">{{ r.service }}</span></figcaption>
+        <figcaption class="review__by">{{ r.name }}{% if r.location %}, {{ r.location }}{% endif %}{% if r.service %}<br><span style="font-weight:400;color:var(--ink-soft)">{{ r.service }}</span>{% endif %}</figcaption>
       </figure>
       {%- endfor %}
     </div>

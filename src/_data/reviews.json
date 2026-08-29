@@ -1,24 +1,48 @@
 {
-  "_IMPORTANT": "EVERY REVIEW BELOW IS A PLACEHOLDER, not a real customer quote. Before launch, replace them with genuine reviews (with the customer's permission) — ideally copied from the Google Business Profile so the website and Google agree. Do NOT publish these placeholders: fabricated reviews are illegal under consumer protection law and will destroy trust if discovered. Structured-data Review/AggregateRating markup is deliberately NOT emitted for the same reason — only add it once these are verified real reviews.",
-  "placeholder": true,
+  "_NOTE": "These are genuine reviews copied from the Google Business Profile, supplied 2026-08-30. Quotes are verbatim — do not tidy spelling or grammar, they are the customers' own words. `location` is deliberately empty: Google does not show reviewer locations and inventing them would be fabrication. `service` is filled in only where the review itself names the work. Adding a review here is safe; inventing one is not.",
+  "placeholder": false,
   "items": [
     {
-      "quote": "[PLACEHOLDER — replace with a real customer review] Rebuilt the collapsed section of our Cotswold stone garden wall and you genuinely cannot see where the old work ends and the new begins.",
-      "name": "A. Customer",
-      "location": "Winchcombe",
+      "quote": "Very happy with the work Elliott did on our house doing some general repointing and tidying up around the mullion windows. Lovely job and excellent work ethic! Didn't stop despite the blazing sun. Thank you.",
+      "name": "Jonathan Jackson",
+      "location": "",
+      "service": "Repointing"
+    },
+    {
+      "quote": "Charlie and Elliot have done a lot of work for me - from replacing stones and pointing on the shed to coping stones on the roof and rebuilding the garden wall. I was thoroughly impressed with the quality of workmanship, attention to detail, timely completion and all-round impressive work ethic. Well done and thank you gentlemen!",
+      "name": "Anshul Raja",
+      "location": "",
       "service": "Stone Wall Repair"
     },
     {
-      "quote": "[PLACEHOLDER — replace with a real customer review] Careful, tidy and clearly knows the trade inside out. The restored window surrounds look like they have always been there.",
-      "name": "A. Customer",
-      "location": "Cheltenham",
+      "quote": "A true craftsmen. Charlie does truly beautiful work with attention to detail. And great to work with.",
+      "name": "Stephen lussier",
+      "location": "",
+      "service": ""
+    },
+    {
+      "quote": "Charlie built a new wall for us and also repaired an existing wall too. Superb craftsman, fantastic attention to detail, cannot recommend highly enough.",
+      "name": "Ross Gregg",
+      "location": "",
+      "service": ""
+    },
+    {
+      "quote": "Highly skilled tradesman, really happy with the work he did for me (stone window ledge restoration). Really nice chap, will definitely be using him again in the future.",
+      "name": "George Hopkins",
+      "location": "",
       "service": "Stone Restoration"
     },
     {
-      "quote": "[PLACEHOLDER — replace with a real customer review] A beautiful new dry stone wall, built properly and finished on time. Would not hesitate to recommend.",
-      "name": "A. Customer",
-      "location": "Broadway",
-      "service": "Dry Stone Walling"
+      "quote": "Amazing attention to detail, and does a cracking job, highly recommend",
+      "name": "Felix Aspray",
+      "location": "",
+      "service": ""
+    },
+    {
+      "quote": "Work carried out to a high standard, very reliable and great service.",
+      "name": "I Williams",
+      "location": "",
+      "service": ""
     }
   ]
 }
