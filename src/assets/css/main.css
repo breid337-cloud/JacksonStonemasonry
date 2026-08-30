@@ -208,6 +208,12 @@ a[href^="mailto:"] { overflow-wrap: anywhere; }
 }
 
 /* ---------- Heroes ---------- */
+/* The hero photograph stays a CSS background on purpose. Converting it to a
+   <picture> element — the usual fix for Lighthouse’s "LCP request
+   discovery" warning — was measured at 79-86 against 98-99, with first
+   contentful paint at 3.2s against 1.1s, with and without fetchpriority.
+   Found late means the render-blocking stylesheet gets the bandwidth first
+   and the page paints sooner. Do not "fix" this without measuring. */
 /* hero-wall.jpg (landscape, 1920x1080) and hero-wall-mobile.jpg (portrait,
    1080x1440): swap these files to change every hero background on the site —
    no CSS edits needed. The layered scrim (left for the headline, bottom for
