@@ -118,6 +118,9 @@
     </div>
     <div class="wrap site-footer__legal">
       <p>&copy; <span id="year">2026</span> {{ site.name }}. Traditional stonemasons based in Winchcombe, Gloucestershire, serving Cheltenham and the Cotswolds.</p>
+      {%- if site.builtBy %}
+      <p class="credit">Website by <a href="{{ site.builtBy.url }}" target="_blank" rel="noopener">{{ site.builtBy.name }}</a></p>
+      {%- endif %}
     </div>
   </footer>
 
