@@ -27,6 +27,7 @@ Keeping that landscape looking the way it does isn't a heritage abstraction; it'
 - **[Stone cleaning](/stone-cleaning/)** — careful, tested cleaning that respects the weathered face of soft limestone.
 - **[Stonemasonry](/stonemasonry/)** — new stonework for extensions, gardens and new builds, matched to the local vernacular.
 - **[Stone carving](/stone-carving/)** — hand-carved house signs, date stones and replacement architectural detail.
+- **[House signs and numbers](/house-signs/)** — hand-cut house names, door numbers and date stones, built into a wall or fixed to an existing one, anywhere we work across the Cotswolds.
 
 ## Working in a protected landscape
 

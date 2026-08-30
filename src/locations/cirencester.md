@@ -30,6 +30,7 @@ We're based in Winchcombe and cover Cirencester and the south Cotswolds for the 
 - **Dry stone walling** — new and rebuilt dry stone walls in the villages and farmland around the town, built in traditional Cotswold style.
 - **Stone cleaning** — sympathetic cleaning of stone frontages, walls and steps, tested first and never blasted.
 - **New stonework and carving** — dressed stone for extensions and gardens, and hand-carved house names, numbers and date stones.
+- **[House signs and numbers](/house-signs/)** — carved house names, numbers and date stones for Cirencester properties, fixed to an existing wall or built into new walling as it goes up.
 
 ## South Cotswold stone
 

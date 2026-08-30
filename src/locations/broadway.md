@@ -30,6 +30,7 @@ We're based over the hill in Winchcombe, about 15 minutes away, and work in and 
 - **Stone wall repair** — garden and roadside walls rebuilt with the original stone, tied invisibly into the standing work.
 - **Stone cleaning** — careful, tested cleaning of algae and grime; never pressure-blasting, which would ruin the soft weathered face that gives Broadway stone its colour.
 - **New stonework and carving** — extensions and garden stonework matched to existing buildings, and hand-carved house names for village properties.
+- **[House signs and numbers](/house-signs/)** — carved names and numbers for Broadway’s honey-stone cottages and the properties along the High Street, cut in stone chosen to sit against what is already there.
 
 ## Working to Broadway's standard
 

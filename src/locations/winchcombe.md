@@ -30,6 +30,7 @@ Winchcombe is a stone town through and through. Its high street is lined with Co
 - **Stone wall repair** — collapsed and bulging garden walls, and roadside walls damaged by vehicles, rebuilt with the original stone.
 - **Stone cleaning** — careful cleaning of algae and grime from shaded elevations, garden walls and steps.
 - **Stonemasonry and carving** — new stonework for extensions and gardens, and hand-carved house signs and date stones for Winchcombe properties.
+- **[House signs and numbers](/house-signs/)** — hand-cut names and door numbers in Cotswold stone, built into a wall as it is laid or fixed to one already standing. Our own workshop is here, so a Winchcombe sign is cut a few minutes from where it will hang.
 
 ## Conservation area and listed buildings
 

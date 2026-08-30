@@ -30,6 +30,7 @@ We're based in Winchcombe, a 15-minute drive over Cleeve Hill, and Cheltenham ma
 - **Stone cleaning** — lifting grime, algae and staining from stone frontages, porches, steps and garden walls without damaging the surface.
 - **Dry stone walling** — new garden features and boundary walls in traditional dry stone, particularly on the Cotswold fringe of town: Prestbury, Southam, Charlton Kings, Leckhampton and up onto Cleeve Hill.
 - **New stonework and carving** — stone for extensions and landscaping, plus hand-carved house names and numbers for Cheltenham properties.
+- **[House signs and numbers](/house-signs/)** — hand-carved name plaques and door numbers for Cheltenham’s Regency villas and terraces, where a painted or plain-cut sign suits the elevation better than a bought one.
 
 ## Working in a Regency town
 

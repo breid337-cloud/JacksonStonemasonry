@@ -30,6 +30,7 @@ We're based in Winchcombe, about 25 minutes away, and cover Stow and the north C
 - **Stone restoration** — lime repointing, stone replacement and repairs on the town's listed and period buildings, and on the cottages and farmhouses of the surrounding villages.
 - **Stone cleaning** — measured cleaning of algae and grime, chosen for soft limestone; especially relevant on north-facing and shaded elevations at this altitude.
 - **New stonework and carving** — matched stone for extensions, garden stonework, and hand-carved signs and date stones.
+- **[House signs and numbers](/house-signs/)** — carved names and numbers for Stow properties and the surrounding villages, in stone matched to the building rather than bought off a shelf.
 
 ## Exposure, frost and wold-top walls
 

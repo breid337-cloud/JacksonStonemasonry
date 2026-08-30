@@ -30,6 +30,7 @@ We're based in Winchcombe, roughly 20 minutes away, and cover Tewkesbury and its
 - **Stone cleaning** — algae, moss and grime lifted carefully from walls, steps and elevations; particularly relevant in a riverside town where damp, shaded stonework greens up quickly.
 - **Dry stone walling** — new walls and rebuilds in the villages on the Cotswold side: Alderton, Ashchurch, Beckford, Bredon Hill villages and towards Winchcombe.
 - **New stonework and carving** — stone features for extensions and gardens, and hand-carved signs and date stones.
+- **[House signs and numbers](/house-signs/)** — hand-carved house names, numbers and date stones for Tewkesbury and the villages along the Severn and Avon.
 
 ## Flooding and stonework
 

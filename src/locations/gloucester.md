@@ -30,6 +30,7 @@ We work across Gloucester regularly from our base in Winchcombe, about half an h
 - **Stone cleaning** — sympathetic cleaning of soot, grime, algae and staining from stone elevations, walls and steps — chosen to suit the stone, never blasted.
 - **Dry stone walling** — new and rebuilt dry stone walls on the Cotswold side of the city and in the surrounding countryside.
 - **New stonework and carving** — dressed stone features, repairs to cills and lintels, and hand-carved house signs and date stones.
+- **[House signs and numbers](/house-signs/)** — hand-cut house names and door numbers in stone, for Gloucester properties and the villages around the city.
 
 ## A note on Gloucester's stone
 
