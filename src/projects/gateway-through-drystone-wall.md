@@ -45,7 +45,7 @@ The opening was taken out and both cheeks rebuilt square and plumb, each one bui
 
 ## The result
 
-From the lane it reads as though the wall was always built with a gateway in it. The gates are the existing ones, rehung — the stonework is what changed.
+From the lane, nothing about the opening looks new. The coping runs unbroken across the top of it and both ends stand square. Even the gates are the originals — taken down at the start, and rehung once the stonework either side was finished.
 
 <figure>
   <img src="/assets/img/work-wall-door-after.jpg" alt="The completed gateway seen from the lane, timber gates set into the seven-foot dry stone wall with continuous coping across the top" loading="lazy" width="1600" height="1200">
