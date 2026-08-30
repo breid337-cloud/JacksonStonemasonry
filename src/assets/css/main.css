@@ -208,28 +208,46 @@ a[href^="mailto:"] { overflow-wrap: anywhere; }
 }
 
 /* ---------- Heroes ---------- */
-/* hero-wall.jpg (landscape, 1920x1080) and hero-wall-mobile.jpg (portrait,
-   1080x1440): swap these files to change every hero background on the site —
-   no CSS edits needed. The layered scrim (left for the headline, bottom for
-   depth) keeps text readable over a bright photo. */
+/* The hero photograph is a real <img> in partials/hero-bg.njk, not a CSS
+   background: hero-wall.jpg (landscape, 1600x900) above 44rem and
+   hero-wall-mobile.jpg (portrait, 820x1093) below it. Swap those two files to
+   change every hero on the site. The scrim below is a ::after layer over the
+   photograph, and keeps the text readable on a bright one. */
 .hero {
   position: relative;
   display: flex;
   align-items: center;
   min-height: clamp(30rem, 76vh, 46rem);
-  background:
-    linear-gradient(rgba(24, 20, 13, 0) 55%, rgba(24, 20, 13, 0.6) 100%),
-    linear-gradient(102deg, rgba(24, 20, 13, 0.8) 18%, rgba(24, 20, 13, 0.42) 58%, rgba(24, 20, 13, 0.12) 92%),
-    url("../img/hero-wall-mobile.jpg") center / cover no-repeat, var(--ink);
+  background: var(--ink);
   color: var(--white);
   padding: clamp(4.5rem, 10vw, 7rem) 0;
+  overflow: hidden;
 }
+
+/* The photograph sits behind as a real <img> (see partials/hero-bg.njk); the
+   scrim that used to be part of the background shorthand is now a layer on
+   top of it, and everything else is lifted above both. */
+.hero__bg { position: absolute; inset: 0; z-index: 0; display: block; }
+.hero__bg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero::after,
+.page-hero--img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(rgba(28, 24, 17, 0.7), rgba(28, 24, 17, 0.52));
+}
+.hero > *:not(.hero__bg),
+.page-hero--img > *:not(.hero__bg) { position: relative; z-index: 2; }
 @media (min-width: 44.0625rem) {
-  .hero {
+  .hero::after {
     background:
       linear-gradient(rgba(24, 20, 13, 0) 55%, rgba(24, 20, 13, 0.6) 100%),
-      linear-gradient(102deg, rgba(24, 20, 13, 0.8) 18%, rgba(24, 20, 13, 0.42) 58%, rgba(24, 20, 13, 0.12) 92%),
-      url("../img/hero-wall.jpg") center / cover no-repeat, var(--ink);
+      linear-gradient(102deg, rgba(24, 20, 13, 0.8) 18%, rgba(24, 20, 13, 0.42) 58%, rgba(24, 20, 13, 0.12) 92%);
+  }
+  .page-hero--img::after {
+    background: linear-gradient(102deg, rgba(24, 20, 13, 0.85) 22%, rgba(24, 20, 13, 0.48) 65%, rgba(24, 20, 13, 0.28) 95%);
   }
 }
 .hero__content { width: 100%; }
@@ -280,27 +298,14 @@ a[href^="mailto:"] { overflow-wrap: anywhere; }
   padding: clamp(2.5rem, 6vw, 4rem) 0;
 }
 .page-hero--img {
-  background:
-    linear-gradient(102deg, rgba(24, 20, 13, 0.85) 22%, rgba(24, 20, 13, 0.48) 65%, rgba(24, 20, 13, 0.28) 95%),
-    url("../img/hero-wall-mobile.jpg") center / cover no-repeat, var(--ink);
+  position: relative;
+  overflow: hidden;
+  background: var(--ink);
   padding: clamp(3rem, 7vw, 5rem) 0;
   color: var(--white);
   border-bottom: 0;
 }
-@media (min-width: 44.0625rem) {
-  .page-hero--img {
-    background:
-      linear-gradient(102deg, rgba(24, 20, 13, 0.85) 22%, rgba(24, 20, 13, 0.48) 65%, rgba(24, 20, 13, 0.28) 95%),
-      url("../img/hero-wall.jpg") center / cover no-repeat, var(--ink);
-  }
-}
-@media (max-width: 44rem) {
-  .hero, .page-hero--img {
-    background:
-      linear-gradient(rgba(28, 24, 17, 0.7), rgba(28, 24, 17, 0.52)),
-      url("../img/hero-wall-mobile.jpg") center / cover no-repeat, var(--ink);
-  }
-}
+
 .page-hero--img h1 { color: var(--white); }
 .page-hero--img .lede { color: rgba(255,255,255,0.88); }
 .page-hero--img .eyebrow { color: var(--stone-line); }
