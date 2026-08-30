@@ -101,6 +101,32 @@ a[href^="mailto:"] { overflow-wrap: anywhere; }
 .btn--ghost:hover { background: rgba(255,255,255,0.12); color: var(--white); }
 .btn--block { display: block; text-align: center; }
 
+/* Secondary buttons sitting on a photograph.
+   Neither variant survives an arbitrary image: measured against the ground
+   colours in these heroes, the bronze outline manages 2.31:1 on sunlit grass
+   and 2.26:1 on a dark pixel, and the white ghost 1.00:1 on a bright one — it
+   vanishes completely. The hero scrim does not save them either, because it is
+   weighted to the headline at the top and has faded by the time it reaches the
+   buttons.
+   So they get their own backing rather than relying on what is behind them.
+   75% of --ink puts white text at 7.06:1 even against a pure white pixel,
+   which is AAA regardless of the photograph. Only heroes with an image are
+   targeted; the same buttons on paper keep their bronze. */
+.hero .btn--ghost, .hero .btn--outline,
+.page-hero--img .btn--ghost, .page-hero--img .btn--outline {
+  background: rgba(38, 33, 25, 0.75);
+  border-color: rgba(255, 255, 255, 0.7);
+  color: var(--white);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.hero .btn--ghost:hover, .hero .btn--outline:hover,
+.page-hero--img .btn--ghost:hover, .page-hero--img .btn--outline:hover {
+  background: rgba(38, 33, 25, 0.92);
+  border-color: var(--white);
+  color: var(--white);
+}
+
 /* ---------- Header ---------- */
 .site-header {
   background: var(--paper);
