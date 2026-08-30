@@ -25,7 +25,7 @@ We take on both new commissions and restoration carving: replacing eroded detail
 
 ## What we carve
 
-- **House name and number plaques** — hand-cut lettering in Cotswold stone, designed to suit your house and fixed or built into the wall.
+- **House name and number plaques** — see [house signs and numbers](/house-signs/), which covers lettering, fixing and stone choice in full.
 - **Date stones and commemorative stones** — marking a build, an extension, an anniversary or a family event in carved stone.
 - **Lettering and inscriptions** — carved lettering for gate piers, lintels, benches and memorials.
 - **Replacement architectural detail** — re-carving eroded finials, kneelers, label stops, corbels, mouldings and other dressed detail on period buildings, copied from the surviving work.

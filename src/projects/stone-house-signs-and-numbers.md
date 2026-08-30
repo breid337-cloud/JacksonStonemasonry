@@ -6,9 +6,9 @@ metaTitle: "Stone House Signs and Numbers, Cut to Order | Cotswolds"
 metaDescription: "Hand-carved Cotswold stone house signs and door numbers, cut to your specification and either built into a wall or fixed to an existing one."
 lede: "House names and numbers, cut by hand to your specification — built into a new wall as it goes up, or fixed to one that is already there."
 projectLocation: "The Cotswolds"
-serviceName: "Stone Carving"
-serviceUrl: "/stone-carving/"
-serviceKey: "stone-carving"
+serviceName: "House Signs & Numbers"
+serviceUrl: "/house-signs/"
+serviceKey: "house-signs"
 thumb: "/assets/img/work-house-sign-lettered.jpg"
 stone: "Cotswold and other limestones, to suit the building"
 scope: "House signs and door numbers cut to order; built in or surface-fixed"
@@ -54,4 +54,4 @@ Numbers are cut on discs or squares, in stone chosen to sit against the building
 
 ## Ordering one
 
-Any size, any stone, any lettering style. Tell us what the building is and what it needs to say, and we will quote it — see [stone carving](/stone-carving/) or [ask for a quote](/quote/).
+Any size, any stone, any lettering style. Tell us what the building is and what it needs to say, and we will quote it — see [house signs and numbers](/house-signs/) or [ask for a quote](/quote/).
