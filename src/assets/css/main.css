@@ -1,3 +1,23 @@
+/* Fraunces, self-hosted. Fetched from Google it cost 850-915ms cold, most
+   of it a DNS lookup and TLS handshake to a second origin before a byte of
+   font moved. Same bytes, one fewer origin, and the browser finds them in a
+   stylesheet it is already downloading. Latin subset only; Georgia in the
+   stack covers anything outside it. Roman is variable and spans 500-600, so
+   the two weights share one file. */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 500 600;
+  font-display: swap;
+  src: url("../fonts/fraunces-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/fraunces-latin-italic.woff2") format("woff2");
+}
 /* Jackson's Stonemasonry — restrained, stone-toned design system */
 
 :root {
