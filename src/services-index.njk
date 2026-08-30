@@ -24,7 +24,7 @@ breadcrumbs:
     <div class="card-grid">
       {%- for s in collections.services %}
       <a class="card" href="{{ s.url }}">
-        <span class="card__img" aria-hidden="true"><img src="{{ s.data.thumb or '/assets/img/placeholder-wall.svg' }}" alt="" loading="lazy" width="640" height="420"></span>
+        <span class="card__img" aria-hidden="true"><img src="{{ s.data.thumb or '/assets/img/placeholder-wall.svg' }}" srcset="{{ (s.data.thumb or '/assets/img/placeholder-wall.svg') | replace('.jpg', '-640.jpg') }} 640w, {{ s.data.thumb or '/assets/img/placeholder-wall.svg' }} 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="" loading="lazy" width="640" height="420"></span>
         <span class="card__body">
           <span class="card__title">{{ s.data.title }}</span>
           <span class="card__blurb">{{ s.data.cardBlurb }}</span>

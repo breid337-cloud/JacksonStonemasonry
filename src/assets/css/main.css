@@ -478,7 +478,7 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
 .site-footer__legal { border-top: 1px solid rgba(255,255,255,0.14); margin-top: 2.5rem; padding-top: 1.4rem; font-size: 0.85rem; color: #a89f8d; }
 /* Build credit — deliberately quieter than the legal line above it, so it
    reads as a signature on the work rather than an advert on a client site. */
-.site-footer__legal .credit { margin-top: 0.5rem; font-size: 0.8rem; color: #8d8574; }
+.site-footer__legal .credit { margin-top: 0.5rem; font-size: 0.8rem; color: #968e7c; }
 .site-footer__legal .credit a { color: #bfb5a1; text-decoration: none; border-bottom: 1px solid rgba(191,181,161,0.4); }
 .site-footer__legal .credit a:hover, .site-footer__legal .credit a:focus-visible { color: #fff; border-bottom-color: #fff; }
 
