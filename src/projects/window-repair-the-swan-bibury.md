@@ -9,7 +9,7 @@ projectLocation: "Bibury, Gloucestershire"
 serviceName: "Stone Restoration"
 serviceUrl: "/stone-restoration/"
 serviceKey: "stone-restoration"
-thumb: "/assets/img/work-window-mullion-after.jpg"
+thumb: "/assets/img/work-window-surround-before-after.jpg"
 stone: "New dressed stone pieced into the existing surround"
 scope: "Eroded surround and jamb stones cut out and replaced; opening made structural again"
 order: 2
@@ -22,18 +22,13 @@ breadcrumbs:
 Cotswold limestone weathers, and around an opening that weathering matters more than it does in the middle of a wall — the stone framing a window is carrying load. At The Swan in Bibury, the surround had eroded and broken back, with the jamb and head no longer sound.
 
 <figure>
-  <img src="/assets/img/work-window-mullion-before.jpg" alt="Weathered stone window surround at The Swan, Bibury, with eroded and broken stonework around the opening" loading="lazy" width="1280" height="1600">
-  <figcaption>Before: the surround weathered back and losing its structural job.</figcaption>
+  <img src="/assets/img/work-window-surround-before-after.jpg" alt="Before and after of the stone window surround at The Swan, Bibury: weathered stonework, then a repaired surround with new dressed stone" loading="lazy" width="1600" height="1066">
+  <figcaption>Before and after, side by side. The window box stayed put throughout.</figcaption>
 </figure>
 
 ## What we did
 
 The failed stone was cut out and new dressed stone pieced in to match the existing profile, restoring the opening so the building is structural again. The new work reads brighter than the old for now — Cotswold stone weathers in, and within a few seasons it will settle into the elevation.
-
-<figure>
-  <img src="/assets/img/work-window-mullion-after.jpg" alt="Repaired stone window surround at The Swan, Bibury, with new dressed stone pieced into the opening" loading="lazy" width="1280" height="1600">
-  <figcaption>After: new stone in, opening sound.</figcaption>
-</figure>
 
 ## The result
 
