@@ -9,7 +9,7 @@ projectLocation: "Bibury, Gloucestershire"
 serviceName: "Stone Carving"
 serviceUrl: "/stone-carving/"
 serviceKey: "stone-carving"
-thumb: "/assets/img/service-stone-carving.jpg"
+thumb: "/assets/img/work-carved-plinth.jpg"
 stone: "Solid limestone, worked from the block"
 scope: "Chimney cap cut and worked to profile in the workshop, then delivered"
 order: 8
@@ -22,8 +22,8 @@ breadcrumbs:
 Not everything happens on a scaffold. A chimney cap is banker work — cut from solid stone on the saw, then worked to its profile at the bench before it ever leaves the workshop.
 
 <figure>
-  <img src="/assets/img/service-stone-carving.jpg" alt="Finished stone chimney cap sections laid out on protective board, cut and worked to a moulded profile" loading="lazy" width="1600" height="1200">
-  <figcaption>Finished and boarded, ready to go out.</figcaption>
+  <img src="/assets/img/work-carved-plinth.jpg" alt="A moulded stone block cut and worked at the bench, boarded up on the workshop floor ready for delivery" loading="lazy" width="1428" height="1600">
+  <figcaption>Banker work boarded up on the workshop floor, ready to go out.</figcaption>
 </figure>
 
 ## What it takes

@@ -4,7 +4,7 @@ title: "Stone Fireplaces"
 h1: "Stone Fireplaces in Cheltenham, Gloucestershire & the Cotswolds"
 metaTitle: "Stone Fireplaces in Cheltenham & Gloucestershire"
 metaDescription: "Bespoke stone fireplaces in Cheltenham, Gloucestershire and the Cotswolds — hand-cut surrounds, hearths and lintels, inglenooks opened up and old fireplaces restored."
-thumb: "/assets/img/service-stone-fireplaces.jpg"
+thumb: "/assets/img/work-fireplace-finished-room.jpg"
 lede: "Bespoke fireplace surrounds, hearths and lintels cut by hand in Cotswold stone — new fireplaces, inglenooks opened back up, and old stonework restored."
 cardBlurb: "Bespoke surrounds, hearths and lintels; inglenooks opened up."
 permalink: "/stone-fireplaces/"
@@ -24,8 +24,8 @@ Most of our work is outside, weathering quietly for a century. A fireplace is di
 We cut fireplaces by hand, to suit the room they are going in.
 
 <figure>
-  <img src="/assets/img/service-stone-fireplaces.jpg" alt="Illustration of a dressed Cotswold stone fireplace surround with jambs, lintel, mantel shelf and hearth" loading="lazy" width="960" height="640">
-  <figcaption>Illustration: a dressed stone surround — jambs, lintel, mantel and hearth. (We&rsquo;re replacing this with photographs of recent fireplaces.)</figcaption>
+  <img src="/assets/img/work-fireplace-finished-room.jpg" alt="A hand-cut Cotswold stone fireplace surround installed in a room, with jambs, lintel, mantel shelf and hearth" loading="lazy" width="1200" height="1600">
+  <figcaption>A finished surround in place &mdash; jambs, lintel, mantel and hearth.</figcaption>
 </figure>
 
 ## What we make
