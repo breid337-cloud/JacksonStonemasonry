@@ -9,7 +9,7 @@ projectLocation: "Burford, Oxfordshire"
 serviceName: "Dry Stone Walling"
 serviceUrl: "/dry-stone-walling/"
 serviceKey: "dry-stone-walling"
-thumb: "/assets/img/work-roadside-wall-before-after.jpg"
+thumb: "/assets/img/work-burford-wall-after.jpg"
 stone: "Cotswold limestone, laid dry"
 scope: "Collapsed head of a roadside retaining wall taken down and rebuilt to a level line"
 order: 3
@@ -25,10 +25,16 @@ A retaining wall holds ground back, so when its head starts to break up the prob
 
 The failed section was taken down and rebuilt in Cotswold limestone, laid dry, back to a level line that follows the pavement and ties into the sound work at either end.
 
-<figure>
-  <img src="/assets/img/work-roadside-wall-before-after.jpg" alt="Before and after of a roadside retaining drystone wall in Burford: collapsed top courses, then rebuilt to a level line" loading="lazy" width="1066" height="1600">
-  <figcaption>Before and after, from the road.</figcaption>
-</figure>
+<div class="figure-grid">
+  <figure>
+    <img src="/assets/img/work-burford-wall-before.jpg" alt="Roadside retaining drystone wall in Burford before repair, its top courses collapsed with loose stone spilling toward the kerb" loading="lazy" width="1440" height="1080">
+    <figcaption>Before: the head broken up, stone working out toward the road.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/work-burford-wall-after.jpg" alt="The same Burford retaining wall rebuilt, with a level line of coping stones running the length of the frontage" loading="lazy" width="1440" height="1080">
+    <figcaption>After: rebuilt to a level line, tied into the sound work at each end.</figcaption>
+  </figure>
+</div>
 
 ## The result
 
