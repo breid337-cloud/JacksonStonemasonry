@@ -6,8 +6,11 @@
     the preload scanner runs before the viewport is known, so its media
     attribute is ignored and phones fetched the desktop file too. A <picture>
     source is evaluated properly, so each screen requests one file and the
-    browser finds it while still parsing the HTML. -#}
+    browser finds it while still parsing the HTML.
+
+    No fetchpriority here on purpose: marking it high starved the
+    render-blocking stylesheet and pushed first paint from 1.1s to 3.1s. -#}
 <picture class="hero__bg">
   <source media="(min-width: 44.0625rem)" srcset="/assets/img/hero-wall.jpg" width="1600" height="900">
-  <img src="/assets/img/hero-wall-mobile.jpg" alt="" width="820" height="1093" fetchpriority="high" decoding="async">
+  <img src="/assets/img/hero-wall-mobile.jpg" alt="" width="820" height="1093" decoding="async">
 </picture>
