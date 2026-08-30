@@ -37,4 +37,4 @@ The beam was propped, the worn jambs taken out, and new dressed stone set either
 
 ## The result
 
-An opening that reads as it should, without the cottage losing anything original in the process. To quote the job as Jackson's described it: to make sure this fireplace lasts another 200 years.
+A fireplace that looks right again, and a cottage that has lost nothing original in the process. Or as Jackson's put it: good for another 200 years.

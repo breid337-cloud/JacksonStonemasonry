@@ -35,7 +35,7 @@ The failed stone was cut back to sound material and the cornice and parapet made
 <div class="figure-grid">
   <figure>
     <img src="/assets/img/work-winchcombe-porch-during.jpg" alt="The Winchcombe house frontage during the work, porch and elevation seen from the street over the hedge" loading="lazy" width="1440" height="1080">
-    <figcaption>During: the porch in the context of the whole frontage.</figcaption>
+    <figcaption>During: the porch seen against the rest of the frontage.</figcaption>
   </figure>
   <figure>
     <img src="/assets/img/work-winchcombe-porch-after.jpg" alt="The repaired porch cornice and parapet, clean and continuous above the arched doorway" loading="lazy" width="1440" height="1080">

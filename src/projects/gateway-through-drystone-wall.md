@@ -35,7 +35,7 @@ The opening was taken out and both cheeks rebuilt square and plumb, each one bui
 <div class="figure-grid">
   <figure>
     <img src="/assets/img/work-wall-door-cheek.jpg" alt="Newly built dry stone wall cheek beside a new timber gate post, with coping stones set along the top" loading="lazy" width="1200" height="1600">
-    <figcaption>One cheek, built as a wall end and coped over.</figcaption>
+    <figcaption>One side of the opening, built as a proper wall end and coped over.</figcaption>
   </figure>
   <figure>
     <img src="/assets/img/work-wall-door-gateway.jpg" alt="The finished gateway from inside, both dry stone cheeks framing the reused timber gates" loading="lazy" width="1200" height="1600">
@@ -49,5 +49,5 @@ From the lane, nothing about the opening looks new. The coping runs unbroken acr
 
 <figure>
   <img src="/assets/img/work-wall-door-after.jpg" alt="The completed gateway seen from the lane, timber gates set into the seven-foot dry stone wall with continuous coping across the top" loading="lazy" width="1600" height="1200">
-  <figcaption>After: coping continuous across, ends locked, opening square.</figcaption>
+  <figcaption>After: the coping runs straight across the new opening, and both sides stand square.</figcaption>
 </figure>

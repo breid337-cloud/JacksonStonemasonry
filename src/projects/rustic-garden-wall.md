@@ -39,7 +39,7 @@ Dry stone walling is as much sorting as it is laying. Stone comes off the traile
 
 ## The coping
 
-The finish is what makes it read as rustic: heavy upright combers along the top rather than a flat dressed coping. They lock the wall head down, shed water, and give the top the broken, irregular line the customer was after.
+The finish is what makes it rustic: heavy upright stones along the top — combers — instead of a flat dressed coping. They weigh the head of the wall down, throw the rain off, and give the top the broken, uneven line the customer wanted.
 
 <div class="figure-grid">
   <figure>

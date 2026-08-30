@@ -28,11 +28,11 @@ A cill takes the water that runs off the whole window, so it is usually the firs
 
 ## What we did
 
-The failed stone was cut out and new dressed stone pieced in, worked to the original profile so the repair reads as part of the window rather than a patch.
+The failed stone was cut out and new dressed stone pieced in, worked to the same profile as the original so the repair looks like part of the window rather than a patch on it.
 
 <figure>
   <img src="/assets/img/work-window-mullion-after.jpg" alt="Repaired window with a new stone cill and mullion in fresh honey-coloured limestone" loading="lazy" width="1280" height="1600">
-  <figcaption>After: new cill and mullion, sharp-arrised and ready to weather in.</figcaption>
+  <figcaption>After: new cill and mullion, crisp-edged and ready to weather in.</figcaption>
 </figure>
 
 ## The result
