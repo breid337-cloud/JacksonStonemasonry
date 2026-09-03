@@ -34,6 +34,11 @@ Around Winchcombe, Cheltenham and the north Cotswolds that almost always means C
 - **Stone slate and coping work** — wall heads, verges and copings detailed to shed water and last.
 
 <figure>
+  <img src="/assets/img/work-rustic-wall-cutting.jpg" srcset="/assets/img/work-rustic-wall-cutting-640.jpg 640w, /assets/img/work-rustic-wall-cutting.jpg 1170w" sizes="(min-width: 60rem) 640px, 92vw" alt="Charlie in ear defenders cutting a large block of limestone with a petrol disc saw, dust billowing across the grass" loading="lazy" width="1170" height="1125">
+  <figcaption>Cutting a block down on site. Most stone arrives close to size and is worked the rest of the way by hand.</figcaption>
+</figure>
+
+<figure>
   <img src="/assets/img/work-doorway-masonry.jpg" alt="Before and after: a stone doorway with its moulded hood and jambs rebuilt in matched dressed stone" loading="lazy" width="767" height="511">
   <figcaption>Before and after on a stone doorway — the moulded hood restored and new dressed stone pieced into the jambs. The fresh stone will mellow to match within a few seasons.</figcaption>
 </figure>

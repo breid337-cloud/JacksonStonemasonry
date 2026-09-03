@@ -33,8 +33,8 @@ That is a freer brief than a repair, and in some ways a harder one. There is no 
 Dry stone walling is as much sorting as it is laying. Stone comes off the trailer in whatever shapes the quarry sends, and much of the skill is choosing which stone goes where — with a saw for the pieces that need persuading.
 
 <figure>
-  <img src="/assets/img/work-rustic-wall-cutting.jpg" alt="Mason in ear defenders cutting a large block of limestone with a disc saw, dust billowing across the grass" loading="lazy" width="1170" height="1180">
-  <figcaption>Cutting to fit, on site.</figcaption>
+  <img src="/assets/img/work-rustic-wall-cutting.jpg" alt="Charlie in ear defenders cutting a large block of limestone with a disc saw, dust billowing across the grass" loading="lazy" width="1170" height="1180">
+  <figcaption>Charlie cutting a block to fit, on site.</figcaption>
 </figure>
 
 ## The coping
