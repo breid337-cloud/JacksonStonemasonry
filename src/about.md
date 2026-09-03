@@ -28,6 +28,17 @@ skills competition for the construction trades. It is worth knowing because
 stonemasonry is one of the trades where the difference between competent and
 good is visible for a hundred years afterwards.
 
+<div class="figure-grid">
+  <figure>
+    <img src="/assets/img/work-mason-carving-wide.jpg" srcset="/assets/img/work-mason-carving-wide-640.jpg 640w, /assets/img/work-mason-carving-wide.jpg 1200w" sizes="(min-width: 60rem) 400px, 92vw" alt="Charlie working a carved stone base with a mallet and chisel at the workshop bench, the piece cut with deep rounded lobes" loading="lazy" width="1200" height="1600">
+    <figcaption>Charlie at the bench, working a carved base to its profile.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/work-mason-carving-grinder.jpg" srcset="/assets/img/work-mason-carving-grinder-640.jpg 640w, /assets/img/work-mason-carving-grinder.jpg 1200w" sizes="(min-width: 60rem) 400px, 92vw" alt="Charlie refining the same carved stone base with an air chisel, working between the lobes" loading="lazy" width="1200" height="1600">
+    <figcaption>The same piece, finished with an air chisel between the lobes.</figcaption>
+  </figure>
+</div>
+
 ### Elliot &mdash; stonemason, lime repointing and restoration
 
 Elliot is a stonemason who specialises in [lime repointing](/repointing/) and
