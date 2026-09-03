@@ -23,6 +23,17 @@ The mortar joints in a stone wall are meant to be the sacrificial part. Stone is
 
 Repointing is that renewal — and done properly it is the single most effective piece of maintenance an old stone building can have. Done badly, with the wrong material, it is the fastest way to destroy one.
 
+<div class="figure-grid">
+  <figure>
+    <img src="/assets/img/work-cotswold-wall-before.jpg" srcset="/assets/img/work-cotswold-wall-before-640.jpg 640w, /assets/img/work-cotswold-wall-before.jpg 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="A Cotswold stone elevation before repointing, the joints eroded and open, the face darkened with algae and loose mortar fallen at the base" loading="lazy" width="1600" height="1200">
+    <figcaption>Before: joints washed out and open, with mortar lying at the foot of the wall.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/work-cotswold-wall-after.jpg" srcset="/assets/img/work-cotswold-wall-after-640.jpg 640w, /assets/img/work-cotswold-wall-after.jpg 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="The same Cotswold stone elevation after repointing, the joints filled and struck back and the stone face clean" loading="lazy" width="1600" height="1200">
+    <figcaption>After: raked out, repointed and the face cleaned down.</figcaption>
+  </figure>
+</div>
+
 <figure>
   <img src="/assets/img/work-window-surround.jpg" alt="Before and after: a stone window opening with the cill and surround rebuilt and the joints repointed" loading="lazy" width="960" height="640">
   <figcaption>Before and after around a window opening — decayed stone replaced and the joints made good.</figcaption>

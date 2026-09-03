@@ -47,6 +47,11 @@ sideline: knowing which mortar a building was built with, why cement will
 damage it, and how to cut out and replace failed pointing without marking the
 stone either side of it.
 
+<figure>
+  <img src="/assets/img/work-cotswold-wall-after.jpg" srcset="/assets/img/work-cotswold-wall-after-640.jpg 640w, /assets/img/work-cotswold-wall-after.jpg 1600w" sizes="(min-width: 60rem) 640px, 92vw" alt="Elliot standing beside a Cotswold stone elevation he has repointed, the joints made good and the stone face clean" loading="lazy" width="1600" height="1200">
+  <figcaption>Elliot beside a Cotswold elevation he has repointed.</figcaption>
+</figure>
+
 Between them that covers the two halves of the trade &mdash; new stone cut and
 worked to a drawing, and old stone kept standing.
 
