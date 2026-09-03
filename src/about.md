@@ -12,7 +12,32 @@ breadcrumbs:
 ---
 Jackson's Stonemasonry Ltd is a stonemasonry business based in **Winchcombe, Gloucestershire**, working across Cheltenham, the Cotswolds and the surrounding towns and villages.
 
-We work in the traditional trades of the area: [dry stone walling](/dry-stone-walling/), [stone restoration](/stone-restoration/), [stonemasonry](/stonemasonry/), [stone cleaning](/stone-cleaning/), [stone carving](/stone-carving/) and [stone wall repair](/stone-wall-repair/). Most of our work is in Cotswold limestone — the stone this landscape is built from — using the materials and techniques it was built with: hand-worked stone, lime mortars, and walling methods that predate the cement bag by centuries.
+We work in the traditional trades of the area: [stonemasonry](/stonemasonry/), [stone fireplaces](/stone-fireplaces/), [stone restoration](/stone-restoration/), [lime repointing](/repointing/), [stone carving](/stone-carving/), [stone cleaning](/stone-cleaning/) and [dry stone walling](/dry-stone-walling/). Most of our work is in Cotswold limestone — the stone this landscape is built from — using the materials and techniques it was built with: hand-worked stone, lime mortars, and walling methods that predate the cement bag by centuries.
+
+## Who you will be dealing with
+
+### Charlie &mdash; stonemason, and the one who answers the phone
+
+Charlie went straight from school into a stonemasonry apprenticeship, training
+at Bath College and qualifying in the trade. During the apprenticeship he took
+on small walling jobs at weekends, and those weekends turned into a business:
+Jackson’s Stonemasonry Ltd has been trading as a company for two years.
+
+He came second in the SkillBuild stonemasonry competition, the national
+skills competition for the construction trades. It is worth knowing because
+stonemasonry is one of the trades where the difference between competent and
+good is visible for a hundred years afterwards.
+
+### Elliot &mdash; stonemason, lime repointing and restoration
+
+Elliot is a stonemason who specialises in [lime repointing](/repointing/) and
+[restoration](/stone-restoration/). That is its own discipline rather than a
+sideline: knowing which mortar a building was built with, why cement will
+damage it, and how to cut out and replace failed pointing without marking the
+stone either side of it.
+
+Between them that covers the two halves of the trade &mdash; new stone cut and
+worked to a drawing, and old stone kept standing.
 
 ## How we work
 

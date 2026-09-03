@@ -9,7 +9,7 @@ lede: "Hand-carved stonework in Cotswold stone and other British limestones — 
 cardBlurb: "House signs, date stones, lettering and bespoke carved commissions."
 permalink: "/stone-carving/"
 serviceKey: "stone-carving"
-order: 8
+order: 5
 schemaService:
   name: "Stone Carving"
   serviceType: "Stone carving"

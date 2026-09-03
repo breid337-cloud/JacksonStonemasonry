@@ -9,7 +9,7 @@ lede: "New dry stone walls, rebuilds and repairs in Cotswold stone — boundary 
 cardBlurb: "New walls, rebuilds and repairs in traditional Cotswold dry stone."
 permalink: "/dry-stone-walling/"
 serviceKey: "dry-stone-walling"
-order: 1
+order: 9
 schemaService:
   name: "Dry Stone Walling"
   serviceType: "Dry stone walling"

@@ -9,7 +9,7 @@ lede: "Sympathetic restoration of period stonework — repointing in lime mortar
 cardBlurb: "Repointing, stone replacement and repair of period stonework."
 permalink: "/stone-restoration/"
 serviceKey: "stone-restoration"
-order: 2
+order: 3
 schemaService:
   name: "Stone Restoration"
   serviceType: "Stone restoration"

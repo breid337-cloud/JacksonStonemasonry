@@ -9,7 +9,7 @@ lede: "General and banker masonry in Cotswold stone — new-build stonework, ext
 cardBlurb: "New stonework, extensions, fireplaces and dressed stone features."
 permalink: "/stonemasonry/"
 serviceKey: "stonemasonry"
-order: 6
+order: 1
 schemaService:
   name: "Stonemasonry"
   serviceType: "Stonemasonry"

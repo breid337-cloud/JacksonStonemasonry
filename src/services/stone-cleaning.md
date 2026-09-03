@@ -9,7 +9,7 @@ lede: "Gentle, appropriate cleaning of Cotswold stone and other masonry — lift
 cardBlurb: "Sympathetic cleaning of dirty, stained or algae-covered stonework."
 permalink: "/stone-cleaning/"
 serviceKey: "stone-cleaning"
-order: 5
+order: 7
 schemaService:
   name: "Stone Cleaning"
   serviceType: "Stone cleaning"

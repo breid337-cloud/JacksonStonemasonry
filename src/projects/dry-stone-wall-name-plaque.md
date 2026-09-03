@@ -12,7 +12,7 @@ serviceKey: "dry-stone-walling"
 thumb: "/assets/img/work-old-rectory-wall.jpg"
 stone: "Cotswold limestone laid dry, with a dressed coping and a carved plaque"
 scope: "8ft high by 6m long dry stone wall, coped, returned to a gateway, with a hand-carved name plaque built in"
-order: 11
+order: 13
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

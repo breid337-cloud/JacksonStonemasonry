@@ -9,7 +9,7 @@ lede: "Collapsed, bulging or crumbling stone wall? We repair and rebuild Cotswol
 cardBlurb: "Collapsed sections rebuilt, bulges corrected, copings refixed."
 permalink: "/stone-wall-repair/"
 serviceKey: "stone-wall-repair"
-order: 4
+order: 8
 schemaService:
   name: "Stone Wall Repair"
   serviceType: "Stone wall repair"

@@ -12,7 +12,7 @@ serviceKey: "stone-wall-repair"
 thumb: "/assets/img/work-stream-cleaning-after.jpg"
 stone: "Cotswold limestone, matched to the existing river wall"
 scope: "Failed section of the river retaining wall repaired and the channel edge made good"
-order: 6
+order: 10
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

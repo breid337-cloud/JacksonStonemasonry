@@ -12,7 +12,7 @@ serviceKey: "house-signs"
 thumb: "/assets/img/work-house-sign-lettered.jpg"
 stone: "Cotswold and other limestones, to suit the building"
 scope: "House signs and door numbers cut to order; built in or surface-fixed"
-order: 13
+order: 9
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

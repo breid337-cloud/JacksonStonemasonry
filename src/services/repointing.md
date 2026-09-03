@@ -9,7 +9,7 @@ lede: "Failed or cement pointing raked out by hand and replaced in lime mortar m
 cardBlurb: "Failed and cement pointing replaced with matched lime mortar."
 permalink: "/repointing/"
 serviceKey: "repointing"
-order: 3
+order: 4
 schemaService:
   name: "Repointing"
   serviceType: "Repointing"

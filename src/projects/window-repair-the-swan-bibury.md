@@ -12,7 +12,7 @@ serviceKey: "stone-restoration"
 thumb: "/assets/img/work-window-surround-before-after.jpg"
 stone: "New dressed stone pieced into the existing surround"
 scope: "Eroded surround and jamb stones cut out and replaced; opening made structural again"
-order: 2
+order: 5
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

@@ -9,7 +9,7 @@ lede: "Bespoke fireplace surrounds, hearths and lintels cut by hand in Cotswold 
 cardBlurb: "Bespoke surrounds, hearths and lintels; inglenooks opened up."
 permalink: "/stone-fireplaces/"
 serviceKey: "stone-fireplaces"
-order: 7
+order: 2
 schemaService:
   name: "Stone Fireplaces"
   serviceType: "Stone fireplace installation and restoration"
@@ -27,6 +27,26 @@ We cut fireplaces by hand, to suit the room they are going in.
   <img src="/assets/img/work-fireplace-finished-room.jpg" alt="A hand-cut Cotswold stone fireplace surround installed in a room, with jambs, lintel, mantel shelf and hearth" loading="lazy" width="1200" height="1600">
   <figcaption>A finished surround in place &mdash; jambs, lintel, mantel and hearth.</figcaption>
 </figure>
+
+## Recent surrounds
+
+Every one of these was cut for the room it went into, so the proportions and
+the detail change from job to job.
+
+<div class="figure-grid">
+  <figure>
+    <img src="/assets/img/work-fireplace-tudor-arch.jpg" srcset="/assets/img/work-fireplace-tudor-arch-640.jpg 640w, /assets/img/work-fireplace-tudor-arch.jpg 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="A limestone fireplace surround with a four-centred Tudor arch opening and a stepped mantel shelf, newly set against a stripped stone wall" loading="lazy" width="1600" height="1200">
+    <figcaption>A four-centred Tudor arch, set in before the room was finished.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/work-fireplace-bolection.jpg" srcset="/assets/img/work-fireplace-bolection-640.jpg 640w, /assets/img/work-fireplace-bolection.jpg 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="A bolection-moulded limestone fireplace surround with a plain frieze and mantel, installed against a pink-plastered chimney breast with a single-slab hearth" loading="lazy" width="1600" height="1200">
+    <figcaption>A bolection moulding &mdash; the raised, rounded profile around the opening.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/work-fireplace-ogee-arch.jpg" srcset="/assets/img/work-fireplace-ogee-arch-640.jpg 640w, /assets/img/work-fireplace-ogee-arch.jpg 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="A limestone fireplace surround with an ogee arch opening and moulded mantel, against fresh plaster, with a large single-slab hearth" loading="lazy" width="1600" height="1200">
+    <figcaption>An ogee arch, cut and worked at the bench before delivery.</figcaption>
+  </figure>
+</div>
 
 ## What we make
 

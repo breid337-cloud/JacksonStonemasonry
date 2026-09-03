@@ -12,7 +12,7 @@ serviceKey: "stonemasonry"
 thumb: "/assets/img/work-lamb-inn-after.jpg"
 stone: "Cotswold limestone, with a dressed coping"
 scope: "New coursed wall with coping, and a curved edging wall forming a gravel bed"
-order: 9
+order: 3
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

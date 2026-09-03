@@ -9,7 +9,7 @@ lede: "Hand-carved house names and door numbers in Cotswold stone, cut to your s
 cardBlurb: "Hand-cut house names and door numbers, built in or fixed on."
 permalink: "/house-signs/"
 serviceKey: "house-signs"
-order: 9
+order: 6
 schemaService:
   name: "Stone House Signs and Numbers"
   serviceType: "Stone house signs and numbers"

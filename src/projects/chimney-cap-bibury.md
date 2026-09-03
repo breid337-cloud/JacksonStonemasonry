@@ -12,7 +12,7 @@ serviceKey: "stone-carving"
 thumb: "/assets/img/work-carved-plinth.jpg"
 stone: "Solid limestone, worked from the block"
 scope: "Chimney cap cut and worked to profile in the workshop, then delivered"
-order: 8
+order: 2
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

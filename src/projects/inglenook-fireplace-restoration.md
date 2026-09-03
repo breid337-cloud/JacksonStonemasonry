@@ -12,7 +12,7 @@ serviceKey: "stone-fireplaces"
 thumb: "/assets/img/work-inglenook-after.jpg"
 stone: "New dressed limestone jambs; original bressummer and hearth retained"
 scope: "Worn jambs replaced either side of the opening, propped and worked around the existing beam"
-order: 4
+order: 1
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

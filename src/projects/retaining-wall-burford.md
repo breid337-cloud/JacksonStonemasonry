@@ -12,7 +12,7 @@ serviceKey: "dry-stone-walling"
 thumb: "/assets/img/work-burford-wall-after.jpg"
 stone: "Cotswold limestone, laid dry"
 scope: "Collapsed head of a roadside retaining wall taken down and rebuilt to a level line"
-order: 3
+order: 11
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

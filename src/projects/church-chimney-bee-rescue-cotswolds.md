@@ -12,7 +12,7 @@ serviceKey: "stone-restoration"
 thumb: "/assets/img/work-church-bees-comb.jpg"
 stone: "Matching ashlar, pieced into the existing gable"
 scope: "Chimney taken down and the gable made good; colony rehomed by a beekeeper before any stone was moved"
-order: 1
+order: 4
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

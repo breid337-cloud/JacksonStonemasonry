@@ -12,7 +12,7 @@ serviceKey: "stone-restoration"
 thumb: "/assets/img/work-winchcombe-porch-after.jpg"
 stone: "Repairs to the existing cornice and parapet"
 scope: "Decayed cornice and parapet above the porch cut back and made good"
-order: 10
+order: 8
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }

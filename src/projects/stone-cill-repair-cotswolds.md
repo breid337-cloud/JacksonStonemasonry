@@ -12,7 +12,7 @@ serviceKey: "stone-restoration"
 thumb: "/assets/img/work-window-mullion-after.jpg"
 stone: "New dressed limestone, cut to the original profile"
 scope: "Eroded cill and mullion cut out and replaced"
-order: 5
+order: 6
 breadcrumbs:
   - { name: "Home", url: "/" }
   - { name: "Projects", url: "/projects/" }
