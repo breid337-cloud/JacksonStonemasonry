@@ -31,6 +31,11 @@ Around Winchcombe, Cheltenham and the north Cotswolds that almost always means C
 - **Gate piers and entrances** — stone piers, caps and copings for driveways and garden entrances.
 - **Garden structures** — steps, seats, plinths, outdoor kitchens and bespoke landscape stonework in mortared stone. (For mortar-free walls, see [dry stone walling](/dry-stone-walling/).)
 - **Dressed stone features** — cills, heads, mullions, quoins, string courses and copings, worked to profile by hand on the banker.
+<figure>
+  <img src="/assets/img/work-roof-coping.jpg" srcset="/assets/img/work-roof-coping-640.jpg 640w, /assets/img/work-roof-coping.jpg 1200w" sizes="(min-width: 60rem) 460px, 92vw" alt="A rounded stone coping running along a roof verge beside newly laid stone slates, seen from the scaffold" loading="lazy" width="1200" height="1600">
+  <figcaption>Coping along a verge, set against new stone slating.</figcaption>
+</figure>
+
 - **Stone slate and coping work** — wall heads, verges and copings detailed to shed water and last.
 
 <figure>
@@ -43,6 +48,26 @@ Around Winchcombe, Cheltenham and the north Cotswolds that almost always means C
   <figcaption>Before and after on a stone doorway — the moulded hood restored and new dressed stone pieced into the jambs. The fresh stone will mellow to match within a few seasons.</figcaption>
 </figure>
 
+## The work itself
+
+Photographs show the finished piece. These show it being made.
+
+<div class="figure-grid">
+  <figure>
+    <video controls preload="none" poster="/assets/img/video-poster-stonemasonry-1.jpg" width="480" height="848" playsinline>
+      <source src="/assets/video/workshop-stonemasonry-1.mp4" type="video/mp4">
+      Video: Charlie working a block of stone at a wooden banker outdoors, dust blowing away across the yard, with the Cotswold hills behind him.
+    </video>
+    <figcaption>Working at the banker outside, with the hills behind. Most dressed stone is still finished this way.</figcaption>
+  </figure>
+  <figure>
+    <video controls preload="none" poster="/assets/img/video-poster-stonemasonry-2.jpg" width="576" height="1024" playsinline>
+      <source src="/assets/video/workshop-stonemasonry-2.mp4" type="video/mp4">
+      Video: Charlie working a squared block down at the workshop bench with a power tool, in heavy stone dust.
+    </video>
+    <figcaption>Working a block down in the workshop, where most of the dust stays.</figcaption>
+  </figure>
+</div>
 ## Working with your architect or builder
 
 Much of our new-build work comes through architects, main contractors and landscape designers who need the stonework on a project done properly. We're used to:

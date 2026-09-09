@@ -28,6 +28,11 @@ Done badly, it slumps within a few years. The difference is in the detail: prope
   <figcaption>A newly built dry stone wall, finished with a continuous course of cope stones — the detail that locks the wall together and keeps water out of its core.</figcaption>
 </figure>
 
+<figure>
+  <img src="/assets/img/work-walling-in-progress.jpg" srcset="/assets/img/work-walling-in-progress-640.jpg 640w, /assets/img/work-walling-in-progress.jpg 1280w" sizes="(min-width: 60rem) 640px, 92vw" alt="Charlie building a dry stone wall in a garden, with stone graded out along the line of the wall and a tractor and trailer of stone behind" loading="lazy" width="1280" height="741">
+  <figcaption>Charlie building out a wall, with the stone graded along the line before it goes up.</figcaption>
+</figure>
+
 ## What we build
 
 - **Boundary walls** — property boundaries in traditional coursed Cotswold stone, from short garden frontages to long runs.
