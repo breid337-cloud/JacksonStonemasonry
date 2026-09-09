@@ -461,6 +461,10 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
 
 /* ---------- Quote form ---------- */
 .quote-form { max-width: 44rem; }
+/* A fieldset defaults to min-inline-size: min-content, so it refuses to
+   shrink below its widest child and runs past a narrow viewport whatever
+   width you give it. Same trap as min-width: 0 on a grid child. */
+fieldset { min-inline-size: 0; }
 .quote-form fieldset {
   border: 1px solid var(--stone-line); border-radius: var(--radius);
   background: var(--white); padding: 1.4rem 1.5rem; margin: 0 0 1.5rem;
@@ -487,7 +491,9 @@ figcaption { font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.5rem; }
   font: inherit; background: var(--paper); color: var(--ink);
 }
 .field input:focus, .field textarea:focus { outline: 2px solid var(--bronze); outline-offset: 1px; border-color: var(--bronze); }
-.field input[type="file"] { font: inherit; }
+/* A file input sizes itself to its button plus the "No file chosen" text and
+   will happily run past a 320px screen. */
+.field input[type="file"] { font: inherit; max-width: 100%; }
 .field-row { display: grid; gap: 1.1rem; grid-template-columns: 1fr 1fr; }
 @media (max-width: 40rem) { .field-row { grid-template-columns: 1fr; } }
 
