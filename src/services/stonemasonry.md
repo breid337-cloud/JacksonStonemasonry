@@ -68,6 +68,7 @@ Photographs show the finished piece. These show it being made.
     <figcaption>Working a block down in the workshop, where most of the dust stays.</figcaption>
   </figure>
 </div>
+
 ## Working with your architect or builder
 
 Much of our new-build work comes through architects, main contractors and landscape designers who need the stonework on a project done properly. We're used to:
