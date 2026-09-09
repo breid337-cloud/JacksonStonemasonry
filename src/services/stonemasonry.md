@@ -48,6 +48,26 @@ Around Winchcombe, Cheltenham and the north Cotswolds that almost always means C
   <figcaption>Before and after on a stone doorway — the moulded hood restored and new dressed stone pieced into the jambs. The fresh stone will mellow to match within a few seasons.</figcaption>
 </figure>
 
+## The work itself
+
+Photographs show the finished piece. These show it being made.
+
+<div class="figure-grid">
+  <figure>
+    <video controls preload="none" poster="/assets/img/video-poster-stonemasonry-1.jpg" width="480" height="848" playsinline>
+      <source src="/assets/video/workshop-stonemasonry-1.mp4" type="video/mp4">
+      Video: Charlie working a block of stone at a wooden banker outdoors, dust blowing away across the yard, with the Cotswold hills behind him.
+    </video>
+    <figcaption>Working at the banker outside, with the hills behind. Most dressed stone is still finished this way.</figcaption>
+  </figure>
+  <figure>
+    <video controls preload="none" poster="/assets/img/video-poster-stonemasonry-2.jpg" width="576" height="1024" playsinline>
+      <source src="/assets/video/workshop-stonemasonry-2.mp4" type="video/mp4">
+      Video: Charlie working a squared block down at the workshop bench with a power tool, in heavy stone dust.
+    </video>
+    <figcaption>Working a block down in the workshop, where most of the dust stays.</figcaption>
+  </figure>
+</div>
 ## Working with your architect or builder
 
 Much of our new-build work comes through architects, main contractors and landscape designers who need the stonework on a project done properly. We're used to:
