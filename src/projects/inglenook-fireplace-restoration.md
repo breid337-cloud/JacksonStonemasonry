@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Inglenook Fireplace Restoration"
 h1: "Inglenook Fireplace Restoration in a Cotswold Cottage"
-metaTitle: "Project: Inglenook Fireplace Restoration, the Cotswolds"
+metaTitle: "Inglenook Fireplace Restoration, the Cotswolds"
 metaDescription: "Case study: replacing the worn jambs of a cottage inglenook with clean new dressed stone, under the original oak bressummer beam."
 lede: "A cottage inglenook with worn, pitted jambs. New dressed stone either side, the original beam untouched — as Jackson's put it, good for another 200 years."
 projectLocation: "The Cotswolds"

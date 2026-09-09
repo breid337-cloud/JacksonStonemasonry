@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Eight-Foot Wall with a Carved Name Plaque"
 h1: "8ft Dry Stone Wall with a Carved Name Plaque"
-metaTitle: "Project: 8ft Dry Stone Wall and Carved Name Plaque, the Cotswolds"
+metaTitle: "8ft Dry Stone Wall and Carved Name Plaque, the Cotswolds"
 metaDescription: "Case study: eight feet high and six metres long, a new dry stone wall built to a gateway with a hand-carved house name plaque set into the face."
 lede: "Eight feet high, six metres long, and a hand-carved name plaque set into the face of it. Walling and banker work on the same job."
 projectLocation: "The Cotswolds"

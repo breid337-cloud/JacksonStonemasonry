@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Window Repair at The Swan, Bibury"
 h1: "Stone Window Repair at The Swan, Bibury"
-metaTitle: "Project: Stone Window Repair at The Swan, Bibury"
+metaTitle: "Stone Window Repair at The Swan, Bibury"
 metaDescription: "Case study: repairing the stone surround of a window at The Swan in Bibury, replacing eroded stone and making the building structural again."
 lede: "The stone around a window at The Swan in Bibury had eroded to the point that it was no longer doing its job. New stone brought the opening back into structure."
 projectLocation: "Bibury, Gloucestershire"

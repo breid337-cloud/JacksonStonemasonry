@@ -5,7 +5,7 @@ sample: true
 layout: layouts/project.njk
 title: "Cottage Frontage Restoration"
 h1: "Cotswold Stone Cottage Restoration, Winchcombe"
-metaTitle: "Project: Cotswold Stone Cottage Restoration in Winchcombe"
+metaTitle: "Cotswold Stone Cottage Restoration in Winchcombe"
 metaDescription: "Case study: restoring the front elevation of a Cotswold stone cottage in Winchcombe — cement pointing removed, repointed in lime, with matched stone repairs."
 lede: "Cement pointing had spent forty years slowly destroying this cottage frontage. We took it out by hand, repaired the worst stone, and repointed the elevation in lime."
 projectLocation: "Winchcombe, Gloucestershire"

@@ -5,7 +5,7 @@ sample: true
 layout: layouts/project.njk
 title: "Garden Wall Rebuild"
 h1: "Stone Garden Wall Repair, Cheltenham"
-metaTitle: "Project: Stone Garden Wall Repair in Cheltenham"
+metaTitle: "Stone Garden Wall Repair in Cheltenham"
 metaDescription: "Case study: rebuilding a bulging Victorian stone garden wall in Cheltenham — failed section taken down and rebuilt in lime with the original stone, copings refixed."
 lede: "A Victorian garden wall in Cheltenham had bulged past the point of no return. We took down the failed length and rebuilt it in lime, reusing every original stone."
 projectLocation: "Charlton Kings, Cheltenham"

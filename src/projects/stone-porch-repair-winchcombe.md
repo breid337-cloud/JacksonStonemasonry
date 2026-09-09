@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Stone Porch Repair, Winchcombe"
 h1: "Repairing a Stone Porch in Winchcombe"
-metaTitle: "Project: Stone Porch Repair in Winchcombe"
+metaTitle: "Stone Porch Repair in Winchcombe"
 metaDescription: "Case study: repairing the decayed cornice and parapet of a classical stone porch on a Winchcombe house, working off ladders above the front door."
 lede: "The cornice on top of a classical porch had spalled and broken away. Repaired in place, above the front door, without disturbing the rest of the elevation."
 projectLocation: "Winchcombe, Gloucestershire"

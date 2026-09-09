@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Courtyard Walling at the Lamb Inn, Burford"
 h1: "New Courtyard Stonework at the Lamb Inn, Burford"
-metaTitle: "Project: Courtyard Walling at the Lamb Inn, Burford"
+metaTitle: "Courtyard Walling at the Lamb Inn, Burford"
 metaDescription: "Case study: new coursed stone walling with a dressed coping, and a curved edging wall forming a gravel bed, in the courtyard of the Lamb Inn at Burford."
 lede: "A new coursed wall with a dressed coping, and a curved edge sweeping round a gravel bed — built into an existing courtyard at the Lamb Inn, Burford."
 projectLocation: "Burford, Oxfordshire"

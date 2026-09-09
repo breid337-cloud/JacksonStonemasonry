@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "A Rustic Wall for a Garden"
 h1: "New Rustic Dry Stone Garden Wall"
-metaTitle: "Project: Rustic Dry Stone Garden Wall, Gloucestershire"
+metaTitle: "Rustic Dry Stone Garden Wall, Gloucestershire"
 metaDescription: "Case study: a new dry stone wall built to a customer's brief for something rustic, dividing a gravelled drive from the lawn with a heavy upright coping."
 lede: "The brief was simply for something rustic to complement the garden. A new dry stone wall, built and coped by hand, dividing the drive from the lawn."
 projectLocation: "Gloucestershire"

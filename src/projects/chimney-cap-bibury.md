@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "A Chimney Cap for Bibury"
 h1: "Bespoke Carved Stone Chimney Cap, Bibury"
-metaTitle: "Project: Bespoke Stone Chimney Cap Cut for Bibury"
+metaTitle: "Bespoke Stone Chimney Cap Cut for Bibury"
 metaDescription: "Case study: a chimney cap cut and worked in the Jackson's workshop and delivered to Bibury — bespoke banker masonry from a single block."
 lede: "A chimney cap, cut and worked in the workshop from solid stone, then delivered out to Bibury."
 projectLocation: "Bibury, Gloucestershire"

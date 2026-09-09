@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Stone Cill Repair"
 h1: "Stone Window Cill Repair, the Cotswolds"
-metaTitle: "Project: Stone Window Cill Repair in the Cotswolds"
+metaTitle: "Stone Window Cill Repair in the Cotswolds"
 metaDescription: "Case study: cutting out an eroded stone window cill and mullion on a Cotswold building and piecing in new dressed stone to match."
 lede: "An eroded cill and mullion, cut out and replaced with new dressed stone that matches the original profile."
 projectLocation: "The Cotswolds"

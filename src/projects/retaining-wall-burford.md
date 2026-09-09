@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Retaining Wall Rebuild, Burford"
 h1: "Retaining Drystone Wall Repair in Burford"
-metaTitle: "Project: Retaining Drystone Wall Repair in Burford"
+metaTitle: "Retaining Drystone Wall Repair in Burford"
 metaDescription: "Case study: rebuilding the collapsed head of a roadside retaining drystone wall in Burford, taking it back to a clean, level line beneath the house."
 lede: "The top of a roadside retaining wall in Burford had broken up and was spilling toward the road. Rebuilt, it runs straight and level again."
 projectLocation: "Burford, Oxfordshire"

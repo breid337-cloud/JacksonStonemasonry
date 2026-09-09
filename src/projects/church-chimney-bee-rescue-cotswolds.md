@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Church Chimney and a Colony of Bees"
 h1: "Church Chimney Rebuild — With the Bees Rehomed First"
-metaTitle: "Project: Church Chimney Repair and Bee Removal, the Cotswolds"
+metaTitle: "Church Chimney Repair and Bee Removal, the Cotswolds"
 metaDescription: "Case study: a Cotswold church chimney taken down and rebuilt in matching ashlar — after a beekeeper had safely rehomed the honeybee colony living inside the wall."
 lede: "A Cotswold church needed its chimney taken down. A honeybee colony had other ideas, so the job started with a beekeeper and a rehoming."
 projectLocation: "The Cotswolds"
