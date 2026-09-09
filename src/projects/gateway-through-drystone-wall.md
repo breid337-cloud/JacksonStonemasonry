@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "A Doorway Through a 7ft Dry Stone Wall"
 h1: "Cutting a Gateway Through a 7ft Dry Stone Wall"
-metaTitle: "Project: New Gateway Through a 7ft Dry Stone Wall, the Cotswolds"
+metaTitle: "New Gateway Through a 7ft Dry Stone Wall, the Cotswolds"
 metaDescription: "Case study: opening a new gateway through a seven-foot Cotswold dry stone wall, building both cheeks square and re-coping across the top."
 lede: "Taking an opening through seven feet of dry stone wall, and building both sides back so they look as though the gateway was always there."
 projectLocation: "The Cotswolds"

@@ -5,7 +5,7 @@ sample: true
 layout: layouts/project.njk
 title: "Hand-Carved House Sign"
 h1: "Hand-Carved Cotswold Stone House Sign, Broadway"
-metaTitle: "Project: Hand-Carved Stone House Sign in Broadway"
+metaTitle: "Hand-Carved Stone House Sign in Broadway"
 metaDescription: "Case study: designing and hand-carving a Cotswold stone house name plaque for a period property in Broadway, from scale drawing to fixing on the front elevation."
 lede: "A house name plaque in Cotswold stone for a period property in Broadway — designed to scale, carved by hand, and built into the front elevation."
 projectLocation: "Broadway, Worcestershire"

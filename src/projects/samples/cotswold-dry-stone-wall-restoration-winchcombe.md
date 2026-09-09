@@ -5,7 +5,7 @@ sample: true
 layout: layouts/project.njk
 title: "Cotswold Dry Stone Wall Restoration"
 h1: "Cotswold Dry Stone Wall Restoration, Winchcombe"
-metaTitle: "Project: Dry Stone Wall Restoration in Winchcombe"
+metaTitle: "Dry Stone Wall Restoration in Winchcombe"
 metaDescription: "Case study: restoring a 45-metre Cotswold dry stone boundary wall near Winchcombe — collapsed sections rebuilt and the full run re-coped, reusing the original stone."
 lede: "A 45-metre stretch of collapsing boundary wall, taken back to sound work and rebuilt in traditional style using the original Cotswold stone."
 projectLocation: "Winchcombe, Gloucestershire"

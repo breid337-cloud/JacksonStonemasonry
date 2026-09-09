@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "Doorway Repair at The Baytree, Burford"
 h1: "Stone Doorway Repair at The Baytree, Burford"
-metaTitle: "Project: Stone Doorway Repair at The Baytree, Burford"
+metaTitle: "Stone Doorway Repair at The Baytree, Burford"
 metaDescription: "Case study: piecing new stone into the eroded jambs of a doorway at The Baytree in Burford, under an existing moulded stone hood."
 lede: "The rusticated jambs of a doorway at The Baytree in Burford had eroded and broken back. New stone, pieced in block by block."
 projectLocation: "Burford, Oxfordshire"

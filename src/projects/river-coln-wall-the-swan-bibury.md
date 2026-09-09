@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 title: "River Coln Wall Repair, Bibury"
 h1: "Repairing a Wall in the River Coln at The Swan, Bibury"
-metaTitle: "Project: River Coln Wall Repair at The Swan, Bibury"
+metaTitle: "River Coln Wall Repair at The Swan, Bibury"
 metaDescription: "Case study: repairing the stone wall retaining the River Coln through the gardens of The Swan at Bibury, one of the most photographed spots in the Cotswolds."
 lede: "The wall holding the River Coln through the gardens at The Swan, Bibury — repaired in the water, in one of the most photographed places in the Cotswolds."
 projectLocation: "Bibury, Gloucestershire"

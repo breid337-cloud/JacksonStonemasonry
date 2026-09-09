@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-GB">
+{#-
+  Google shows about 60 characters of a title. Appending " | Jackson's
+  Stonemasonry" to every page cost 25 of them, which pushed 38 of 39 pages over
+  and cut off the keywords people actually search for. So the brand is opt-in:
+  set titleBrand: true on the pages someone looks up by name. Everywhere else
+  the search is "stone fireplace cheltenham", not the firm's name, and those
+  words are worth more at the front of the title than the brand is at the end.
+-#}
+{%- set pageTitle = metaTitle or title -%}
+{%- if titleBrand %}{% set pageTitle = pageTitle + " | " + site.shortName %}{% endif -%}
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ metaTitle or title }} | {{ site.shortName }}</title>
+  <title>{{ pageTitle }}</title>
   <meta name="description" content="{{ metaDescription or site.description }}">
   <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}">
   {%- if site.googleSiteVerification %}
@@ -11,7 +21,7 @@
   {%- endif %}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.name }}">
-  <meta property="og:title" content="{{ metaTitle or title }} | {{ site.shortName }}">
+  <meta property="og:title" content="{{ pageTitle }}">
   <meta property="og:description" content="{{ metaDescription or site.description }}">
   <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}">
   <meta name="twitter:card" content="summary_large_image">
