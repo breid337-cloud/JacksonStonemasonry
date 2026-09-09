@@ -31,6 +31,11 @@ Around Winchcombe, Cheltenham and the north Cotswolds that almost always means C
 - **Gate piers and entrances** — stone piers, caps and copings for driveways and garden entrances.
 - **Garden structures** — steps, seats, plinths, outdoor kitchens and bespoke landscape stonework in mortared stone. (For mortar-free walls, see [dry stone walling](/dry-stone-walling/).)
 - **Dressed stone features** — cills, heads, mullions, quoins, string courses and copings, worked to profile by hand on the banker.
+<figure>
+  <img src="/assets/img/work-roof-coping.jpg" srcset="/assets/img/work-roof-coping-640.jpg 640w, /assets/img/work-roof-coping.jpg 1200w" sizes="(min-width: 60rem) 460px, 92vw" alt="A rounded stone coping running along a roof verge beside newly laid stone slates, seen from the scaffold" loading="lazy" width="1200" height="1600">
+  <figcaption>Coping along a verge, set against new stone slating.</figcaption>
+</figure>
+
 - **Stone slate and coping work** — wall heads, verges and copings detailed to shed water and last.
 
 <figure>

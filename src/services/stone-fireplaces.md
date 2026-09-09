@@ -46,6 +46,14 @@ the detail change from job to job.
     <img src="/assets/img/work-fireplace-ogee-arch.jpg" srcset="/assets/img/work-fireplace-ogee-arch-640.jpg 640w, /assets/img/work-fireplace-ogee-arch.jpg 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="A limestone fireplace surround with an ogee arch opening and moulded mantel, against fresh plaster, with a large single-slab hearth" loading="lazy" width="1600" height="1200">
     <figcaption>An ogee arch, cut and worked at the bench before delivery.</figcaption>
   </figure>
+  <figure>
+    <img src="/assets/img/work-fireplace-brick-inglenook.jpg" srcset="/assets/img/work-fireplace-brick-inglenook-640.jpg 640w, /assets/img/work-fireplace-brick-inglenook.jpg 1200w" sizes="(min-width: 60rem) 400px, 92vw" alt="A wide four-centred stone fireplace arch with a brick-lined firebox behind it and a single-slab stone hearth" loading="lazy" width="1200" height="1600">
+    <figcaption>A wide opening with the firebox lined in brick behind the stone.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/work-fireplace-panelled-room.jpg" srcset="/assets/img/work-fireplace-panelled-room-640.jpg 640w, /assets/img/work-fireplace-panelled-room.jpg 1600w" sizes="(min-width: 60rem) 400px, 92vw" alt="A stone fireplace surround with a four-centred arch, set into a panelled and painted room with a deep hearth slab" loading="lazy" width="1600" height="1200">
+    <figcaption>The same detail in a panelled room, cut to suit the proportions.</figcaption>
+  </figure>
 </div>
 
 ## What we make
@@ -59,6 +67,11 @@ the detail change from job to job.
 - **Restoration of old fireplaces** — cleaning centuries of soot from stone, replacing burnt or spalled pieces, and repointing in lime.
 
 ## Opening up a blocked fireplace
+
+<figure>
+  <img src="/assets/img/work-inglenook-finished.jpg" srcset="/assets/img/work-inglenook-finished-640.jpg 640w, /assets/img/work-inglenook-finished.jpg 1600w" sizes="(min-width: 60rem) 640px, 92vw" alt="An opened-up inglenook with an oak bressummer beam, exposed stone rear wall, new stone jambs either side and a wood burning stove on a flagstone hearth" loading="lazy" width="1600" height="1200">
+  <figcaption>An inglenook opened back up: oak bressummer, new jambs either side, and the original stone behind.</figcaption>
+</figure>
 
 This is one of the more satisfying jobs we do, and one of the most common in Cotswold cottages. Many original inglenooks were bricked up or reduced in the mid-twentieth century when open fires went out of fashion, then plastered over. What survives behind is often a far larger opening with a stone or oak lintel and the original jambs intact.
 

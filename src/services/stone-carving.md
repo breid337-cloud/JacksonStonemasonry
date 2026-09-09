@@ -37,6 +37,11 @@ We take on both new commissions and restoration carving: replacing eroded detail
   <figcaption>Mouldings worked to profile by hand in the workshop, ready to fix.</figcaption>
 </figure>
 
+<figure>
+  <img src="/assets/img/work-carved-baluster.jpg" srcset="/assets/img/work-carved-baluster-640.jpg 640w, /assets/img/work-carved-baluster.jpg 1200w" sizes="(min-width: 60rem) 460px, 92vw" alt="A turned stone baluster with a square base and cap standing on the bed of a workshop saw" loading="lazy" width="1200" height="1600">
+  <figcaption>A baluster turned from solid stone, on the saw bed in the workshop.</figcaption>
+</figure>
+
 ## How a commission works
 
 1. **Brief** — you tell us what you have in mind: the wording, the setting, rough size, and anything you'd like it to echo (a period, a typeface, existing detail on the house).
