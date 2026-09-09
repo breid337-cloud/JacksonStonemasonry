@@ -55,6 +55,13 @@ breadcrumbs:
           <p class="hint">A postcode helps us judge travel and, for walls, the local stone.</p>
           <input type="text" id="postcode" name="postcode" autocomplete="postal-code" required>
         </div>
+        {#- Built from site.areaServed so this list and the structured data can
+            never drift apart. It also earns its place for the reader: the first
+            thing someone wants to know on a quote form is whether you come out
+            to them. -#}
+        <p class="hint">We work across
+          {% for area in site.areaServed %}{{ area }}{% if loop.last %}{% elif loop.revindex0 == 1 %} and {% else %}, {% endif %}{% endfor %}.
+          A little outside? <a href="/areas/">See the areas we cover</a> — or just ask.</p>
       </fieldset>
 
       <fieldset>
