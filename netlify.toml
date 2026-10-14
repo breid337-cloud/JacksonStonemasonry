@@ -6,3 +6,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# The Cowley case study was first published under a Cockleford address.
+[[redirects]]
+  from = "/projects/repointing-cotswold-cottage-cockleford/"
+  to = "/projects/repointing-cotswold-cottage-cowley/"
+  status = 301
