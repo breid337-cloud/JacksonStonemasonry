@@ -63,6 +63,14 @@ With `npm run serve` running, the terminal prints a second address like
 - Filenames don't matter — they get renamed sensibly when wired into a page.
 - Before/after pairs are the most valuable thing you can add.
 
+### Lighter photos (AVIF) — for whoever wires photos in
+
+Every photograph is also served as AVIF, roughly half the size of the JPEG, in 640, 800
+and 960px widths plus full size. After adding or replacing a photo in `src/assets/img/`,
+run `npm run images` and commit the `.avif` files and `src/_data/images.json` it writes.
+Forgetting is harmless: the build serves the plain JPEG for any photo it has no current
+AVIF for, and says so in the build log.
+
 ## Site structure
 
 ```
