@@ -196,86 +196,6 @@
   ],
   "hash": "16fb4777c732"
  },
- "/assets/img/work-cockleford-after.jpg": {
-  "base": "/assets/img/work-cockleford-after",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "4c4d0895099d"
- },
- "/assets/img/work-cockleford-before.jpg": {
-  "base": "/assets/img/work-cockleford-before",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "e6d880adf7ef"
- },
- "/assets/img/work-cockleford-cement.jpg": {
-  "base": "/assets/img/work-cockleford-cement",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "6210a73d3c5a"
- },
- "/assets/img/work-cockleford-charlie.jpg": {
-  "base": "/assets/img/work-cockleford-charlie",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "3fed54eb4fc7"
- },
- "/assets/img/work-cockleford-end-after.jpg": {
-  "base": "/assets/img/work-cockleford-end-after",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "a07ee4a591bf"
- },
- "/assets/img/work-cockleford-end-before.jpg": {
-  "base": "/assets/img/work-cockleford-end-before",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "b25a7af578ca"
- },
- "/assets/img/work-cockleford-finished.jpg": {
-  "base": "/assets/img/work-cockleford-finished",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "4e1831c59911"
- },
- "/assets/img/work-cockleford-raked-out.jpg": {
-  "base": "/assets/img/work-cockleford-raked-out",
-  "widths": [
-   640,
-   800,
-   960,
-   1600
-  ],
-  "hash": "5ab978e93413"
- },
  "/assets/img/work-cotswold-wall-after.jpg": {
   "base": "/assets/img/work-cotswold-wall-after",
   "widths": [
@@ -295,6 +215,86 @@
    1600
   ],
   "hash": "7775c43c62b4"
+ },
+ "/assets/img/work-cowley-after.jpg": {
+  "base": "/assets/img/work-cowley-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "4c4d0895099d"
+ },
+ "/assets/img/work-cowley-before.jpg": {
+  "base": "/assets/img/work-cowley-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "e6d880adf7ef"
+ },
+ "/assets/img/work-cowley-cement.jpg": {
+  "base": "/assets/img/work-cowley-cement",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "6210a73d3c5a"
+ },
+ "/assets/img/work-cowley-charlie.jpg": {
+  "base": "/assets/img/work-cowley-charlie",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "3fed54eb4fc7"
+ },
+ "/assets/img/work-cowley-end-after.jpg": {
+  "base": "/assets/img/work-cowley-end-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "a07ee4a591bf"
+ },
+ "/assets/img/work-cowley-end-before.jpg": {
+  "base": "/assets/img/work-cowley-end-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "b25a7af578ca"
+ },
+ "/assets/img/work-cowley-finished.jpg": {
+  "base": "/assets/img/work-cowley-finished",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "4e1831c59911"
+ },
+ "/assets/img/work-cowley-raked-out.jpg": {
+  "base": "/assets/img/work-cowley-raked-out",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "5ab978e93413"
  },
  "/assets/img/work-doorway-before-after.jpg": {
   "base": "/assets/img/work-doorway-before-after",
