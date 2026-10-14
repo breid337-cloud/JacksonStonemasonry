@@ -41,7 +41,7 @@ Up close, the old pointing was a patchwork of hard grey cement over earlier mort
 
 ## What we did
 
-Charlie and Elliot cleaned the stonework and carefully removed the old mortar back to the stone. Broken, badly set and veneer stones were taken out and replaced, cornerstones included, and Charlie rebuilt the walling under two of the windows.
+Charlie and Elliot cleaned the stonework and carefully removed the old mortar back to the stone. Broken, badly set and veneer stones were taken out and replaced, cornerstones included, and Charlie and Elliot rebuilt the walling under two of the windows.
 
 <figure>
   <img src="/assets/img/work-cockleford-raked-out.jpg" srcset="/assets/img/work-cockleford-raked-out-640.jpg 640w, /assets/img/work-cockleford-raked-out.jpg 1600w" sizes="(min-width: 60rem) 640px, 92vw" alt="The wall below a ground-floor window opened up during the work, old mortar raked out and failed stones removed, with a pile of rubble at its foot" loading="lazy" width="1600" height="516">
