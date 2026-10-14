@@ -1,0 +1,678 @@
+{
+ "/assets/img/hero-wall-mobile.jpg": {
+  "base": "/assets/img/hero-wall-mobile",
+  "widths": [
+   640,
+   820
+  ],
+  "hash": "df502f1ca3fe"
+ },
+ "/assets/img/hero-wall.jpg": {
+  "base": "/assets/img/hero-wall",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "b29bc7a543fa"
+ },
+ "/assets/img/logo.png": {
+  "base": "/assets/img/logo",
+  "widths": [
+   128
+  ],
+  "hash": "429e889e3a04"
+ },
+ "/assets/img/og-default.jpg": {
+  "base": "/assets/img/og-default",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "05514e74768d"
+ },
+ "/assets/img/restoration-pointing.jpg": {
+  "base": "/assets/img/restoration-pointing",
+  "widths": [
+   640,
+   800,
+   960,
+   1500
+  ],
+  "hash": "1ce700381605"
+ },
+ "/assets/img/service-dry-stone-walling.jpg": {
+  "base": "/assets/img/service-dry-stone-walling",
+  "widths": [
+   640,
+   800,
+   960
+  ],
+  "hash": "5f36a4cea81e"
+ },
+ "/assets/img/service-house-signs.jpg": {
+  "base": "/assets/img/service-house-signs",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "a3a6c70291ec"
+ },
+ "/assets/img/service-stone-carving.jpg": {
+  "base": "/assets/img/service-stone-carving",
+  "widths": [
+   640,
+   800,
+   960
+  ],
+  "hash": "86d622133622"
+ },
+ "/assets/img/service-stone-cleaning.jpg": {
+  "base": "/assets/img/service-stone-cleaning",
+  "widths": [
+   640,
+   800,
+   960
+  ],
+  "hash": "3d0f00a6c945"
+ },
+ "/assets/img/service-stone-fireplaces.jpg": {
+  "base": "/assets/img/service-stone-fireplaces",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "6ce1439ac89a"
+ },
+ "/assets/img/service-stone-restoration.jpg": {
+  "base": "/assets/img/service-stone-restoration",
+  "widths": [
+   640,
+   800,
+   960
+  ],
+  "hash": "44db79457dde"
+ },
+ "/assets/img/service-stone-wall-repair.jpg": {
+  "base": "/assets/img/service-stone-wall-repair",
+  "widths": [
+   640,
+   800,
+   960
+  ],
+  "hash": "b2a7d1b59f0f"
+ },
+ "/assets/img/service-stonemasonry.jpg": {
+  "base": "/assets/img/service-stonemasonry",
+  "widths": [
+   640,
+   800,
+   960
+  ],
+  "hash": "2da0914d9b2d"
+ },
+ "/assets/img/work-burford-wall-after.jpg": {
+  "base": "/assets/img/work-burford-wall-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1440
+  ],
+  "hash": "4fbde330540e"
+ },
+ "/assets/img/work-burford-wall-before.jpg": {
+  "base": "/assets/img/work-burford-wall-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1440
+  ],
+  "hash": "561f64af7272"
+ },
+ "/assets/img/work-carved-baluster.jpg": {
+  "base": "/assets/img/work-carved-baluster",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "0cdaf733c1e9"
+ },
+ "/assets/img/work-carved-mouldings.jpg": {
+  "base": "/assets/img/work-carved-mouldings",
+  "widths": [
+   640,
+   767
+  ],
+  "hash": "bd42c73fe1b8"
+ },
+ "/assets/img/work-carved-plinth.jpg": {
+  "base": "/assets/img/work-carved-plinth",
+  "widths": [
+   640,
+   800,
+   960,
+   1428
+  ],
+  "hash": "9ade782a3d2f"
+ },
+ "/assets/img/work-church-bees-comb.jpg": {
+  "base": "/assets/img/work-church-bees-comb",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "378cb7fe7919"
+ },
+ "/assets/img/work-church-bees-drilling.jpg": {
+  "base": "/assets/img/work-church-bees-drilling",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "be1ea8667e70"
+ },
+ "/assets/img/work-church-bees-removal.jpg": {
+  "base": "/assets/img/work-church-bees-removal",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "16fb4777c732"
+ },
+ "/assets/img/work-cotswold-wall-after.jpg": {
+  "base": "/assets/img/work-cotswold-wall-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "00ae3792ce10"
+ },
+ "/assets/img/work-cotswold-wall-before.jpg": {
+  "base": "/assets/img/work-cotswold-wall-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "7775c43c62b4"
+ },
+ "/assets/img/work-doorway-before-after.jpg": {
+  "base": "/assets/img/work-doorway-before-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "7a54665f9cc8"
+ },
+ "/assets/img/work-doorway-masonry.jpg": {
+  "base": "/assets/img/work-doorway-masonry",
+  "widths": [
+   640,
+   767
+  ],
+  "hash": "699eec030102"
+ },
+ "/assets/img/work-dry-stone-wall.jpg": {
+  "base": "/assets/img/work-dry-stone-wall",
+  "widths": [
+   640,
+   767
+  ],
+  "hash": "91e9f0f46926"
+ },
+ "/assets/img/work-fireplace-bolection.jpg": {
+  "base": "/assets/img/work-fireplace-bolection",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "c25dd4d90524"
+ },
+ "/assets/img/work-fireplace-brick-inglenook.jpg": {
+  "base": "/assets/img/work-fireplace-brick-inglenook",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "723cd4dc9f7d"
+ },
+ "/assets/img/work-fireplace-finished-room.jpg": {
+  "base": "/assets/img/work-fireplace-finished-room",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "68180ea30fc4"
+ },
+ "/assets/img/work-fireplace-ogee-arch.jpg": {
+  "base": "/assets/img/work-fireplace-ogee-arch",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "8696f63f4fcb"
+ },
+ "/assets/img/work-fireplace-panelled-room.jpg": {
+  "base": "/assets/img/work-fireplace-panelled-room",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "b894c0ccf104"
+ },
+ "/assets/img/work-fireplace-tudor-arch.jpg": {
+  "base": "/assets/img/work-fireplace-tudor-arch",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "64e14c092a13"
+ },
+ "/assets/img/work-garden-wall.jpg": {
+  "base": "/assets/img/work-garden-wall",
+  "widths": [
+   640,
+   767
+  ],
+  "hash": "47114baa7d37"
+ },
+ "/assets/img/work-house-number-fixed.jpg": {
+  "base": "/assets/img/work-house-number-fixed",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "cdc4a61b65a5"
+ },
+ "/assets/img/work-house-number-round.jpg": {
+  "base": "/assets/img/work-house-number-round",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "4d3a4bb0dd8b"
+ },
+ "/assets/img/work-house-sign-lettered.jpg": {
+  "base": "/assets/img/work-house-sign-lettered",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "a3a6c70291ec"
+ },
+ "/assets/img/work-house-sign-uncut.jpg": {
+  "base": "/assets/img/work-house-sign-uncut",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "f153ebfdcb4d"
+ },
+ "/assets/img/work-inglenook-after.jpg": {
+  "base": "/assets/img/work-inglenook-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "f80229363177"
+ },
+ "/assets/img/work-inglenook-before.jpg": {
+  "base": "/assets/img/work-inglenook-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "22a73bf1d5ee"
+ },
+ "/assets/img/work-inglenook-finished.jpg": {
+  "base": "/assets/img/work-inglenook-finished",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "6ce1439ac89a"
+ },
+ "/assets/img/work-lamb-inn-after.jpg": {
+  "base": "/assets/img/work-lamb-inn-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "c743421a3b22"
+ },
+ "/assets/img/work-lamb-inn-before.jpg": {
+  "base": "/assets/img/work-lamb-inn-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "2f05ccc7a0a2"
+ },
+ "/assets/img/work-lamb-inn-wall.jpg": {
+  "base": "/assets/img/work-lamb-inn-wall",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "6b4b727defd1"
+ },
+ "/assets/img/work-mason-carving-grinder.jpg": {
+  "base": "/assets/img/work-mason-carving-grinder",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "5263438b9e45"
+ },
+ "/assets/img/work-mason-carving-mallet.jpg": {
+  "base": "/assets/img/work-mason-carving-mallet",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "b2a7bfaeade2"
+ },
+ "/assets/img/work-mason-carving-wide.jpg": {
+  "base": "/assets/img/work-mason-carving-wide",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "9cff317abb5f"
+ },
+ "/assets/img/work-old-rectory-gates.jpg": {
+  "base": "/assets/img/work-old-rectory-gates",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "9553a0bffc30"
+ },
+ "/assets/img/work-old-rectory-plaque.jpg": {
+  "base": "/assets/img/work-old-rectory-plaque",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "9065fc5ef6d3"
+ },
+ "/assets/img/work-old-rectory-wall.jpg": {
+  "base": "/assets/img/work-old-rectory-wall",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "89c2e240fba7"
+ },
+ "/assets/img/work-roof-coping.jpg": {
+  "base": "/assets/img/work-roof-coping",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "5a573c91abb4"
+ },
+ "/assets/img/work-rustic-wall-building.jpg": {
+  "base": "/assets/img/work-rustic-wall-building",
+  "widths": [
+   640,
+   800,
+   960,
+   1170
+  ],
+  "hash": "2086b68d0ceb"
+ },
+ "/assets/img/work-rustic-wall-cutting.jpg": {
+  "base": "/assets/img/work-rustic-wall-cutting",
+  "widths": [
+   640,
+   800,
+   960,
+   1170
+  ],
+  "hash": "3d7341f47f40"
+ },
+ "/assets/img/work-rustic-wall-drive.jpg": {
+  "base": "/assets/img/work-rustic-wall-drive",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "2d3d62b03abf"
+ },
+ "/assets/img/work-rustic-wall-garden.jpg": {
+  "base": "/assets/img/work-rustic-wall-garden",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "c8dd76e19e2c"
+ },
+ "/assets/img/work-stream-cleaning-after.jpg": {
+  "base": "/assets/img/work-stream-cleaning-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "512e7bfcbd7c"
+ },
+ "/assets/img/work-stream-cleaning.jpg": {
+  "base": "/assets/img/work-stream-cleaning",
+  "widths": [
+   640,
+   767
+  ],
+  "hash": "7c0f5f49cca1"
+ },
+ "/assets/img/work-wall-door-after.jpg": {
+  "base": "/assets/img/work-wall-door-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1440
+  ],
+  "hash": "afda865c413b"
+ },
+ "/assets/img/work-wall-door-before.jpg": {
+  "base": "/assets/img/work-wall-door-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1440
+  ],
+  "hash": "476f85df0e01"
+ },
+ "/assets/img/work-wall-door-cheek.jpg": {
+  "base": "/assets/img/work-wall-door-cheek",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "3045479d96fc"
+ },
+ "/assets/img/work-wall-door-gateway.jpg": {
+  "base": "/assets/img/work-wall-door-gateway",
+  "widths": [
+   640,
+   800,
+   960,
+   1200
+  ],
+  "hash": "2974de4d3c3a"
+ },
+ "/assets/img/work-walling-in-progress.jpg": {
+  "base": "/assets/img/work-walling-in-progress",
+  "widths": [
+   640,
+   800,
+   960,
+   1280
+  ],
+  "hash": "43c6a8cd6a5e"
+ },
+ "/assets/img/work-winchcombe-porch-after.jpg": {
+  "base": "/assets/img/work-winchcombe-porch-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1440
+  ],
+  "hash": "caebaa2730a0"
+ },
+ "/assets/img/work-winchcombe-porch-before.jpg": {
+  "base": "/assets/img/work-winchcombe-porch-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1440
+  ],
+  "hash": "706c5ce390d7"
+ },
+ "/assets/img/work-winchcombe-porch-during.jpg": {
+  "base": "/assets/img/work-winchcombe-porch-during",
+  "widths": [
+   640,
+   800,
+   960,
+   1440
+  ],
+  "hash": "dcf6994892d7"
+ },
+ "/assets/img/work-window-mullion-after.jpg": {
+  "base": "/assets/img/work-window-mullion-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1280
+  ],
+  "hash": "b60d452bb21a"
+ },
+ "/assets/img/work-window-mullion-before.jpg": {
+  "base": "/assets/img/work-window-mullion-before",
+  "widths": [
+   640,
+   800,
+   960,
+   1280
+  ],
+  "hash": "1152d6f55249"
+ },
+ "/assets/img/work-window-restoration.jpg": {
+  "base": "/assets/img/work-window-restoration",
+  "widths": [
+   640,
+   767
+  ],
+  "hash": "3be41dcc54a1"
+ },
+ "/assets/img/work-window-surround-before-after.jpg": {
+  "base": "/assets/img/work-window-surround-before-after",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "b79cd3aa24cc"
+ },
+ "/assets/img/work-window-surround.jpg": {
+  "base": "/assets/img/work-window-surround",
+  "widths": [
+   640,
+   800,
+   960
+  ],
+  "hash": "4f01fc85527c"
+ },
+ "/assets/img/work-workshop-saw.jpg": {
+  "base": "/assets/img/work-workshop-saw",
+  "widths": [
+   640,
+   800,
+   960,
+   1600
+  ],
+  "hash": "6c4ed870143e"
+ }
+}

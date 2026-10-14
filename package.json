@@ -5,7 +5,8 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+    "images": "node scripts/avif.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/breid337-cloud/JacksonStonemasonry#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6"
+    "@11ty/eleventy": "^3.1.6",
+    "sharp": "^0.34.5"
   },
   "private": true
 }
