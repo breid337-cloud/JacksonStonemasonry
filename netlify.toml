@@ -12,3 +12,9 @@
   from = "/projects/repointing-cotswold-cottage-cockleford/"
   to = "/projects/repointing-cotswold-cottage-cowley/"
   status = 301
+
+# Stone cleaning was dropped as a service in November 2026.
+[[redirects]]
+  from = "/stone-cleaning/"
+  to = "/stone-restoration/"
+  status = 301

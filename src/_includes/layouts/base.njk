@@ -51,7 +51,7 @@
       </a>
       <nav class="site-nav" id="site-nav" aria-label="Main navigation">
         <ul>
-          <li><a href="/services/"{% if '/services' in page.url or page.url in ['/dry-stone-walling/','/stone-restoration/','/repointing/','/stone-cleaning/','/stone-carving/','/stonemasonry/','/stone-wall-repair/','/stone-fireplaces/'] %} aria-current="page"{% endif %}>Services</a></li>
+          <li><a href="/services/"{% if '/services' in page.url or page.url in ['/dry-stone-walling/','/stone-restoration/','/repointing/','/stone-carving/','/stonemasonry/','/stone-wall-repair/','/stone-fireplaces/'] %} aria-current="page"{% endif %}>Services</a></li>
           <li><a href="/projects/"{% if '/projects' in page.url %} aria-current="page"{% endif %}>Projects</a></li>
           <li><a href="/areas/"{% if '/areas' in page.url %} aria-current="page"{% endif %}>Areas We Cover</a></li>
           <li><a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a></li>
@@ -80,7 +80,7 @@
         <p>Send us a few photos and a rough idea of the job — we&rsquo;ll come back to you with honest advice and a free, no-obligation quotation.</p>
       </div>
       <div class="cta-band__actions">
-        <a class="btn btn--light" href="/quote/">Request a Free Quote</a>
+        <a class="btn btn--primary" href="/quote/">Request a Free Quote</a>
         <a class="btn btn--ghost" href="tel:{{ site.phoneInternational }}">Call {{ site.phone }}</a>
       </div>
     </div>
@@ -92,7 +92,7 @@
         <p class="footer-brand">{{ site.name }}</p>
         <p>{{ site.address.locality }}, {{ site.address.nearTown }},<br>{{ site.address.region }}, UK</p>
         <p><a href="tel:{{ site.phoneInternational }}">{{ site.phone }}</a><br>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <a href="mailto:{{ site.email }}">{{ site.email | replace("@", "@<wbr>") | safe }}</a></p>
         {%- if site.facebookUrl %}
         <p><a class="footer-social" href="{{ site.facebookUrl }}" target="_blank" rel="noopener">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12"/></svg>

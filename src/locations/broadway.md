@@ -5,7 +5,7 @@ shortTitle: "Broadway"
 placeName: "Broadway"
 h1: "Stonemasons in Broadway"
 metaTitle: "Stonemasons in Broadway | Cotswold Stone Specialists"
-metaDescription: "Stonemasons serving Broadway, Worcestershire from nearby Winchcombe — Cotswold stone restoration, dry stone walling, wall repair and stone cleaning. Free quotations."
+metaDescription: "Stonemasons serving Broadway, Worcestershire from nearby Winchcombe — Cotswold stone restoration, dry stone walling, and wall repair. Free quotations."
 lede: "Broadway's honey-coloured stone is the Cotswolds at its best — and it deserves work to match. We're 15 minutes away in Winchcombe, restoring and building in the local stone."
 lat: 52.0378
 lon: -1.86
@@ -28,7 +28,6 @@ We're based over the hill in Winchcombe, about 15 minutes away, and work in and 
 - **Stone restoration** — lime repointing, matched stone replacement and repair on the village's period and listed buildings, done to the standard a place like Broadway expects.
 - **Dry stone walling** — the walls around Broadway are classic North Cotswold work; we build new walls, rebuild slumped ones and repair gaps using traditional technique. See [dry stone walling](/dry-stone-walling/).
 - **Stone wall repair** — garden and roadside walls rebuilt with the original stone, tied invisibly into the standing work.
-- **Stone cleaning** — careful, tested cleaning of algae and grime; never pressure-blasting, which would ruin the soft weathered face that gives Broadway stone its colour.
 - **New stonework and carving** — extensions and garden stonework matched to existing buildings, and hand-carved house names for village properties.
 - **[House signs and numbers](/house-signs/)** — carved names and numbers for Broadway’s honey-stone cottages and the properties along the High Street, cut in stone chosen to sit against what is already there.
 

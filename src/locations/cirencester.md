@@ -5,7 +5,7 @@ shortTitle: "Cirencester"
 placeName: "Cirencester"
 h1: "Stonemasons in Cirencester"
 metaTitle: "Stonemasons in Cirencester | Restoration & Walling"
-metaDescription: "Stonemasons serving Cirencester and the south Cotswolds — Cotswold stone restoration, dry stone walling, garden wall repair and stone cleaning. Free quotations."
+metaDescription: "Stonemasons serving Cirencester and the south Cotswolds — Cotswold stone restoration, dry stone walling, and garden wall repair. Free quotations."
 lede: "The capital of the Cotswolds has been building in limestone since Roman times. We restore, repair and build stonework across Cirencester and the villages around it."
 lat: 51.7192
 lon: -1.9686
@@ -28,7 +28,6 @@ We're based in Winchcombe and cover Cirencester and the south Cotswolds for the 
 - **Stone restoration** — lime repointing, matched stone replacement and repair on period and listed buildings across the town centre and conservation area.
 - **Garden and boundary wall repair** — Cirencester's long runs of stone walling are showing their age in places; we rebuild failed sections, refix copings and repoint in lime. See [stone wall repair](/stone-wall-repair/).
 - **Dry stone walling** — new and rebuilt dry stone walls in the villages and farmland around the town, built in traditional Cotswold style.
-- **Stone cleaning** — sympathetic cleaning of stone frontages, walls and steps, tested first and never blasted.
 - **New stonework and carving** — dressed stone for extensions and gardens, and hand-carved house names, numbers and date stones.
 - **[House signs and numbers](/house-signs/)** — carved house names, numbers and date stones for Cirencester properties, fixed to an existing wall or built into new walling as it goes up.
 

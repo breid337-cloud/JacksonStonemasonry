@@ -115,7 +115,7 @@ Yes. We record the profiles and tooling of the existing work and cut the new pie
 No — we do the stonework and work alongside your stove installer. Choose the stove first if you can, because its hearth and clearance requirements determine the stone dimensions.
 
 **Can old sooted stone be cleaned up?**
-Usually. Soot in porous limestone needs an appropriate method rather than a wire brush and bleach, which drives staining deeper. We test a discreet area first — the same approach as our [stone cleaning](/stone-cleaning/) work.
+Usually. Soot in porous limestone needs an appropriate method rather than a wire brush and bleach, which drives staining deeper. We test a discreet area first.
 
 **How long does a fireplace take?**
 Once the design is approved, a straightforward surround is typically a few weeks from cutting to fixing, depending on the work queue. Opening up an inglenook adds time for the structural work and for the opening to dry out. We give you a realistic date with the quotation, not an optimistic one.
