@@ -17,6 +17,13 @@
   ],
   "hash": "b29bc7a543fa"
  },
+ "/assets/img/logo-badge.png": {
+  "base": "/assets/img/logo-badge",
+  "widths": [
+   480
+  ],
+  "hash": "27deae6aba96"
+ },
  "/assets/img/logo.png": {
   "base": "/assets/img/logo",
   "widths": [
