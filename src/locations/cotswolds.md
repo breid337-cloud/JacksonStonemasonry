@@ -5,7 +5,7 @@ shortTitle: "The Cotswolds"
 placeName: "the Cotswolds"
 h1: "Stonemasons in the Cotswolds"
 metaTitle: "Cotswold Stonemasons | Dry Stone Walling & Stone Restoration"
-metaDescription: "Traditional Cotswold stonemasons based in Winchcombe — dry stone walling, Cotswold stone restoration, wall repair, cleaning and carving across the Cotswolds. Free quotes."
+metaDescription: "Traditional Cotswold stonemasons based in Winchcombe — dry stone walling, Cotswold stone restoration, wall repair and carving across the Cotswolds. Free quotes."
 lede: "The Cotswolds were built by stonemasons — and keeping them looking the way they do is still a mason's job. We work across the region from our base in Winchcombe."
 permalink: "/areas/cotswolds/"
 order: 8
@@ -24,7 +24,6 @@ Keeping that landscape looking the way it does isn't a heritage abstraction; it'
 - **[Dry stone walling](/dry-stone-walling/)** — the region's signature craft: new walls, rebuilds and repairs in traditional style.
 - **[Stone restoration](/stone-restoration/)** — lime repointing, matched stone replacement and sympathetic repair of period buildings.
 - **[Stone wall repair](/stone-wall-repair/)** — collapsed, bulging and vehicle-damaged walls rebuilt with their original stone.
-- **[Stone cleaning](/stone-cleaning/)** — careful, tested cleaning that respects the weathered face of soft limestone.
 - **[Stonemasonry](/stonemasonry/)** — new stonework for extensions, gardens and new builds, matched to the local vernacular.
 - **[Stone carving](/stone-carving/)** — hand-carved house signs, date stones and replacement architectural detail.
 - **[House signs and numbers](/house-signs/)** — hand-cut house names, door numbers and date stones, built into a wall or fixed to an existing one, anywhere we work across the Cotswolds.

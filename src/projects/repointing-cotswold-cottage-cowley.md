@@ -64,7 +64,7 @@ They then repointed the whole front elevation in lime mortar. The colour mattere
 Charlie and Elliot kept the site clean throughout. At the end of each working day the paving was brushed, the rubble collected and the tools stored away, and the homeowners were kept informed of the working arrangements and any change to the schedule.
 
 <figure>
-  <img src="/assets/img/work-cowley-charlie.jpg" srcset="/assets/img/work-cowley-charlie-640.jpg 640w, /assets/img/work-cowley-charlie.jpg 1600w" sizes="(min-width: 60rem) 640px, 92vw" alt="Charlie of Jackson's Stonemasonry on a ladder against the finished end wing of the cottage, holding a brush" loading="lazy" width="1600" height="1200">
+  <img src="/assets/img/work-cowley-charlie.jpg" srcset="/assets/img/work-cowley-charlie-640.jpg 640w, /assets/img/work-cowley-charlie.jpg 1600w" sizes="(min-width: 60rem) 640px, 92vw" alt="Charlie of Cotswold Stonemasons on a ladder against the finished end wing of the cottage, holding a brush" loading="lazy" width="1600" height="1200">
   <figcaption>Charlie on the end wing.</figcaption>
 </figure>
 

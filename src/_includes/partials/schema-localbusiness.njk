@@ -4,6 +4,9 @@
   "@type": "LocalBusiness",
   "@id": "{{ site.url }}/#business",
   "name": "{{ site.name }}",
+  {%- if site.formerName %}
+  "alternateName": {{ site.formerName | dump | safe }},
+  {%- endif %}
   "description": "{{ site.description }}",
   "url": "{{ site.url }}/",
   "telephone": "{{ site.phoneInternational }}",
@@ -28,6 +31,6 @@
     {%- endfor %}
   ],
   "logo": "{{ '/assets/img/logo.png' | absoluteUrl(site.url) }}",
-  "knowsAbout": ["Stonemasonry", "Dry stone walling", "Stone restoration", "Stone cleaning", "Stone carving", "Cotswold stone", "Lime mortar"]
+  "knowsAbout": ["Stonemasonry", "Dry stone walling", "Stone restoration", "Stone carving", "Cotswold stone", "Lime mortar"]
 }
 </script>

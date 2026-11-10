@@ -32,4 +32,4 @@ The failed stone was cut out and new dressed stone pieced in to match the existi
 
 ## The result
 
-In Jackson's own words, the repair made "the building structural again" — which is the point of restoration work on a building like this. It is not cosmetic; the window is holding the wall up.
+In the masons' own words, the repair made "the building structural again" — which is the point of restoration work on a building like this. It is not cosmetic; the window is holding the wall up.

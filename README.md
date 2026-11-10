@@ -1,6 +1,6 @@
-# Jackson's Stonemasonry — SEO-first website
+# Cotswold Stonemasons — SEO-first website
 
-A rebuilt website for **Jackson's Stonemasonry Ltd** (Winchcombe, Gloucestershire): a local-business lead-generation site rather than a brochure. Built as a small content **system** — services, locations, projects, FAQs and reviews are data files and markdown, so new pages are added by adding a file, not by editing HTML.
+A rebuilt website for **Cotswold Stonemasons Ltd** (formerly Jackson's Stonemasonry Ltd) (Winchcombe, Gloucestershire): a local-business lead-generation site rather than a brochure. Built as a small content **system** — services, locations, projects, FAQs and reviews are data files and markdown, so new pages are added by adding a file, not by editing HTML.
 
 Built with [Eleventy](https://www.11ty.dev/) (11ty). No client-side framework; one small JS file for the mobile menu.
 
@@ -12,7 +12,7 @@ npm run serve    # local dev server at http://localhost:8080
 npm run build    # static site output to _site/
 ```
 
-The site is hosted on **Netlify** at <https://jacksonstonemasonry.netlify.app>, built from the
+The site is hosted on **Netlify** at <https://cotswoldstonemasons.com> (Netlify address <https://jacksonstonemasonry.netlify.app>), built from the
 `main` branch. **Every push to `main` deploys automatically** — there is no manual publish step.
 
 ## Working on the site from your own machine
@@ -77,8 +77,7 @@ AVIF for, and says so in the build log.
 /                      Homepage — "Traditional Stonemasonry & Dry Stone Walling in the Cotswolds"
 /services/             Services hub
 /dry-stone-walling/    ┐
-/stone-restoration/    │
-/stone-cleaning/       │ One SEO-targeted page per service (700–1400 words each)
+/stone-restoration/    │ One SEO-targeted page per service (700–1400 words each)
 /stone-carving/        │
 /stonemasonry/         │
 /stone-wall-repair/    │
@@ -107,7 +106,7 @@ Technical SEO baked in: unique title + meta description per page, canonical URLs
 
 ## ⚠️ Before launch — required
 
-1. **Set the real domain** in `src/_data/site.json` (`url`). It currently points at the live Netlify address; when the business buys a domain (e.g. `jacksonsstonemasonry.co.uk`), attach it in Netlify and change this value — it drives canonicals, the sitemap and structured data.
+1. **The domain is `cotswoldstonemasons.com`** — set as `url` in `src/_data/site.json`, which drives canonicals, the sitemap and structured data. It must be attached in Netlify (Domain management → Add a domain, then follow its DNS steps) and set as the primary domain, so the `.netlify.app` address redirects to it. Add it as a new property in Google Search Console, submit `/sitemap.xml`, and put the new verification token in `site.json` → `googleSiteVerification`.
 2. **Replace the placeholder reviews** in `src/_data/reviews.json` — *awaiting real reviews from Jackson's*. Use genuine customer reviews (with permission — ideally copied from Google). Publishing invented reviews is unlawful, so while `"placeholder": true` **nothing is published**: the home page review section and the grid on `/reviews/` are both hidden, and the page copy drops its promise of testimonials. Put real quotes in, set `"placeholder": false`, and both come back on their own. Review/AggregateRating schema is deliberately not emitted until reviews are real.
 3. **Replace the sample projects** — they now live in `src/projects/samples/`, which the build ignores, so none of them is published and none can appear as a card. To publish one, rewrite it around a real job and move the file up into `src/projects/`. While no real project exists the home page "Recent Projects" section is hidden and `/projects/` says case studies will appear here. Replace them with real Jackson's jobs — *awaiting job details from Jackson's* (location, what was wrong, what was done). Three strong before/after photo pairs are already in `src/assets/img/` ready to use: `work-window-restoration.jpg`, `work-doorway-masonry.jpg`, `work-stream-cleaning.jpg`. Each sample project page currently carries a visible "Sample case study" banner — remove that `note-box` div once the page describes a real job. Real before/after case studies are the single highest-value content on the site.
 4. **Remaining placeholder images.** Service cards, in-page photos, the header logo, the favicon and the Open Graph share image are all real now. The only synthetic imagery left is the project-page thumbnails (`placeholder-wall.svg`) and the stone-fireplaces card (`service-stone-fireplaces.jpg`, an illustration — swap in a photo of a real fireplace when one is available). The logo (`logo.png`) was extracted from a low-resolution advert card — if Jackson's can supply the original artwork (ideally SVG or a large transparent PNG), overwrite `logo.png` and regenerate `favicon.png` from it for a sharper mark.

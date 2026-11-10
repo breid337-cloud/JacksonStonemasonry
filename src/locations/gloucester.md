@@ -5,8 +5,8 @@ shortTitle: "Gloucester"
 placeName: "Gloucester"
 h1: "Stonemasons in Gloucester"
 metaTitle: "Stonemasons in Gloucester | Restoration & Wall Repair"
-metaDescription: "Stonemasons serving Gloucester from Winchcombe — stone restoration, repointing in lime, garden wall repair and stone cleaning across Gloucester and its villages. Free quotations."
-lede: "Stone restoration, wall repair and cleaning across Gloucester and its surrounding villages — traditional work in lime, from a team based half an hour away in Winchcombe."
+metaDescription: "Stonemasons serving Gloucester from Winchcombe — stone restoration, repointing in lime, and garden wall repair across Gloucester and its villages. Free quotations."
+lede: "Stone restoration, repointing and wall repair across Gloucester and its surrounding villages — traditional work in lime, from a team based half an hour away in Winchcombe."
 lat: 51.8642
 lon: -2.238
 mapAnchor: "end"
@@ -27,7 +27,6 @@ We work across Gloucester regularly from our base in Winchcombe, about half an h
 
 - **Stone restoration** — repointing in lime mortar, matched stone replacement and repairs on period stonework across the city and its conservation areas.
 - **Garden and boundary wall repair** — collapsed, bulging and vehicle-damaged stone walls rebuilt, reusing the original stone. See [stone wall repair](/stone-wall-repair/).
-- **Stone cleaning** — sympathetic cleaning of soot, grime, algae and staining from stone elevations, walls and steps — chosen to suit the stone, never blasted.
 - **Dry stone walling** — new and rebuilt dry stone walls on the Cotswold side of the city and in the surrounding countryside.
 - **New stonework and carving** — dressed stone features, repairs to cills and lintels, and hand-carved house signs and date stones.
 - **[House signs and numbers](/house-signs/)** — hand-cut house names and door numbers in stone, for Gloucester properties and the villages around the city.

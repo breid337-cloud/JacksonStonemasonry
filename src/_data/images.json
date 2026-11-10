@@ -20,9 +20,9 @@
  "/assets/img/logo.png": {
   "base": "/assets/img/logo",
   "widths": [
-   128
+   256
   ],
-  "hash": "429e889e3a04"
+  "hash": "1e52f6d817f4"
  },
  "/assets/img/og-default.jpg": {
   "base": "/assets/img/og-default",
@@ -71,15 +71,6 @@
    960
   ],
   "hash": "86d622133622"
- },
- "/assets/img/service-stone-cleaning.jpg": {
-  "base": "/assets/img/service-stone-cleaning",
-  "widths": [
-   640,
-   800,
-   960
-  ],
-  "hash": "3d0f00a6c945"
  },
  "/assets/img/service-stone-fireplaces.jpg": {
   "base": "/assets/img/service-stone-fireplaces",

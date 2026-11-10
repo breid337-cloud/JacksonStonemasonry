@@ -4,7 +4,7 @@ title: "Inglenook Fireplace Restoration"
 h1: "Inglenook Fireplace Restoration in a Cotswold Cottage"
 metaTitle: "Inglenook Fireplace Restoration, the Cotswolds"
 metaDescription: "Case study: replacing the worn jambs of a cottage inglenook with clean new dressed stone, under the original oak bressummer beam."
-lede: "A cottage inglenook with worn, pitted jambs. New dressed stone either side, the original beam untouched — as Jackson's put it, good for another 200 years."
+lede: "A cottage inglenook with worn, pitted jambs. New dressed stone either side, the original beam untouched — as the masons put it, good for another 200 years."
 projectLocation: "The Cotswolds"
 serviceName: "Stone Fireplaces"
 serviceUrl: "/stone-fireplaces/"
@@ -37,4 +37,4 @@ The beam was propped, the worn jambs taken out, and new dressed stone set either
 
 ## The result
 
-A fireplace that looks right again, and a cottage that has lost nothing original in the process. Or as Jackson's put it: good for another 200 years.
+A fireplace that looks right again, and a cottage that has lost nothing original in the process. Or as the masons put it: good for another 200 years.

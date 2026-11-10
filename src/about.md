@@ -1,18 +1,18 @@
 ---
 layout: layouts/page.njk
 title: "About Us"
-h1: "About Jackson's Stonemasonry"
+h1: "About Cotswold Stonemasons"
 eyebrow: "Who We Are"
-metaTitle: "About Jackson's Stonemasonry | Winchcombe Stonemasons"
-metaDescription: "Jackson's Stonemasonry Ltd is a traditional stonemasonry business based in Winchcombe, Gloucestershire, serving Cheltenham and the Cotswolds. Fully insured, free quotations."
+metaTitle: "About Cotswold Stonemasons | Winchcombe Stonemasons"
+metaDescription: "Cotswold Stonemasons Ltd is a traditional stonemasonry business based in Winchcombe, Gloucestershire, serving Cheltenham and the Cotswolds. Fully insured, free quotations."
 lede: "A traditional stonemasonry business based in Winchcombe, Gloucestershire — working in the local stone, the local way."
 permalink: "/about/"
 breadcrumbs:
   - { name: "Home", url: "/" }
 ---
-Jackson's Stonemasonry Ltd is a stonemasonry business based in **Winchcombe, Gloucestershire**, working across Cheltenham, the Cotswolds and the surrounding towns and villages.
+Cotswold Stonemasons Ltd is a stonemasonry business based in **Winchcombe, Gloucestershire**, working across Cheltenham, the Cotswolds and the surrounding towns and villages. Until November 2026 we traded as Jackson's Stonemasonry — same people, same phone number, new name.
 
-We work in the traditional trades of the area: [stonemasonry](/stonemasonry/), [stone fireplaces](/stone-fireplaces/), [stone restoration](/stone-restoration/), [lime repointing](/repointing/), [stone carving](/stone-carving/), [stone cleaning](/stone-cleaning/) and [dry stone walling](/dry-stone-walling/). Most of our work is in Cotswold limestone — the stone this landscape is built from — using the materials and techniques it was built with: hand-worked stone, lime mortars, and walling methods that predate the cement bag by centuries.
+We work in the traditional trades of the area: [stonemasonry](/stonemasonry/), [stone fireplaces](/stone-fireplaces/), [stone restoration](/stone-restoration/), [lime repointing](/repointing/), [stone carving](/stone-carving/) and [dry stone walling](/dry-stone-walling/). Most of our work is in Cotswold limestone — the stone this landscape is built from — using the materials and techniques it was built with: hand-worked stone, lime mortars, and walling methods that predate the cement bag by centuries.
 
 ## Who you will be dealing with
 
@@ -20,8 +20,8 @@ We work in the traditional trades of the area: [stonemasonry](/stonemasonry/), [
 
 Charlie went straight from school into a stonemasonry apprenticeship, training
 at Bath College and qualifying in the trade. During the apprenticeship he took
-on small walling jobs at weekends, and those weekends turned into a business:
-Jackson’s Stonemasonry Ltd has been trading as a company for two years.
+on small walling jobs at weekends, and those weekends turned into a business,
+which has now been trading as a company for two years.
 
 He came second in the SkillBuild stonemasonry competition, the national
 skills competition for the construction trades. It is worth knowing because
@@ -59,7 +59,7 @@ worked to a drawing, and old stone kept standing.
 
 - **Look first, quote second.** We visit, or work from your photos, and diagnose what's actually wrong before pricing anything.
 - **Written, itemised, free quotations.** You'll know exactly what's included, what's essential and what's optional — with no obligation.
-- **Honest advice.** If a wall doesn't need rebuilding, or stonework doesn't need cleaning, we'll say so. Most of our work comes from recommendation, and that's how it stays.
+- **Honest advice.** If a wall doesn't need rebuilding, or a stone doesn't need replacing, we'll say so. Most of our work comes from recommendation, and that's how it stays.
 - **Traditional materials.** Lime mortar on traditional buildings, stone matched to your property, details copied from the originals.
 - **Fully insured.** Full public liability insurance on every job.
 

@@ -5,7 +5,7 @@ shortTitle: "Tewkesbury"
 placeName: "Tewkesbury"
 h1: "Stonemasons in Tewkesbury"
 metaTitle: "Stonemasons in Tewkesbury | Restoration & Wall Repair"
-metaDescription: "Stonemasons serving Tewkesbury from nearby Winchcombe — stone restoration, lime repointing, garden wall repair and stone cleaning in Tewkesbury and surrounding villages."
+metaDescription: "Stonemasons serving Tewkesbury from nearby Winchcombe — stone restoration, lime repointing, and garden wall repair in Tewkesbury and surrounding villages."
 lede: "Twenty minutes from our Winchcombe workshop, we restore and repair stonework across Tewkesbury and its villages — from garden walls to period building repairs in lime."
 lat: 51.9925
 lon: -2.1578
@@ -27,7 +27,6 @@ We're based in Winchcombe, roughly 20 minutes away, and cover Tewkesbury and its
 
 - **Stone wall repair** — collapsed and leaning garden and boundary walls rebuilt with the original stone; roadside walls repaired after vehicle strikes, with the paperwork insurers need. See [stone wall repair](/stone-wall-repair/).
 - **Stone restoration** — lime repointing, stone replacement and repairs to period stonework, including work on listed buildings and in the town's conservation area.
-- **Stone cleaning** — algae, moss and grime lifted carefully from walls, steps and elevations; particularly relevant in a riverside town where damp, shaded stonework greens up quickly.
 - **Dry stone walling** — new walls and rebuilds in the villages on the Cotswold side: Alderton, Ashchurch, Beckford, Bredon Hill villages and towards Winchcombe.
 - **New stonework and carving** — stone features for extensions and gardens, and hand-carved signs and date stones.
 - **[House signs and numbers](/house-signs/)** — hand-carved house names, numbers and date stones for Tewkesbury and the villages along the Severn and Avon.
