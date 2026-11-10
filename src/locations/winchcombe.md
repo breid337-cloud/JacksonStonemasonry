@@ -5,7 +5,7 @@ shortTitle: "Winchcombe"
 placeName: "Winchcombe"
 h1: "Stonemasons in Winchcombe"
 metaTitle: "Stonemasons in Winchcombe | Dry Stone Walling & Restoration"
-metaDescription: "Jackson's Stonemasonry is based in Winchcombe, Gloucestershire. Dry stone walling, stone restoration, stone cleaning and wall repair in and around Winchcombe. Free quotations."
+metaDescription: "Cotswold Stonemasons is based in Winchcombe, Gloucestershire. Dry stone walling, stone restoration, stone cleaning and wall repair in and around Winchcombe. Free quotations."
 lede: "Winchcombe is our home town. We build, repair and restore Cotswold stonework throughout the town and the surrounding villages — often within minutes of the workshop."
 lat: 51.9525
 lon: -1.9662
@@ -19,7 +19,7 @@ breadcrumbs:
 ---
 ## Your local stonemasons
 
-Jackson's Stonemasonry is based in Winchcombe, so if you're in the town or the villages around it — Sudeley, Gretton, Toddington, Alderton, Stanway, Ford, Guiting Power — we are genuinely local: no travel premium, quick site visits, and easy to get hold of once the job is underway.
+Cotswold Stonemasons is based in Winchcombe, so if you're in the town or the villages around it — Sudeley, Gretton, Toddington, Alderton, Stanway, Ford, Guiting Power — we are genuinely local: no travel premium, quick site visits, and easy to get hold of once the job is underway.
 
 Winchcombe is a stone town through and through. Its high street is lined with Cotswold limestone cottages and townhouses, much of it centuries old, and the surrounding landscape is stitched together with dry stone field walls. It's also a place where stonework problems are common and predictable: soft limestone that has suffered under cement pointing, garden walls leaning after wet winters, and roadside walls clipped by traffic on narrow lanes.
 

@@ -20,9 +20,9 @@
  "/assets/img/logo.png": {
   "base": "/assets/img/logo",
   "widths": [
-   128
+   256
   ],
-  "hash": "429e889e3a04"
+  "hash": "1e52f6d817f4"
  },
  "/assets/img/og-default.jpg": {
   "base": "/assets/img/og-default",

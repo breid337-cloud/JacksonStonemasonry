@@ -38,4 +38,4 @@ The failed section was taken down and rebuilt in Cotswold limestone, laid dry, b
 
 ## The result
 
-A wall that holds its ground again, and a street elevation that no longer has a collapse in the middle of it. Jackson's called it "tidying up a retaining drystone wall" — which undersells it slightly.
+A wall that holds its ground again, and a street elevation that no longer has a collapse in the middle of it. The team called it "tidying up a retaining drystone wall" — which undersells it slightly.

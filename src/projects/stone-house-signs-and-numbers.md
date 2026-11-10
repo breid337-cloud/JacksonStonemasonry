@@ -19,7 +19,7 @@ breadcrumbs:
 ---
 ## Cut to order
 
-This one is not a single job but something Jackson's offer as standard: house names and numbers, cut by hand in stone, to whatever specification you want.
+This one is not a single job but something Cotswold Stonemasons offer as standard: house names and numbers, cut by hand in stone, to whatever specification you want.
 
 Lettering is where masonry stops being purely structural. A carved name has to be drawn out full size before a chisel touches it — letter spacing on stone is judged by eye, not measured, because optically even spacing and mathematically even spacing are not the same thing.
 
