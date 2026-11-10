@@ -176,7 +176,7 @@ a[href^="mailto:"] { overflow-wrap: anywhere; }
   flex: none;
 }
 .brand__name { display: block; font-family: var(--serif); font-size: 1.15rem; font-weight: 600; line-height: 1.1; }
-.brand__strap { display: block; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+.brand__strap { display: block; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
 
 .site-nav { margin-left: auto; }
 .site-nav ul { display: flex; gap: 1.35rem; list-style: none; margin: 0; padding: 0; }
@@ -186,7 +186,10 @@ a[href^="mailto:"] { overflow-wrap: anywhere; }
 }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
 
-.site-header__actions { display: flex; align-items: center; gap: 1rem; }
+/* The actions never shrink: squeezed by the nav, "Get a Quote" used to break
+   onto two lines at every desktop width, doubling the header's height. */
+.site-header__actions { display: flex; align-items: center; gap: 1rem; flex: none; }
+.site-header__actions .btn { white-space: nowrap; }
 .header-phone { font-weight: 700; text-decoration: none; color: var(--ink); white-space: nowrap; }
 .header-phone:hover { color: var(--accent); }
 
@@ -197,6 +200,22 @@ a[href^="mailto:"] { overflow-wrap: anywhere; }
 .nav-toggle span {
   display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px 0;
   transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Between the burger menu and a wide screen there is not room for the brand,
+   six nav links, the phone number and the button on one row. Drop the
+   strapline first, then tighten the nav, rather than let anything wrap. */
+@media (min-width: 60.01rem) and (max-width: 76rem) {
+  .brand__strap { display: none; }
+  .site-header__inner { gap: 1.1rem; }
+  .site-nav ul { gap: 1rem; }
+  .site-nav a { font-size: 0.92rem; }
+  .brand__name { white-space: nowrap; }
+}
+/* Just above the burger breakpoint even that is not enough; the phone number
+   goes, as it does on mobile. It is still in the hero, the CTA band and footer. */
+@media (min-width: 60.01rem) and (max-width: 68rem) {
+  .header-phone { display: none; }
 }
 
 @media (max-width: 60rem) {
