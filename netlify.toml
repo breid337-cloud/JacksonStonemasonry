@@ -7,6 +7,28 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# One address for the whole site. Old and Netlify addresses go to the same page
+# on cotswoldstonemasons.com, path included. These must stay first: Netlify
+# uses the first rule that matches. (jacksonstonemasonry.com only reaches these
+# rules if its DNS points at Netlify and it is added to the site as an alias.)
+[[redirects]]
+  from = "https://jacksonstonemasonry.netlify.app/*"
+  to = "https://cotswoldstonemasons.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://jacksonstonemasonry.com/*"
+  to = "https://cotswoldstonemasons.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.jacksonstonemasonry.com/*"
+  to = "https://cotswoldstonemasons.com/:splat"
+  status = 301
+  force = true
+
 # The Cowley case study was first published under a Cockleford address.
 [[redirects]]
   from = "/projects/repointing-cotswold-cottage-cockleford/"
